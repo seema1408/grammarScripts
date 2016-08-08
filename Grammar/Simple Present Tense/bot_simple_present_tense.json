@@ -287,8 +287,8 @@
     {
       "id": 11,
       "text": "This <b>is</b> Jewel.",
-      "responseType": 0,
-      "mediaUrl": "",
+      "responseType": 2,
+      "mediaUrl": "Jewel.jpeg",
       "optionsCount": 0,
       "answers": [],
       "isEntryPointForNewTest": false,
