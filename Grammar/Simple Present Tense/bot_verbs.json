@@ -1,0 +1,93 @@
+{
+  "BotId": 1000,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "📝 A <b>verb</b> is an action word, like <br> <br> <b>walk</b> <br> <b>talk</b> <br> <b>sing</b> <br> <b>compete</b>",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 2
+    },
+    {
+      "id": 1,
+      "text": "For example - I <b>cook</b> dinner everyday.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 1,
+          "text": "Alright",
+          "answerType": 0,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 1
+    },
+    {
+      "id": 2,
+      "text": "Let's identify the verb in these sentences -",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 2,
+          "text": "Sure!",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": true,
+          "questionsCount": 5,
+          "filename": "test_verbs"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "Remember, the word which shows the <b>action</b> is the verb.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 3,
+          "text": "Understood 🙂",
+          "answerType": 0,
+          "nextBubbleId": -1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 1
+    }
+  ]
+}
