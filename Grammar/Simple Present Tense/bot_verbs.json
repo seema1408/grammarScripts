@@ -88,7 +88,7 @@
         "responseType" : 4,
         "correctResponses" : ["go"],
         "acceptedIncorrectResponses" : ["I", "for", "a", "jog", "everyday"],
-        "nextErrorBubbleId" : 4,
+        "nextErrorBubbleId" : 6,
         "mediaUrl" : "",
         "optionsCount" : 0,
         "answers" : [],
@@ -96,7 +96,7 @@
         "questionscount" : 0,
         "filename" : "",
         "isExitPoint" : false,
-        "nextBubbleId" : 6,
+        "nextBubbleId" : 7,
         "delay" : 1
     },
      {
