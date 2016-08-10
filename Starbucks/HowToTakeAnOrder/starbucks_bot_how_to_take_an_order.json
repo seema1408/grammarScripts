@@ -372,7 +372,7 @@
         },
         {
             "id": 15,
-            "text": "The customer ordered one cappuccino and one caffe latte. ✅",
+            "text": "The customer ordered for one cappuccino and one caffe latte. ✅",
             "responseType": 0,
             "mediaUrl": "",
             "optionsCount": 0,
@@ -471,7 +471,7 @@
         },
         {
             "id": 20,
-            "text": "💬 Quick Tip <br> Always use the correct Starbucks names for sizes.",
+            "text": "💬 Quick Tip <br> Always use the correct Starbucks names for sizes, which are - <br> <br> small = <b>tall</b> <br>regular = <b>venti</b> <br>large = <b>grande</b>",
             "responseType": 0,
             "mediaUrl": "",
             "optionsCount": 0,
@@ -752,7 +752,7 @@
             "answers": [
                 {
                     "id": 34,
-                    "text": " Chocolate, raspberry, crunch cake",
+                    "text": "Chocolate, raspberry, crunch cake",
                     "answerType": 1,
                     "nextBubbleId": 36,
                     "score": 1,
