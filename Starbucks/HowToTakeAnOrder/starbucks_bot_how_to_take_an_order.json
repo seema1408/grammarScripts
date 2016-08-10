@@ -1,1318 +1,1292 @@
 {
-	"BotId": 1,
-	"Bubbles": [
-		{
-			"id": 0,
-			"text": "Hello! 😊",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 1,
-			"delay": 1
-		},
-		{
-			"id": 1,
-			"text": "Let's learn how to take a customer's order at Starbucks.",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 1,
-			"answers": [
-					{
-					"id": 1,
-					"text": "Sure!",
-					"answerType": 0,
-					"nextBubbleId": 2,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 2,
-			"delay": 1
-		},
-		{
-			"id": 2,
-			"text": "A customer always places the order at the <b>register</b>.",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 1,
-			"answers": [
-				{
-					"id": 2,
-					"text": "What's a register?",
-					"answerType": 0,
-					"nextBubbleId": 3,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 3,
-			"delay": 1
-		},
-		{
-			"id": 3,
-			"text": "The register is the cash counter where a Starbucks employee takes orders.",
-			"responseType": 2,
-			"mediaUrl": "CashRegister.jpg",
-			"optionsCount": 1,
-			"answers": [
-				{
-					"id": 3,
-					"text": "Got it 👍",
-					"answerType": 0,
-					"nextBubbleId": 4,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 4,
-			"delay": 1
-		},
-		{
-			"id": 4,
-			"text": "Great! Let's pretend you are taking orders at Starbucks.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 5,
-			"delay": 3
-		},
-		{
-			"id": 5,
-			"text": "What is the first thing you will say to a customer?",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 5,
-					"text": "Hi! Welcome to Starbucks!",
-					"answerType": 1,
-					"nextBubbleId": 6,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 5,
-					"text": "What would like to have?",
-					"answerType": 1,
-					"nextBubbleId": 7,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-			    {
-					"id": 5,
-					"text": "Would you like to place your order?",
-					"answerType": 1,
-					"nextBubbleId": 7,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 9,
-			"delay": 1
-		},
-		{
-			"id": 6,
-			"text": "That's correct! 👍",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 9,
-			"delay": 1
-		},
-		{
-			"id": 7,
-			"text": "That's not the <i>first</i> step.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 8,
-			"delay": 2
-		},
-	    {
-			"id": 8,
-			"text": "First, say <i>hello</i> and welcome the customer. 😊",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 1,
-			"answers": [
-			    {
-					"id": 8,
-					"text": "Alright",
-					"answerType": 0,
-					"nextBubbleId": 9,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 9,
-			"delay": 1
-		},
-		{
-			"id": 9,
-			"text": "After welcoming the customer, what will you say next?",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 9,
-					"text": "Can I take your order?",
-					"answerType": 1,
-					"nextBubbleId": 10,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 9,
-					"text": "May I take your order?",
-					"answerType": 1,
-					"nextBubbleId": 11,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 9,
-					"text": "What do you want to have?",
-					"answerType": 1,
-					"nextBubbleId": 10,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 12,
-			"delay": 1
-		},
-		{
-			"id": 10,
-			"text": "\"<i>May I take your order?</i>\" is the politest way to ask. ",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [
-				{
-					"id": 10,
-					"text": "Understood",
-					"answerType": 0,
-					"nextBubbleId": 12,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 12,
-			"delay": 1
-		},
-		{
-			"id": 9,
-			"text": "Simple present tense is used to describe - <br> <br> things that happen regularly <br> habits <br> hobbies",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 10,
-			"delay": 3
-		},
-		{
-			"id": 10,
-			"text": "Here's how we introduce someone using simple present tense.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 11,
-			"delay": 3
-		},
-	    {
-			"id": 11,
-			"text": "Good job! 😊",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 12,
-			"delay": 1
-		},
-	    {
-			"id": 12,
-			"text": "Let's listen to the customer's order.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 12,
-			"delay": 2
-		},
-		{
-			"id": 13,
-			"text": "",
-			"responseType": 3,
-			"mediaUrl": "how_to_take_an_order_1.mov",
-			"optionsCount": 1,
-			"answers": [
-				{
-					"id": 13,
-					"text": "Heard the order 👍",
-					"answerType": 0,
-					"nextBubbleId": 14,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 14,
-			"delay": 2
-		},
-		{
-			"id": 14,
-			"text": "Awesome. What did the customer order?",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 14,
-					"text": "1 cappuccino, 1 coffee, 1 latte",
-					"answerType": 1,
-					"nextBubbleId": 15,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 14,
-					"text": "1 cappuccino, 1 caffe latte",
-					"answerType": 1,
-					"nextBubbleId": 16,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 14,
-					"text": "1 cappuccino, 1 coffee latte",
-					"answerType": 1,
-					"nextBubbleId": 15,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 17,
-			"delay": 1
-		},
-		{
-			"id": 15,
-			"text": "The customer ordered one cappuccino and one caffe latte. ✅",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 17,
-			"delay": 3
-		},
-	    {
-			"id": 16,
-			"text": "Well done 👌",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 17,
-			"delay": 2
-		},
-		{
-			"id": 17,
-			"text": "Next, confirm the size of the drinks the customer wants.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 18,
-			"delay": 3
-		},
-	    {
-			"id": 18,
-			"text": "You could ask",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 18,
-					"text": "Would you like - tall, venti or grande?",
-					"answerType": 1,
-					"nextBubbleId": 19,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 18,
-					"text": "Regular, medium or large?",
-					"answerType": 1,
-					"nextBubbleId": 20,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 18,
-					"text": "What drink size do you want?",
-					"answerType": 1,
-					"nextBubbleId": 20,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 21,
-			"delay": 2
-		},
-		{
-			"id": 19,
-			"text": "Excellent 😊",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 21,
-			"delay": 2
-		},
-	    {
-			"id": 20,
-			"text": "💬 Quick Tip <br> Always use the correct Starbucks names for sizes.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 21,
-			"delay": 4
-		},
-	    {
-			"id": 21,
-			"text": "The customer says -",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 22,
-			"delay": 2
-		},
-	    {
-			"id": 22,
-			"text": "",
-			"responseType": 3,
-			"mediaUrl": "how_to_take_an_order_2.mov",
-			"optionsCount": 1,
-			"answers": [
-				{
-					"id": 22,
-					"text": "Understood!",
-					"answerType": 0,
-					"nextBubbleId": 23,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 23,
-			"delay": 2
-		},
-	    {
-			"id": 23,
-			"text": "What sizes does the customer want?",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 23,
-					"text": "1 Cappuccino - tall, 1 Caffe Latte - venti",
-					"answerType": 1,
-					"nextBubbleId": 25,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 23,
-					"text": "1 Cappuccino - grande, 1 Latte - tall",
-					"answerType": 1,
-					"nextBubbleId": 25,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 23,
-					"text": "1 Cappuccino - grande, 1 Caffe Latte - venti",
-					"answerType": 1,
-					"nextBubbleId": 24,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 21,
-			"delay": 2
-		},
-	    {
-			"id": 24,
-			"text": "Well done 👌",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 27,
-			"delay": 1
-		},
-			    {
-			"id": 25,
-			"text": "Listen to the customer carefully.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 26,
-			"delay": 2
-		},
-		{
-			"id": 26,
-			"text": "He wants 1 <i>grande</i> cappuccino and 1 <i>venti</i> caffe latte.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 22,
-			"delay": 2
-		},
-	    {
-			"id": 27,
-			"text": "Next, how will you take the food order?",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 27,
-					"text": "Do you want anything to eat?",
-					"answerType": 1,
-					"nextBubbleId": 28,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 27,
-					"text": "Would you like anything to eat?",
-					"answerType": 1,
-					"nextBubbleId": 30,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 27,
-					"text": "Please tell me your food order.",
-					"answerType": 1,
-					"nextBubbleId": 31,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 32,
-			"delay": 2
-		},
-		{
-			"id": 28,
-			"text": "This might sound rude.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 29,
-			"delay": 2
-		},
-		{
-			"id": 29,
-			"text": "So, it's better to ask, \"<i>Would you like anything to eat?</i>\"",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 32,
-			"delay": 4
-		},
-		{
-			"id": 30,
-			"text": "Spot on! 👌",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 32,
-			"delay": 1
-		},
-		{
-			"id": 31,
-			"text": "The customer might not want any food.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 29,
-			"delay": 3
-		},
-	    {
-			"id": 33,
-			"text": "Let's listen to the customer's food order.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 33,
-			"delay": 2
-		},
-		{
-			"id": 33,
-			"text": "",
-			"responseType": 3,
-			"mediaUrl": "how_to_take_an_order_3.mov",
-			"optionsCount": 1,
-			"answers": [
-				{
-					"id": 33,
-					"text": "Noted 📝",
-					"answerType": 0,
-					"nextBubbleId": 34,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 34,
-			"delay": 2
-		},
-	    {
-			"id": 34,
-			"text": "What did the customer order?",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 34,
-					"text": " Chocolate, raspberry, crunch cake",
-					"answerType": 1,
-					"nextBubbleId": 36,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 34,
-					"text": "Chocolate, red berry, crumb cake",
-					"answerType": 1,
-					"nextBubbleId": 35,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 34,
-					"text": "Chocolate, raspberry, crumb cake",
-					"answerType": 1,
-					"nextBubbleId": 35,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 37,
-			"delay": 2
-		},
-	    {
-			"id": 35,
-			"text": "The customer ordered a chocolate, <i>raspberry</i>, <i>crunch</i> cake. ✅",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 37,
-			"delay": 2
-		},
-	    {
-			"id": 36,
-			"text": "Awesome 👏",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 37,
-			"delay": 2
-		},
-		{
-			"id": 37,
-			"text": "The customer has now ordered drinks and food.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 38,
-			"delay": 2
-		},
-	    {
-			"id": 38,
-			"text": "What will you say next?",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 38,
-					"text": "Is that all?",
-					"answerType": 1,
-					"nextBubbleId": 39,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 38,
-					"text": "Thank you for the order.",
-					"answerType": 1,
-					"nextBubbleId": 40,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 38,
-					"text": "Would you like anything else?",
-					"answerType": 1,
-					"nextBubbleId": 41,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 42,
-			"delay": 2
-		},
-		{
-			"id": 39,
-			"text": "A nice way to ask would be - <i>Would you like anything else?</i>",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 42,
-			"delay": 2
-		},
-	    {
-			"id": 40,
-			"text": "Always check if the order is complete.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 39,
-			"delay": 2
-		},
-		{
-			"id": 41,
-			"text": "Perfect 😊",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 42,
-			"delay": 2
-		},
-	    {
-			"id": 42,
-			"text": "If the customer has finished the order, what is the next step?",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 42,
-					"text": "Thank the customer",
-					"answerType": 1,
-					"nextBubbleId": 43,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 42,
-					"text": "Repeat the order",
-					"answerType": 1,
-					"nextBubbleId": 44,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 42,
-					"text": "Tell the total amount",
-					"answerType": 1,
-					"nextBubbleId": 43,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 45,
-			"delay": 2
-		},
-		{
-			"id": 43,
-			"text": "Repeat the order for the customer to confirm.✅",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 45,
-			"delay": 2
-		},
-	    {
-			"id": 44,
-			"text": "Excellent 😊",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 45,
-			"delay": 2
-		},
-		{
-			"id": 45,
-			"text": "Here's how you could read out the final order -",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 46,
-			"delay": 2
-		},
-		{
-			"id": 46,
-			"text": "",
-			"responseType": 3,
-			"mediaUrl": "how_to_take_an_order_5.mov",
-			"optionsCount": 1,
-			"answers": [
-				{
-					"id": 46,
-					"text": "Understood",
-					"answerType": 0,
-					"nextBubbleId": 47,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 47,
-			"delay": 2
-		},
-	    {
-			"id": 47,
-			"text": "Great! The customer confirms the order. What's the next step?",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 3,
-			"answers": [
-				{
-					"id": 47,
-					"text": "Tell the total amount and ask for the customer's name",
-					"answerType": 1,
-					"nextBubbleId": 48,
-					"score": 1,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 47,
-					"text": "Thank the customer and tell him the total amount.",
-					"answerType": 1,
-					"nextBubbleId": 49,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 47,
-					"text": "Tell the customer the total amount.",
-					"answerType": 1,
-					"nextBubbleId": 49,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 45,
-			"delay": 2
-		},
-		{
-			"id": 48,
-			"text": "Spot on! 👌",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 49,
-			"delay": 2
-		},
-		{
-			"id": 49,
-			"text": "Here's how you tell him the amount and ask for his name -",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 49,
-			"delay": 2
-		},
-		{
-			"id": 50,
-			"text": "",
-			"responseType": 3,
-			"mediaUrl": "how_to_take_an_order_6.mov",
-			"optionsCount": 1,
-			"answers": [
-				{
-					"id": 50,
-					"text": "Alright 😊",
-					"answerType": 0,
-					"nextBubbleId": 47,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 51,
-			"delay": 2
-		},
-		{
-			"id": 51,
-			"text": "The ordering process is complete! Well done 😊",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 52,
-			"delay": 2
-		},
-		{
-			"id": 52,
-			"text": "In the end, thank the customer and tell him when the order will be ready. <br> You could say -",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 53,
-			"delay": 2
-		},
-		{
-			"id": 53,
-			"text": "",
-			"responseType": 3,
-			"mediaUrl": "how_to_take_an_order_7.mov",
-			"optionsCount": 1,
-			"answers": [
-				{
-					"id": 53,
-					"text": "Got it 👍",
-					"answerType": 0,
-					"nextBubbleId": 54,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 54,
-			"delay": 2
-		},
-		{
-			"id": 54,
-			"text": "Let's listen to that entire conversation again.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 55,
-			"delay": 2
-		},
-				{
-			"id": 55,
-			"text": "",
-			"responseType": 3,
-			"mediaUrl": "how_to_take_an_order_full.mov",
-			"optionsCount": 1,
-			"answers": [
-				{
-					"id": 55,
-					"text": "Done 😊",
-					"answerType": 0,
-					"nextBubbleId": 54,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 56,
-			"delay": 2
-		},
-		{
-			"id": 56,
-			"text": "Good job. You've learnt how to take an order. 🌟",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 57,
-			"delay": 2
-		},
-				{
-			"id": 57,
-			"text": "The next step is to practice with a tutor.",
-			"responseType": 1,
-			"mediaUrl": "",
-			"optionsCount": 2,
-			"answers": [
-			    {
-					"id": 57,
-					"text": "Practice now",
-					"answerType": 0,
-					"nextBubbleId": -2,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				},
-				{
-					"id": 57,
-					"text": "Practice later",
-					"answerType": 0,
-					"nextBubbleId": 58,
-					"score": 0,
-					"isEntryPointForNewBot": false,
-					"isEntryPointForNewTest": false,
-					"questionsCount": 0,
-					"filename": ""
-				}
-			],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 58,
-			"delay": 2
-		},
-	    {
-			"id": 58,
-			"text": "Alright. Make sure you revise everything we've learnt in this chat.",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": 59,
-			"delay": 2
-		},
-	    {
-			"id": 59,
-			"text": "Have a great day! 😃",
-			"responseType": 0,
-			"mediaUrl": "",
-			"optionsCount": 0,
-			"answers": [],
-			"isEntryPointForNewTest": false,
-			"questionsCount": 0,
-			"filename": "",
-			"nextBubbleId": -2,
-			"delay": 4
-		}
-	]
+    "BotId": 1,
+    "Bubbles": [
+        {
+            "id": 0,
+            "text": "Hello! 😊",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 1,
+            "delay": 1
+        },
+        {
+            "id": 1,
+            "text": "Let's learn how to take a customer's order at Starbucks.",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Sure!",
+                    "answerType": 0,
+                    "nextBubbleId": 2,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 2,
+            "delay": 1
+        },
+        {
+            "id": 2,
+            "text": "A customer always places the order at the <b>register</b>.",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 2,
+                    "text": "What's a register?",
+                    "answerType": 0,
+                    "nextBubbleId": 3,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 3,
+            "delay": 1
+        },
+        {
+            "id": 3,
+            "text": "The register is the cash counter where a Starbucks employee takes orders.",
+            "responseType": 2,
+            "mediaUrl": "cash_register.jpg",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 3,
+                    "text": "Got it 👍",
+                    "answerType": 0,
+                    "nextBubbleId": 4,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 4,
+            "delay": 1
+        },
+        {
+            "id": 4,
+            "text": "Great! Let's pretend you are taking orders at Starbucks.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 5,
+            "delay": 3
+        },
+        {
+            "id": 5,
+            "text": "What is the first thing you will say to a customer?",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 5,
+                    "text": "Hi! Welcome to Starbucks.",
+                    "answerType": 1,
+                    "nextBubbleId": 6,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 5,
+                    "text": "What would you like to have?",
+                    "answerType": 1,
+                    "nextBubbleId": 7,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 5,
+                    "text": "Would you like to place your order?",
+                    "answerType": 1,
+                    "nextBubbleId": 7,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 9,
+            "delay": 1
+        },
+        {
+            "id": 6,
+            "text": "That's correct! 👍",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 9,
+            "delay": 1
+        },
+        {
+            "id": 7,
+            "text": "That's not the <i>first</i> step.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 8,
+            "delay": 2
+        },
+        {
+            "id": 8,
+            "text": "First, say <i>hello</i> and welcome the customer. 😊",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 8,
+                    "text": "Alright",
+                    "answerType": 0,
+                    "nextBubbleId": 9,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 9,
+            "delay": 1
+        },
+        {
+            "id": 9,
+            "text": "After welcoming the customer, what will you say next?",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 9,
+                    "text": "Can I take your order?",
+                    "answerType": 1,
+                    "nextBubbleId": 10,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 9,
+                    "text": "May I take your order?",
+                    "answerType": 1,
+                    "nextBubbleId": 11,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 9,
+                    "text": "What do you want to have?",
+                    "answerType": 1,
+                    "nextBubbleId": 10,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 12,
+            "delay": 1
+        },
+        {
+            "id": 10,
+            "text": "\"<i>May I take your order?</i>\" is the politest way to ask. ",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 10,
+                    "text": "Understood",
+                    "answerType": 0,
+                    "nextBubbleId": 12,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 12,
+            "delay": 1
+        },
+        {
+            "id": 11,
+            "text": "Good job! 😊",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 12,
+            "delay": 1
+        },
+        {
+            "id": 12,
+            "text": "Let's listen to the customer's order.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 13,
+            "delay": 2
+        },
+        {
+            "id": 13,
+            "text": "",
+            "responseType": 3,
+            "mediaUrl": "how_to_take_an_order_1.mov",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 13,
+                    "text": "Heard the order 👍",
+                    "answerType": 0,
+                    "nextBubbleId": 14,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 14,
+            "delay": 2
+        },
+        {
+            "id": 14,
+            "text": "Awesome. What did the customer order?",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 14,
+                    "text": "1 cappuccino, 1 coffee, 1 latte",
+                    "answerType": 1,
+                    "nextBubbleId": 15,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 14,
+                    "text": "1 cappuccino, 1 caffe latte",
+                    "answerType": 1,
+                    "nextBubbleId": 16,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 14,
+                    "text": "1 cappuccino, 1 coffee latte",
+                    "answerType": 1,
+                    "nextBubbleId": 15,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 17,
+            "delay": 1
+        },
+        {
+            "id": 15,
+            "text": "The customer ordered one cappuccino and one caffe latte. ✅",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 17,
+            "delay": 3
+        },
+        {
+            "id": 16,
+            "text": "Well done 👌",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 17,
+            "delay": 2
+        },
+        {
+            "id": 17,
+            "text": "Next, confirm the size of the drinks the customer wants.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 18,
+            "delay": 3
+        },
+        {
+            "id": 18,
+            "text": "You could ask",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 18,
+                    "text": "Would you like - tall, venti or grande?",
+                    "answerType": 1,
+                    "nextBubbleId": 19,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 18,
+                    "text": "Regular, medium or large?",
+                    "answerType": 1,
+                    "nextBubbleId": 20,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 18,
+                    "text": "What drink size do you want?",
+                    "answerType": 1,
+                    "nextBubbleId": 20,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 21,
+            "delay": 2
+        },
+        {
+            "id": 19,
+            "text": "Excellent 😊",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 21,
+            "delay": 2
+        },
+        {
+            "id": 20,
+            "text": "💬 Quick Tip <br> Always use the correct Starbucks names for sizes.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 21,
+            "delay": 4
+        },
+        {
+            "id": 21,
+            "text": "The customer says -",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 22,
+            "delay": 2
+        },
+        {
+            "id": 22,
+            "text": "",
+            "responseType": 3,
+            "mediaUrl": "how_to_take_an_order_2.mov",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 22,
+                    "text": "Understood!",
+                    "answerType": 0,
+                    "nextBubbleId": 23,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 23,
+            "delay": 2
+        },
+        {
+            "id": 23,
+            "text": "What sizes does the customer want?",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 23,
+                    "text": "1 Cappuccino - tall, 1 Caffe Latte - venti",
+                    "answerType": 1,
+                    "nextBubbleId": 25,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 23,
+                    "text": "1 Cappuccino - grande, 1 Latte - tall",
+                    "answerType": 1,
+                    "nextBubbleId": 25,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 23,
+                    "text": "1 Cappuccino - grande, 1 Caffe Latte - venti",
+                    "answerType": 1,
+                    "nextBubbleId": 24,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 21,
+            "delay": 2
+        },
+        {
+            "id": 24,
+            "text": "Well done 👌",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 27,
+            "delay": 1
+        },
+        {
+            "id": 25,
+            "text": "Listen to the customer carefully.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 26,
+            "delay": 2
+        },
+        {
+            "id": 26,
+            "text": "He wants 1 <i>grande</i> cappuccino and 1 <i>venti</i> caffe latte.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 22,
+            "delay": 2
+        },
+        {
+            "id": 27,
+            "text": "Next, how will you take the food order?",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 27,
+                    "text": "Do you want anything to eat?",
+                    "answerType": 1,
+                    "nextBubbleId": 28,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 27,
+                    "text": "Would you like anything to eat?",
+                    "answerType": 1,
+                    "nextBubbleId": 30,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 27,
+                    "text": "Please tell me your food order.",
+                    "answerType": 1,
+                    "nextBubbleId": 31,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 32,
+            "delay": 2
+        },
+        {
+            "id": 28,
+            "text": "This might sound rude.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 29,
+            "delay": 2
+        },
+        {
+            "id": 29,
+            "text": "So, it's better to ask, \"<i>Would you like anything to eat?</i>\"",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 32,
+            "delay": 4
+        },
+        {
+            "id": 30,
+            "text": "Spot on! 👌",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 32,
+            "delay": 1
+        },
+        {
+            "id": 31,
+            "text": "The customer might not want any food.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 29,
+            "delay": 3
+        },
+        {
+            "id": 32,
+            "text": "Let's listen to the customer's food order.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 33,
+            "delay": 2
+        },
+        {
+            "id": 33,
+            "text": "",
+            "responseType": 3,
+            "mediaUrl": "how_to_take_an_order_3.mov",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 33,
+                    "text": "Noted 📝",
+                    "answerType": 0,
+                    "nextBubbleId": 34,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 34,
+            "delay": 2
+        },
+        {
+            "id": 34,
+            "text": "What did the customer order?",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 34,
+                    "text": " Chocolate, raspberry, crunch cake",
+                    "answerType": 1,
+                    "nextBubbleId": 36,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 34,
+                    "text": "Chocolate, red berry, crumb cake",
+                    "answerType": 1,
+                    "nextBubbleId": 35,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 34,
+                    "text": "Chocolate, raspberry, crumb cake",
+                    "answerType": 1,
+                    "nextBubbleId": 35,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 37,
+            "delay": 2
+        },
+        {
+            "id": 35,
+            "text": "The customer ordered a chocolate, <i>raspberry</i>, <i>crunch</i> cake. ✅",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 37,
+            "delay": 2
+        },
+        {
+            "id": 36,
+            "text": "Awesome 👏",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 37,
+            "delay": 2
+        },
+        {
+            "id": 37,
+            "text": "The customer has now ordered drinks and food.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 38,
+            "delay": 2
+        },
+        {
+            "id": 38,
+            "text": "What will you say next?",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 38,
+                    "text": "Is that all?",
+                    "answerType": 1,
+                    "nextBubbleId": 39,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 38,
+                    "text": "Thank you for the order.",
+                    "answerType": 1,
+                    "nextBubbleId": 40,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 38,
+                    "text": "Would you like anything else?",
+                    "answerType": 1,
+                    "nextBubbleId": 41,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 42,
+            "delay": 2
+        },
+        {
+            "id": 39,
+            "text": "A nice way to ask would be - <i>Would you like anything else?</i>",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 42,
+            "delay": 2
+        },
+        {
+            "id": 40,
+            "text": "Always check if the order is complete.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 39,
+            "delay": 2
+        },
+        {
+            "id": 41,
+            "text": "Perfect 😊",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 42,
+            "delay": 2
+        },
+        {
+            "id": 42,
+            "text": "If the customer has finished the order, what is the next step?",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 42,
+                    "text": "Thank the customer",
+                    "answerType": 1,
+                    "nextBubbleId": 43,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 42,
+                    "text": "Repeat the order",
+                    "answerType": 1,
+                    "nextBubbleId": 44,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 42,
+                    "text": "Tell the total amount",
+                    "answerType": 1,
+                    "nextBubbleId": 43,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 45,
+            "delay": 2
+        },
+        {
+            "id": 43,
+            "text": "Repeat the order for the customer to confirm.✅",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 45,
+            "delay": 2
+        },
+        {
+            "id": 44,
+            "text": "Excellent 😊",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 45,
+            "delay": 2
+        },
+        {
+            "id": 45,
+            "text": "Here's how you could read out the final order -",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 46,
+            "delay": 2
+        },
+        {
+            "id": 46,
+            "text": "",
+            "responseType": 3,
+            "mediaUrl": "how_to_take_an_order_5.mov",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 46,
+                    "text": "Understood",
+                    "answerType": 0,
+                    "nextBubbleId": 47,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 47,
+            "delay": 2
+        },
+        {
+            "id": 47,
+            "text": "Great! The customer confirms the order. What's the next step?",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 3,
+            "answers": [
+                {
+                    "id": 47,
+                    "text": "Tell the total amount and ask for the customer's name",
+                    "answerType": 1,
+                    "nextBubbleId": 48,
+                    "score": 1,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 47,
+                    "text": "Thank the customer and tell him the total amount.",
+                    "answerType": 1,
+                    "nextBubbleId": 49,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 47,
+                    "text": "Tell the customer the total amount.",
+                    "answerType": 1,
+                    "nextBubbleId": 49,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 45,
+            "delay": 2
+        },
+        {
+            "id": 48,
+            "text": "Spot on! 👌",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 49,
+            "delay": 2
+        },
+        {
+            "id": 49,
+            "text": "Here's how you tell him the amount and ask for his name -",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 50,
+            "delay": 2
+        },
+        {
+            "id": 50,
+            "text": "",
+            "responseType": 3,
+            "mediaUrl": "how_to_take_an_order_6.mov",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 50,
+                    "text": "Alright 😊",
+                    "answerType": 0,
+                    "nextBubbleId": 47,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 51,
+            "delay": 2
+        },
+        {
+            "id": 51,
+            "text": "The ordering process is complete! Well done 😊",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 52,
+            "delay": 2
+        },
+        {
+            "id": 52,
+            "text": "In the end, thank the customer and tell him when the order will be ready. <br> You could say -",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 53,
+            "delay": 2
+        },
+        {
+            "id": 53,
+            "text": "",
+            "responseType": 3,
+            "mediaUrl": "how_to_take_an_order_7.mov",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 53,
+                    "text": "Got it 👍",
+                    "answerType": 0,
+                    "nextBubbleId": 54,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 54,
+            "delay": 2
+        },
+        {
+            "id": 54,
+            "text": "Let's listen to that entire conversation again.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 55,
+            "delay": 2
+        },
+        {
+            "id": 55,
+            "text": "",
+            "responseType": 3,
+            "mediaUrl": "how_to_take_an_order_full.mov",
+            "optionsCount": 1,
+            "answers": [
+                {
+                    "id": 55,
+                    "text": "Done 😊",
+                    "answerType": 0,
+                    "nextBubbleId": 54,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 56,
+            "delay": 2
+        },
+        {
+            "id": 56,
+            "text": "Good job. You've learnt how to take an order. 🌟",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 57,
+            "delay": 2
+        },
+        {
+            "id": 57,
+            "text": "The next step is to practice with a tutor.",
+            "responseType": 1,
+            "mediaUrl": "",
+            "optionsCount": 2,
+            "answers": [
+                {
+                    "id": 57,
+                    "text": "Practice now",
+                    "answerType": 0,
+                    "nextBubbleId": -2,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                {
+                    "id": 57,
+                    "text": "Practice later",
+                    "answerType": 0,
+                    "nextBubbleId": 58,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                }
+            ],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 58,
+            "delay": 2
+        },
+        {
+            "id": 58,
+            "text": "Alright. Make sure you revise everything we've learnt in this chat.",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": 59,
+            "delay": 2
+        },
+        {
+            "id": 59,
+            "text": "Have a great day! 😃",
+            "responseType": 0,
+            "mediaUrl": "",
+            "optionsCount": 0,
+            "answers": [],
+            "isEntryPointForNewTest": false,
+            "questionsCount": 0,
+            "filename": "",
+            "nextBubbleId": -2,
+            "delay": 4
+        }
+    ]
 }
