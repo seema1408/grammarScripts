@@ -1,0 +1,56 @@
+{
+  "BotId": 3,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "An adverb is a word that <b>describes</b> a verb, adjective or another adverb.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 4
+    },
+    {
+      "id": 1,
+      "text": "For example - <i>Hiro can solve this easily.</i> <br><br>The word <b>easily</b> describes <i>how</i> Hiro can solve (verb) the problem.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 4
+    },
+    {
+      "id": 2,
+      "text": "Hence, <b>easily</b> is the adverb.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 2,
+          "text": "Alright",
+          "answerType": 0,
+          "nextBubbleId": -2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 1
+    }
+  ]
+}

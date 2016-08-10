@@ -1,0 +1,901 @@
+{
+  "BotId": 2,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Hi there! 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "Before we begin, let's test your knowledge of adverbs.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 3
+    },
+    {
+      "id": 2,
+      "text": "Don't worry, you'll find it quite easy. 😊",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 2,
+          "text": "Okay then!",
+          "answerType": 0,
+          "nextBubbleId": 3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 3
+    },
+    {
+      "id": 3,
+      "text": "In this sentence, which word is the adverb? <br> <br><i>Meera dances well.</i>",
+      "responseType": 4,
+      "correctResponses": [
+        "well"
+      ],
+      "acceptedIncorrectResponses": [
+        "Meera",
+        "dances"
+      ],
+      "nextErrorBubbleId": 5,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionscount": 0,
+      "filename": "",
+      "isExitPoint": false,
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "Perfect!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 5,
+      "text": "<i>Meera dances well.> <br> <br> Here, 'Meera' is the <b>subject</b>, 'dances' is the <b>verb</b> and 'well' is the <b>adverb</b>",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 5,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 5,
+          "text": "Explain more",
+          "answerType": 0,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "sc_bot_adverbs_2.json"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 6,
+      "text": "Identify the verb in this sentence - <br> <br><i>Saad speaks politely.</i>",
+      "responseType": 4,
+      "correctResponses": [
+        "politely"
+      ],
+      "acceptedIncorrectResponses": [
+        "Saad",
+        "speaks"
+      ],
+      "nextErrorBubbleId": 8,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionscount": 0,
+      "filename": "",
+      "isExitPoint": false,
+      "nextBubbleId": 7,
+      "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "Let's try a tougher one.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 3
+    },
+    {
+      "id": 8,
+      "text": "The word <b><i>politely</i></b> describes <i>how</i> Saad speaks (verb).",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 3
+    },
+    {
+      "id": 9,
+      "text": "Hence, <b><i>politely</i></b> is the adverb.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 9,
+          "text": "Understood",
+          "answerType": 0,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 7,
+      "delay": 1
+    },
+    {
+      "id": 10,
+      "text": "<i>This poem is well written.</i>",
+      "responseType": 4,
+      "correctResponses": [
+        "well"
+      ],
+      "acceptedIncorrectResponses": [
+        "this",
+        "poem",
+        "is",
+        "written"
+      ],
+      "nextErrorBubbleId": 12,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionscount": 0,
+      "filename": "",
+      "isExitPoint": false,
+      "nextBubbleId": 10,
+      "delay": 1
+    },
+    {
+      "id": 11,
+      "text": "Excellent 👌",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 2
+    },
+    {
+      "id": 12,
+      "text": "The word <b><i>well</i></b> describes <i>how</i> the poem is written (verb).",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 13,
+      "delay": 3
+    },
+    {
+      "id": 13,
+      "text": "That makes <b><i>well</i></b> the adverb.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 13,
+          "text": "Noted 👍",
+          "answerType": 0,
+          "nextBubbleId": 14,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 1
+    },
+    {
+      "id": 14,
+      "text": "💬 Quick Tip <br>An adverb can be identified easily by asking - <i>how?<i>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 14,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 15,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 15,
+      "delay": 1
+    },
+    {
+      "id": 15,
+      "text": "There are several types of adverbs, such as those of- <br><i>Time</i><br><i>Frequency</i><br><i>Place</i><br><i>Manner</i><br><i>Degree</i><br><i>Affirmation</i><br><i>Reason</i><",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 15,
+          "text": "Alright",
+          "answerType": 0,
+          "nextBubbleId": 16,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 16,
+      "delay": 1
+    },
+    {
+      "id": 16,
+      "text": "Let's look at the first category - Adverbs of <i>Time</i>",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 3
+    },
+    {
+      "id": 17,
+      "text": "An adverb of time tells you <i>when</i> something has happened.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 18,
+      "delay": 3
+    },
+    {
+      "id": 18,
+      "text": "Words like - <i>daily, lately, before</i> and <i>yesterday</i> are adverbs of time.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 18,
+          "text": "Noted",
+          "answerType": 0,
+          "nextBubbleId": 19,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 19,
+      "delay": 1
+    },
+    {
+      "id": 19,
+      "text": "Great! Here are 3 sentences. Choose the one which has an <b>adverb of time</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 19,
+          "text": "We contacted them already.",
+          "answerType": 1,
+          "nextBubbleId": 20,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 19,
+          "text": "She often eats here.",
+          "answerType": 1,
+          "nextBubbleId": 21,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 19,
+          "text": "Deepa answered quickly.",
+          "answerType": 1,
+          "nextBubbleId": 22,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 23,
+      "delay": 1
+    },
+    {
+      "id": 20,
+      "text": "That's correct 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 23,
+      "delay": 2
+    },
+    {
+      "id": 21,
+      "text": "Here, <i>often</i> shows <i>how frequently</i> she eats here, not <b><i>when</i></b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 23,
+      "delay": 4
+    },
+    {
+      "id": 22,
+      "text": "Here, <i>quickly</i> shows <i>how</i> Deepa answered, not <b><i>when</i></b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 23,
+      "delay": 4
+    },
+    {
+      "id": 23,
+      "text": "Which sentence has an <b>adverb of time</b>?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 23,
+          "text": "You should eat healthy everyday.",
+          "answerType": 1,
+          "nextBubbleId": 24,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 23,
+          "text": "I'll see you soon.",
+          "answerType": 1,
+          "nextBubbleId": 25,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 23,
+          "text": "We therefore moved to Korea.",
+          "answerType": 1,
+          "nextBubbleId": 26,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
+      "delay": 1
+    },
+    {
+      "id": 24,
+      "text": "Here, <i>everyday</i> shows <i>how often</i> you should eat healthy.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 23,
+      "delay": 4
+    },
+    {
+      "id": 25,
+      "text": "Awesome 😃",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
+      "delay": 2
+    },
+    {
+      "id": 26,
+      "text": "Here, <i>therefore</i> is an adverb of <i>reason</i>, not time.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
+      "delay": 4
+    },
+    {
+      "id": 27,
+      "text": "Which sentence has an <b>adverb of time</b>?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 27,
+          "text": "Sometimes, she thinks about him.",
+          "answerType": 1,
+          "nextBubbleId": 28,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 27,
+          "text": "I had an accident yesterday.",
+          "answerType": 1,
+          "nextBubbleId": 29,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 27,
+          "text": "We always stop by the library.",
+          "answerType": 1,
+          "nextBubbleId": 30,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 31,
+      "delay": 1
+    },
+    {
+      "id": 28,
+      "text": "Here, <i>sometimes</i> shows <i>how often</i> she thinks about him.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 31,
+      "delay": 4
+    },
+    {
+      "id": 29,
+      "text": "Well done 👌",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 31,
+      "delay": 2
+    },
+    {
+      "id": 30,
+      "text": "Here, <i>always</i> shows <i>how often</i> we stop by at the library.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 31,
+      "delay": 4
+    },
+    {
+      "id": 31,
+      "text": "📝 Remember, to identify a sentence with an adverb of time, look for words which answer the question - <b><i>when?</i></b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 31,
+          "text": "I'll keep that in mind",
+          "answerType": 0,
+          "nextBubbleId": 32,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 32,
+      "delay": 1
+    },
+    {
+      "id": 32,
+      "text": "Let's move on to adverbs of <b>frequency</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 32,
+          "text": "Sure 😃",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "sc_bot_adverbs_frequency_1.json"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 31,
+      "delay": 1
+    },
+    {
+      "id": 33,
+      "text": "Let's summarize! 😃 <br>To identify an <b>adverb of time</b>, we ask...",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 33,
+          "text": "When?",
+          "answerType": 1,
+          "nextBubbleId": 34,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 33,
+          "text": "How often?",
+          "answerType": 1,
+          "nextBubbleId": 34,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 34,
+      "delay": 1
+    },
+    {
+      "id": 34,
+      "text": "To identify an <b>adverb of frequency</b>, we ask...",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 34,
+          "text": "When?",
+          "answerType": 1,
+          "nextBubbleId": 35,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 34,
+          "text": "How often?",
+          "answerType": 1,
+          "nextBubbleId": 35,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 35,
+      "delay": 1
+    },
+    {
+      "id": 35,
+      "text": "Listen to this clip closely and choose the correct answer.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 36,
+      "delay": 4
+    },
+    {
+      "id": 36,
+      "text": "",
+      "responseType": 3,
+      "mediaUrl": "sc_adverbs_1_01.mov",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 36,
+          "text": "<i>Every day, Last year</i>  = adverbs of time <br> <i>Lately, Soon</i> = adverbs of frequency",
+          "answerType": 1,
+          "nextBubbleId": 39,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 36,
+          "text": "<i>Last year, Soon</i>  = adverbs of time <br> <i>Every day, Lately</i> = adverbs of frequency",
+          "answerType": 1,
+          "nextBubbleId": 39,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 36,
+          "text": "<i>Last year, Soon, Lately</i>  = adverbs of time <br> <i>Every day</i> = adverb of frequency",
+          "answerType": 1,
+          "nextBubbleId": 37,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 2
+    },
+    {
+      "id": 37,
+      "text": "Excellent! 👏 <br>Looks like you've understood adverbs of time and frequency.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 38,
+      "delay": 4
+    },
+    {
+      "id": 38,
+      "text": "What would you like to do next?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 38,
+          "text": "Take a test",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 38,
+          "text": "Continue to the next topic",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 4
+    },
+    {
+      "id": 39,
+      "text": "Looks like you need more practice.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 39,
+          "text": "Explain this topic again",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 39,
+          "text": "Continue to the next topic",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 4
+    }
+  ]
+}

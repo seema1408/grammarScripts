@@ -1,0 +1,277 @@
+{
+  "BotId": 1001,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Adverbs of <b>frequency</b> tell you <i>how often</i> something happens, for example -<br><i>Once</i><br><i>Daily</i><br><i>Monthly</i><br><i>Seldom</i><br><i>Rarely</i>",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 0,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "Explain more",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "sc_testbot_adverbs_frequency_2.json"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "Listen to this clip -",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 3
+    },
+    {
+      "id": 5,
+      "text": "",
+      "responseType": 3,
+      "mediaUrl": "sc_testbot_adverbs_frequency_1_01.mov",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 4
+    },
+    {
+      "id": 6,
+      "text": "What are the adverbs of frequency used in the clip?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 6,
+          "text": "Twice, Never, Before",
+          "answerType": 1,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 6,
+          "text": "Twice, Before",
+          "answerType": 1,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 6,
+          "text": "Twice, Never",
+          "answerType": 1,
+          "nextBubbleId": 9,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "<i>Twice, Never</i> = adverbs of frequency✅ <br><i>Before</i> = adverb of time ❌",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 3
+    },
+    {
+      "id": 8,
+      "text": "<i>Twice, Never</i> = adverbs of frequency✅ <br><i>Before</i> = adverb of time ❌",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 3
+    },
+    {
+      "id": 9,
+      "text": "<i>Brilliant! 👏",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 3
+    },
+    {
+      "id": 10,
+      "text": "Here's the next once. Identify the adverbs of frequency.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 3
+    },
+    {
+      "id": 11,
+      "text": "",
+      "responseType": 3,
+      "mediaUrl": "sc_testbot_adverbs_frequency_1_02.mov",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 11,
+          "text": "Occasionally, Yesterday",
+          "answerType": 1,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 11,
+          "text": "Always, Occasionally",
+          "answerType": 1,
+          "nextBubbleId": 13,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 11,
+          "text": "Always, Occasionally, Yesterday",
+          "answerType": 1,
+          "nextBubbleId": 14,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 15,
+      "delay": 2
+    },
+    {
+      "id": 12,
+      "text": "<i>Occasionally</i>  = adverb of frequency✅ <br><i>Yesterday</i> = adverb of time ❌",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 15,
+      "delay": 3
+    },
+    {
+      "id": 13,
+      "text": "Good job! 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 15,
+      "delay": 3
+    },
+    {
+      "id": 14,
+      "text": "<i>Always, Occasionally</i>  = adverb of frequency✅ <br><i>Yesterday</i> = adverb of time ❌",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 15,
+      "delay": 3
+    },
+    {
+      "id": 15,
+      "text": "📝  Note, to identify an adverb of frequency, look for words which answer the question <b><i>how often?</i></b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 15,
+          "text": "Alright!",
+          "answerType": 0,
+          "nextBubbleId": -2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 3
+    }
+  ]
+}
