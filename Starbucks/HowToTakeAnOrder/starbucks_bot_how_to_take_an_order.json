@@ -1199,7 +1199,7 @@
                     "id": 55,
                     "text": "Done 😊",
                     "answerType": 0,
-                    "nextBubbleId": 54,
+                    "nextBubbleId": 56,
                     "score": 0,
                     "isEntryPointForNewBot": false,
                     "isEntryPointForNewTest": false,
@@ -1286,7 +1286,7 @@
             "questionsCount": 0,
             "filename": "",
             "nextBubbleId": -2,
-            "delay": 4
+            "delay": 2
         }
     ]
 }
