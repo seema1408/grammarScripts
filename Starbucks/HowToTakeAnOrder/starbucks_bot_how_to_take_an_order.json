@@ -1110,7 +1110,7 @@
                     "id": 50,
                     "text": "Alright 😊",
                     "answerType": 0,
-                    "nextBubbleId": 47,
+                    "nextBubbleId": 51,
                     "score": 0,
                     "isEntryPointForNewBot": false,
                     "isEntryPointForNewTest": false,
