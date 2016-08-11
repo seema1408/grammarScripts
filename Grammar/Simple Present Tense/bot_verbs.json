@@ -52,24 +52,32 @@
       "nextBubbleId": 3,
       "delay": 2
     },
-            {
-        "id" : 3,
-        "text" : "<i>We will dance with the bride.</i> <br> <br> In this sentence, which word is the verb?",
-        "responseType" : 4,
-        "correctResponses" : ["dance"],
-        "acceptedIncorrectResponses" : ["We", "will", "with", "the", "bride"],
-        "nextErrorBubbleId" : 4,
-        "mediaUrl" : "",
-        "optionsCount" : 0,
-        "answers" : [],
-        "isEntryPointForNewTest" : false,
-        "questionscount" : 0,
-        "filename" : "",
-        "isExitPoint" : false,
-        "nextBubbleId" : 5,
-        "delay" : 1
+    {
+      "id": 3,
+      "text": "<i>We will dance with the bride.</i> <br> <br> In this sentence, which word is the verb?",
+      "responseType": 4,
+      "correctResponses": [
+        "dance"
+      ],
+      "acceptedIncorrectResponses": [
+        "We",
+        "will",
+        "with",
+        "the",
+        "bride"
+      ],
+      "nextErrorBubbleId": 4,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionscount": 0,
+      "filename": "",
+      "isExitPoint": false,
+      "nextBubbleId": 5,
+      "delay": 1
     },
-     {
+    {
       "id": 4,
       "text": "What will we <b>do</b>? <i>Dance</i> <br> So, <b>dance</b> is the verb.",
       "responseType": 0,
@@ -82,24 +90,32 @@
       "nextBubbleId": 5,
       "delay": 3
     },
-     {
-        "id" : 5,
-        "text" : "Could you point out the verb in this one?<br> <br> <i>I go for a jog every morning.</i>",
-        "responseType" : 4,
-        "correctResponses" : ["go"],
-        "acceptedIncorrectResponses" : ["I", "for", "a", "jog", "everyday"],
-        "nextErrorBubbleId" : 6,
-        "mediaUrl" : "",
-        "optionsCount" : 0,
-        "answers" : [],
-        "isEntryPointForNewTest" : false,
-        "questionscount" : 0,
-        "filename" : "",
-        "isExitPoint" : false,
-        "nextBubbleId" : 7,
-        "delay" : 1
+    {
+      "id": 5,
+      "text": "Could you point out the verb in this one?<br> <br> <i>I go for a jog every morning.</i>",
+      "responseType": 4,
+      "correctResponses": [
+        "go"
+      ],
+      "acceptedIncorrectResponses": [
+        "I",
+        "for",
+        "a",
+        "jog",
+        "everyday"
+      ],
+      "nextErrorBubbleId": 6,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionscount": 0,
+      "filename": "",
+      "isExitPoint": false,
+      "nextBubbleId": 7,
+      "delay": 1
     },
-     {
+    {
       "id": 6,
       "text": "The correct answer is <i>go</i>",
       "responseType": 0,
@@ -112,24 +128,31 @@
       "nextBubbleId": 7,
       "delay": 2
     },
-     {
-        "id" : 7,
-        "text" : "Next -- <br> <i>Mrs. Khan designed my outfit.</i>",
-        "responseType" : 4,
-        "correctResponses" : ["designed"],
-        "acceptedIncorrectResponses" : ["Mrs", "Khan", "my", "outfit"],
-        "nextErrorBubbleId" : 8,
-        "mediaUrl" : "",
-        "optionsCount" : 0,
-        "answers" : [],
-        "isEntryPointForNewTest" : false,
-        "questionscount" : 0,
-        "filename" : "",
-        "isExitPoint" : false,
-        "nextBubbleId" : 9,
-        "delay" : 1
+    {
+      "id": 7,
+      "text": "Next -- <br> <i>Mrs. Khan designed my outfit.</i>",
+      "responseType": 4,
+      "correctResponses": [
+        "designed"
+      ],
+      "acceptedIncorrectResponses": [
+        "Mrs",
+        "Khan",
+        "my",
+        "outfit"
+      ],
+      "nextErrorBubbleId": 8,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionscount": 0,
+      "filename": "",
+      "isExitPoint": false,
+      "nextBubbleId": 9,
+      "delay": 1
     },
-     {
+    {
       "id": 8,
       "text": "<i>Designed</i> is the verb because it describes the activity or action.",
       "responseType": 0,
@@ -142,24 +165,32 @@
       "nextBubbleId": 9,
       "delay": 3
     },
-         {
-        "id" : 9,
-        "text" : "<i>he plays pools at the club.</i>",
-        "responseType" : 4,
-        "correctResponses" : ["plays"],
-        "acceptedIncorrectResponses" : ["He", "pool", "at", "the", "club"],
-        "nextErrorBubbleId" : 10,
-        "mediaUrl" : "",
-        "optionsCount" : 0,
-        "answers" : [],
-        "isEntryPointForNewTest" : false,
-        "questionscount" : 0,
-        "filename" : "",
-        "isExitPoint" : false,
-        "nextBubbleId" : 11,
-        "delay" : 1
+    {
+      "id": 9,
+      "text": "<i>H e plays pools at the club.</i>",
+      "responseType": 4,
+      "correctResponses": [
+        "plays"
+      ],
+      "acceptedIncorrectResponses": [
+        "He",
+        "pool",
+        "at",
+        "the",
+        "club"
+      ],
+      "nextErrorBubbleId": 10,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionscount": 0,
+      "filename": "",
+      "isExitPoint": false,
+      "nextBubbleId": 11,
+      "delay": 1
     },
-     {
+    {
       "id": 10,
       "text": "<i>Plays</i> is the verb because it describes the action.",
       "responseType": 0,
@@ -172,24 +203,29 @@
       "nextBubbleId": 11,
       "delay": 3
     },
-             {
-        "id" : 11,
-        "text" : "<i>Mimi writes poetry.</i>",
-        "responseType" : 4,
-        "correctResponses" : ["writes"],
-        "acceptedIncorrectResponses" : ["Mimi", "poetry"],
-        "nextErrorBubbleId" : 12,
-        "mediaUrl" : "",
-        "optionsCount" : 0,
-        "answers" : [],
-        "isEntryPointForNewTest" : false,
-        "questionscount" : 0,
-        "filename" : "",
-        "isExitPoint" : false,
-        "nextBubbleId" : 13,
-        "delay" : 1
+    {
+      "id": 11,
+      "text": "<i>Mimi writes poetry.</i>",
+      "responseType": 4,
+      "correctResponses": [
+        "writes"
+      ],
+      "acceptedIncorrectResponses": [
+        "Mimi",
+        "poetry"
+      ],
+      "nextErrorBubbleId": 12,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionscount": 0,
+      "filename": "",
+      "isExitPoint": false,
+      "nextBubbleId": 13,
+      "delay": 1
     },
-     {
+    {
       "id": 12,
       "text": "What does Mimi <b>do</b>? She <i>writes</i>. <br> So, <b>writes</b> is the verb. ",
       "responseType": 0,
@@ -202,7 +238,7 @@
       "nextBubbleId": 13,
       "delay": 3
     },
-     {
+    {
       "id": 13,
       "text": "Remember, the word which shows the <b>action</b> is the verb.",
       "responseType": 1,
@@ -220,7 +256,7 @@
           "questionsCount": 0,
           "filename": ""
         }
-       ],
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
