@@ -89,7 +89,7 @@
     },
     {
       "id": 5,
-      "text": "<i>Meera dances well.> <br> <br> Here, 'Meera' is the <b>subject</b>, 'dances' is the <b>verb</b> and 'well' is the <b>adverb</b>",
+      "text": "<i>Meera dances well.</i><br> <br> Here, 'Meera' is the <b>subject</b>, 'dances' is the <b>verb</b> and 'well' is the <b>adverb</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -109,7 +109,7 @@
           "id": 5,
           "text": "Explain more",
           "answerType": 0,
-          "nextBubbleId": 6,
+          "nextBubbleId": 0,
           "score": 0,
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
