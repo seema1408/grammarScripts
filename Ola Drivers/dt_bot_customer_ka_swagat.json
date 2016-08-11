@@ -1,5 +1,5 @@
 {
-  "BotId": 4,
+  "BotId": 5,
   "Bubbles": [
     {
       "id": 0,
@@ -136,7 +136,7 @@
           "id": 6,
           "text": "सुना 😊",
           "answerType": 0,
-          "nextBubbleId": 26,
+          "nextBubbleId": 7,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -221,6 +221,399 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 10,
+      "delay": 2
+    },
+    {
+      "id": 10,
+      "text": "चलिए सुनते हैं -",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 11,
+      "delay": 2
+    },
+    {
+      "id": 11,
+      "text": "",
+      "responseType": 3,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 11,
+          "text": "सुना 😊",
+          "answerType": 0,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "dt_bot_customer_ka_swagat_02.3gp",
+      "nextBubbleId": 12,
+      "delay": ""
+    },
+    {
+      "id": 12,
+      "text": " अगर आप कस्टमर को शाम को मिलते है तो आप क्या कहेंगे??",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 12,
+          "text": "गुड मॉर्निंग सर",
+          "answerType": 1,
+          "nextBubbleId": 13,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 12,
+          "text": "गुड इवनिंग सर",
+          "answerType": 1,
+          "nextBubbleId": 14,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 12,
+          "text": "गुड आफ्टरनून सर",
+          "answerType": 1,
+          "nextBubbleId": 13,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 3
+    },
+    {
+      "id": 14,
+      "text": "",
+      "responseType": 3,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 14,
+          "text": "ठीक है 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 15,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "dt_bot_customer_ka_swagat_02.3gp",
+      "nextBubbleId": 15,
+      "delay": ""
+    },
+    {
+      "id": 15,
+      "text": "अब हम आपकी एक छोटीसी टेस्ट लेते है",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 16,
+      "delay": 2
+    },
+    {
+      "id": 16,
+      "text": "इस समय आप कस्टमर को क्या कहेंगे?",
+      "responseType": 2,
+      "mediaUrl": "seven_fifteen.jpeg",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 16,
+          "text": "गुड मॉर्निंग",
+          "answerType": 1,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 16,
+          "text": "गुड इवनिंग",
+          "answerType": 1,
+          "nextBubbleId": 18,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 16,
+          "text": "गुड आफ्टरनून",
+          "answerType": 1,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 19,
+      "delay": 2
+    },
+    {
+      "id": 17,
+      "text": "सॉरी, यह गलत जवाब है. आपको कहना है गुड इवनिंग",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 19,
+      "delay": 2
+    },
+    {
+      "id": 18,
+      "text": "यह सही जवाब है !",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 19,
+      "delay": 2
+    },
+    {
+      "id": 19,
+      "text": "इस समय आप कस्टमर को क्या कहेंगे?",
+      "responseType": 2,
+      "mediaUrl": "three_thirty.jpeg",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 19,
+          "text": "गुड मॉर्निंग",
+          "answerType": 1,
+          "nextBubbleId": 20,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 19,
+          "text": "गुड इवनिंग",
+          "answerType": 1,
+          "nextBubbleId": 20,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 19,
+          "text": "गुड आफ्टरनून",
+          "answerType": 1,
+          "nextBubbleId": 21,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 22,
+      "delay": 2
+    },
+    {
+      "id": 20,
+      "text": "आपको कहना है - गुड आफ्टरनून ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 22,
+      "delay": 3
+    },
+    {
+      "id": 21,
+      "text": "बहुत बढ़िया 👏",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 22,
+      "delay": 2
+    },
+    {
+      "id": 22,
+      "text": "इस समय आप कस्टमर को क्या कहेंगे?",
+      "responseType": 2,
+      "mediaUrl": "eight.jpeg",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 22,
+          "text": "गुड मॉर्निंग",
+          "answerType": 1,
+          "nextBubbleId": 23,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 22,
+          "text": "गुड इवनिंग",
+          "answerType": 1,
+          "nextBubbleId": 24,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 22,
+          "text": "गुड आफ्टरनून",
+          "answerType": 1,
+          "nextBubbleId": 24,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 25,
+      "delay": 2
+    },
+    {
+      "id": 23,
+      "text": "सही जवाब 👍🏼",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 25,
+      "delay": 2
+    },
+    {
+      "id": 24,
+      "text": "सही जवाब है - गुड मॉर्निंग ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 25,
+      "delay": 2
+    },
+    {
+      "id": 25,
+      "text": "आज आपने सीखा -",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 26,
+      "delay": 2
+    },
+    {
+      "id": 26,
+      "text": "सुबह से दोपहर १२ बजे तक - गुड मॉर्निंग <br>दोपहर १२ से शाम ४ बजे तक - गुड आफ्टरनून<br>शाम ४ से रात १२ बजे तक - गुड इवनिंग ",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 26,
+          "text": "ठीक है 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 27,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
+      "delay": 2
+    },
+    {
+      "id": 27,
+      "text": "Thank you and good luck 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
       "delay": 2
     }
   ]
