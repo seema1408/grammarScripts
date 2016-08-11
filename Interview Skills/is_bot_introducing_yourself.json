@@ -1,0 +1,614 @@
+{
+	"BotId": 4,
+	"Bubbles": [
+		{
+			"id": 0,
+			"text": "Hi ___! 🙂 <br> Welcome to <b>Interview Skills 101</b>.",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 0,
+					"text": "Thanks! 👍",
+					"answerType": 0,
+					"nextBubbleId": 1,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 1,
+			"delay": 1
+		},
+		{
+			"id": 1,
+			"text": "The first question every interviewer asks is - <i>Tell me something about yourself</i>.",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 1,
+					"text": "Okay",
+					"answerType": 0,
+					"nextBubbleId": 2,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 2,
+			"delay": 1
+		},
+		{
+			"id": 2,
+			"text": "There are 5 simple steps to answer this question.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 3,
+			"delay": 3
+		},
+		{
+			"id": 3,
+			"text": "Could you tell me the first step?",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 3,
+			"answers": [
+				{
+					"id": 3,
+					"text": "State your full name",
+					"answerType": 1,
+					"nextBubbleId": 4,
+					"score": 1,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				},
+				{
+					"id": 3,
+					"text": "Talk about your parents",
+					"answerType": 1,
+					"nextBubbleId": 5,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				},
+				{
+					"id": 3,
+					"text": "Talk about your qualifications",
+					"answerType": 1,
+					"nextBubbleId": 6,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 4,
+			"delay": 2
+		},
+		{
+			"id": 4,
+			"text": "That's correct! 👏",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 8,
+			"delay": 2
+		},
+		{
+			"id": 5,
+			"text": "That's not the <i>first</i> step.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 7,
+			"delay": 3
+		},
+		{
+			"id": 6,
+			"text": "That's the <i>second</i> step.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 7,
+			"delay": 3
+		},
+		{
+			"id": 7,
+			"text": "📝 Note, always start with your full name.",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 7,
+					"text": "Alright",
+					"answerType": 0,
+					"nextBubbleId": 8,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 8,
+			"delay": 1
+		},
+		{
+			"id": 8,
+			"text": "For example - <i>My name is Ashish Soni.</i>",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 8,
+					"text": "Got it 🙂",
+					"answerType": 0,
+					"nextBubbleId": 0,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 8,
+			"delay": 1
+		},
+		{
+			"id": 9,
+			"text": "Could you guess Step 2?",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 3,
+			"answers": [
+				{
+					"id": 9,
+					"text": "Talk about your parents",
+					"answerType": 1,
+					"nextBubbleId": 10,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				},
+				{
+					"id": 9,
+					"text": "Talk about your qualifications and institution",
+					"answerType": 1,
+					"nextBubbleId": 11,
+					"score": 1,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				},
+				{
+					"id": 9,
+					"text": "Talk about your work experience",
+					"answerType": 1,
+					"nextBubbleId": 13,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 14,
+			"delay": 1
+		},
+		{
+			"id": 10,
+			"text": "Don't talk about your parents, unless asked.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 12,
+			"delay": 3
+		},
+		{
+			"id": 11,
+			"text": "That's correct 👍",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 11,
+					"text": "Thanks!",
+					"answerType": 0,
+					"nextBubbleId": 14,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 13,
+			"delay": 2
+		},
+		{
+			"id": 12,
+			"text": "📝 After your name, describe your qualifications in detail.",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 12,
+					"text": "Alright!",
+					"answerType": 0,
+					"nextBubbleId": 13,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 13,
+			"delay": 2
+		},
+		{
+			"id": 13,
+			"text": "We now have - <br> My name is Ashish Soni. I have done my B.Tech in Chemical Engineering from BITS, Pilani.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 14,
+			"delay": 4
+		},
+		{
+			"id": 14,
+			"text": "What's the next step?",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 3,
+			"answers": [
+				{
+					"id": 14,
+					"text": "Talk about your work experience",
+					"answerType": 1,
+					"nextBubbleId": 15,
+					"score": 1,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				},
+				{
+					"id": 14,
+					"text": "Talk about your marks in college",
+					"answerType": 1,
+					"nextBubbleId": 16,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				},
+				{
+					"id": 14,
+					"text": "Talk about extra curricular activities",
+					"answerType": 1,
+					"nextBubbleId": 17,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 19,
+			"delay": 1
+		},
+		{
+			"id": 15,
+			"text": "Perfect 🙂",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 19,
+			"delay": 2
+		},
+		{
+			"id": 16,
+			"text": "This isn't necessary.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 18,
+			"delay": 3
+		},
+		{
+			"id": 17,
+			"text": "You can leave this for later.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 18,
+			"delay": 3
+		},
+		{
+			"id": 18,
+			"text": "📝 Remember, qualifications are followed by work experience.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 19,
+			"delay": 4
+		},
+		{
+			"id": 19,
+			"text": "Let's look at Ashish's answer.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 20,
+			"delay": 2
+		},
+		{
+			"id": 20,
+			"text": "<i>I am working as an Assistant Manager with TRC Chemicals. I interned with Hindustan Chemicals for 6 months in their Kolkata factory.</i>",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 20,
+					"text": "Alright",
+					"answerType": 0,
+					"nextBubbleId": 21,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 21,
+			"delay": 1
+		},
+		{
+			"id": 21,
+			"text": "Lastly, discuss where you're from and where you live. 😊",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 22,
+			"delay": 4
+		},
+		{
+			"id": 22,
+			"text": "For example - <br><i>I am from Jalandhar and I live in Kolkata.</i>",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 22,
+					"text": "Understood",
+					"answerType": 0,
+					"nextBubbleId": 23,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 23,
+			"delay": 1
+		},
+		{
+			"id": 23,
+			"text": "Let's look at the complete answer - <br><i>My name is Ashish Soni. I have done my B.Tech in chemical engineering from BITS, Pilani. I am currently working as an assistant manager with TRC Chemicals. I am from Jalandhar and I live in Kolkata.</i>",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 23,
+					"text": "Noted 👍",
+					"answerType": 0,
+					"nextBubbleId": 24,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 24,
+			"delay": 2
+		},
+		{
+			"id": 24,
+			"text": "Let's listen to a recording of the introduction.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 25,
+			"delay": 3
+		},
+		{
+			"id": 25,
+			"text": "",
+			"responseType": 3,
+			"mediaUrl": "is_bot_introducing_yourself_01.3gp",
+			"optionsCount": 1,
+			"answers": [
+				{
+					"id": 25,
+					"text": "Done😊",
+					"answerType": 0,
+					"nextBubbleId": 24,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 26,
+			"delay": 1
+		},
+		{
+			"id": 26,
+			"text": "Awesome! You've learnt how to answer the question - <i>Tell me about yourself.</i> 🌟",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 27,
+			"delay": 4
+		},
+		{
+			"id": 27,
+			"text": "Would you like to practice with a live tutor?",
+			"responseType": 1,
+			"mediaUrl": "",
+			"optionsCount": 2,
+			"answers": [
+				{
+					"id": 27,
+					"text": "Yes!",
+					"answerType": 0,
+					"nextBubbleId": -2,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				},
+				{
+					"id": 27,
+					"text": "Maybe later",
+					"answerType": 0,
+					"nextBubbleId": -2,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				}
+			],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": -2,
+			"delay": 1
+		}
+	]
+}
