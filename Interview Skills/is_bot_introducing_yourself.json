@@ -233,7 +233,7 @@
 					"id": 9,
 					"text": "Talk about your work experience",
 					"answerType": 1,
-					"nextBubbleId": 13,
+					"nextBubbleId": 12,
 					"score": 0,
 					"isEntryPointForNewBot": false,
 					"isEntryPointForNewTest": false,
@@ -411,7 +411,7 @@
 		},
 		{
 			"id": 18,
-			"text": "📝 Remember, qualifications are followed by work experience.",
+			"text": "📝 Remember, qualifications are followed by <b>work experience</b>.",
 			"responseType": 0,
 			"mediaUrl": "",
 			"optionsCount": 0,
@@ -500,7 +500,7 @@
 		},
 		{
 			"id": 23,
-			"text": "Let's look at the complete answer - <br><i>My name is Ashish Soni. I have done my B.Tech in chemical engineering from BITS, Pilani. I am currently working as an assistant manager with TRC Chemicals. I am from Jalandhar and I live in Kolkata.</i>",
+			"text": "Let's look at the complete answer - <br> <br> My name is Ashish Soni. I have done my B.Tech in chemical engineering from BITS, Pilani. I am currently working as an assistant manager with TRC Chemicals. I am from Jalandhar and I live in Kolkata.",
 			"responseType": 1,
 			"mediaUrl": "",
 			"optionsCount": 1,
