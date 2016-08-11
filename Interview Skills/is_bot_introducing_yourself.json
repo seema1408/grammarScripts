@@ -186,7 +186,7 @@
 					"id": 8,
 					"text": "Got it 🙂",
 					"answerType": 0,
-					"nextBubbleId": 0,
+					"nextBubbleId": 9,
 					"score": 0,
 					"isEntryPointForNewBot": false,
 					"isEntryPointForNewTest": false,
