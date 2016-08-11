@@ -547,7 +547,7 @@
 					"id": 25,
 					"text": "Done😊",
 					"answerType": 0,
-					"nextBubbleId": 24,
+					"nextBubbleId": 26,
 					"score": 0,
 					"isEntryPointForNewBot": false,
 					"isEntryPointForNewTest": false,
