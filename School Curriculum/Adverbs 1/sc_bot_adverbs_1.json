@@ -114,7 +114,7 @@
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": "sc_bot_adverbs_2.json"
+          "filename": "sc_bot_adverbs_2"
         }
       ],
       "isEntryPointForNewTest": false,
@@ -671,7 +671,7 @@
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": "sc_bot_adverbs_frequency_1.json"
+          "filename": "sc_bot_adverbs_frequency_1"
         }
       ],
       "isEntryPointForNewTest": false,
