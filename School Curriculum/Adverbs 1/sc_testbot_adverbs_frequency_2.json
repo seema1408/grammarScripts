@@ -38,7 +38,7 @@
           "id": 2,
           "text": "Got it 👍",
           "answerType": 0,
-          "nextBubbleId": -2,
+          "nextBubbleId": -1,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -49,7 +49,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": -2,
+      "nextBubbleId": -1,
       "delay": 1
     }
   ]

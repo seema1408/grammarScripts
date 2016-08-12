@@ -666,7 +666,7 @@
           "id": 32,
           "text": "Sure 😃",
           "answerType": 0,
-          "nextBubbleId": 0,
+          "nextBubbleId": 33,
           "score": 0,
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,

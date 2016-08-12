@@ -28,7 +28,7 @@
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": "sc_testbot_adverbs_frequency_2.json"
+          "filename": "sc_testbot_adverbs_frequency_2"
         }
       ],
       "isEntryPointForNewTest": false,
@@ -259,7 +259,7 @@
           "id": 15,
           "text": "Alright!",
           "answerType": 0,
-          "nextBubbleId": -2,
+          "nextBubbleId": -1,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -270,7 +270,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": -2,
+      "nextBubbleId": -1,
       "delay": 3
     }
   ]
