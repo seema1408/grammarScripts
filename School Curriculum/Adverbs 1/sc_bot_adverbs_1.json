@@ -467,7 +467,7 @@
       "answers": [
         {
           "id": 23,
-          "text": "You should eat healthy everyday.",
+          "text": "You should eat healthy every day.",
           "answerType": 1,
           "nextBubbleId": 24,
           "score": 0,
@@ -507,7 +507,7 @@
     },
     {
       "id": 24,
-      "text": "Here, <i>everyday</i> shows <i>how often</i> you should eat healthy.",
+      "text": "Here, <i>every day</i> shows <i>how often</i> you should eat healthy.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -774,7 +774,7 @@
       "answers": [
         {
           "id": 36,
-          "text": "Every day, Last year = adverbs of time <br> Lately, Soon = adverbs of frequency",
+          "text": "Every day, Last year = time/Lately, Soon = frequency",
           "answerType": 1,
           "nextBubbleId": 39,
           "score": 0,
@@ -785,7 +785,7 @@
         },
         {
           "id": 36,
-          "text": "Last year, Soon = adverbs of time <br> Every day, Lately = adverbs of frequency",
+          "text": "Last year, Soon = time/Every day, Lately = frequency",
           "answerType": 1,
           "nextBubbleId": 39,
           "score": 0,
@@ -796,7 +796,7 @@
         },
         {
           "id": 36,
-          "text": "Last year, Soon, Lately = adverbs of time <br> Every day = adverb of frequency",
+          "text": "Last year, Soon, Lately = time/Every day = frequency",
           "answerType": 1,
           "nextBubbleId": 37,
           "score": 1,
