@@ -109,7 +109,7 @@
           "id": 5,
           "text": "Explain more",
           "answerType": 0,
-          "nextBubbleId": 0,
+          "nextBubbleId": 6,
           "score": 0,
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
