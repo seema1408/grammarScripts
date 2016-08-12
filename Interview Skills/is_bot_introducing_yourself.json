@@ -3,14 +3,14 @@
 	"Bubbles": [
 		{
 			"id": 0,
-			"text": "Hi ___! 🙂 <br> Welcome to <b>Interview Skills 101</b>.",
+			"text": "Hi! 😊 <br>Let's look at some important interview questions.",
 			"responseType": 1,
 			"mediaUrl": "",
 			"optionsCount": 1,
 			"answers": [
 				{
 					"id": 0,
-					"text": "Thanks! 👍",
+					"text": "Alright! 👍",
 					"answerType": 0,
 					"nextBubbleId": 1,
 					"score": 0,
@@ -184,7 +184,7 @@
 			"answers": [
 				{
 					"id": 8,
-					"text": "Got it 🙂",
+					"text": "Got it 😊",
 					"answerType": 0,
 					"nextBubbleId": 9,
 					"score": 0,
@@ -220,7 +220,7 @@
 				},
 				{
 					"id": 9,
-					"text": "Talk about your qualifications and institution",
+					"text": "Talk about your qualifications",
 					"answerType": 1,
 					"nextBubbleId": 11,
 					"score": 1,
@@ -312,7 +312,7 @@
 		},
 		{
 			"id": 13,
-			"text": "We now have - <br> My name is Ashish Soni. I have done my B.Tech in Chemical Engineering from BITS, Pilani.",
+			"text": "For example - <br><i>I have done my B.Tech in chemical engineering from BITS, Pilani.</i>",
 			"responseType": 0,
 			"mediaUrl": "",
 			"optionsCount": 0,
@@ -372,7 +372,7 @@
 		},
 		{
 			"id": 15,
-			"text": "Perfect 🙂",
+			"text": "Perfect 😊",
 			"responseType": 0,
 			"mediaUrl": "",
 			"optionsCount": 0,
@@ -437,7 +437,7 @@
 		},
 		{
 			"id": 20,
-			"text": "<i>I am working as an Assistant Manager with TRC Chemicals. I interned with Hindustan Chemicals for 6 months in their Kolkata factory.</i>",
+			"text": "<i>I am working as an assistant manager with TRC Chemicals. I interned with Hindustan Chemicals for 6 months in their Kolkata factory.</i>",
 			"responseType": 1,
 			"mediaUrl": "",
 			"optionsCount": 1,
@@ -583,7 +583,7 @@
 			"answers": [
 				{
 					"id": 27,
-					"text": "Yes!",
+					"text": "Sure!",
 					"answerType": 0,
 					"nextBubbleId": -2,
 					"score": 0,

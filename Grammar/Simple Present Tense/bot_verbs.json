@@ -167,7 +167,7 @@
     },
     {
       "id": 9,
-      "text": "<i>H e plays pools at the club.</i>",
+      "text": "<i>He plays pool at the club.</i>",
       "responseType": 4,
       "correctResponses": [
         "plays"
@@ -247,9 +247,9 @@
       "answers": [
         {
           "id": 13,
-          "text": "Understood 🙂",
+          "text": "Understood 😊",
           "answerType": 0,
-          "nextBubbleId": -1,
+          "nextBubbleId": -2,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -260,7 +260,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": -1,
+      "nextBubbleId": -2,
       "delay": 1
     }
   ]

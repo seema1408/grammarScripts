@@ -240,7 +240,7 @@
       "id": 11,
       "text": "",
       "responseType": 3,
-      "mediaUrl": "",
+      "mediaUrl": "dt_bot_customer_ka_swagat_02.3gp",
       "optionsCount": 1,
       "answers": [
         {
@@ -257,13 +257,13 @@
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": "dt_bot_customer_ka_swagat_02.3gp",
+      "filename": "",
       "nextBubbleId": 12,
-      "delay": ""
+      "delay": 1
     },
     {
       "id": 12,
-      "text": " अगर आप कस्टमर को शाम को मिलते है तो आप क्या कहेंगे??",
+      "text": " अगर आप कस्टमर को शाम को मिलते है तो आप क्या कहेंगे?",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
@@ -273,7 +273,7 @@
           "text": "गुड मॉर्निंग सर",
           "answerType": 1,
           "nextBubbleId": 13,
-          "score": 1,
+          "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -284,7 +284,7 @@
           "text": "गुड इवनिंग सर",
           "answerType": 1,
           "nextBubbleId": 14,
-          "score": 0,
+          "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -309,15 +309,29 @@
       "delay": 3
     },
     {
+      "id": 13,
+      "text": "आपको कहना है - गुड इवनिंग सर.
+इस ऑडियो को सुनें - ",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 2
+    },
+    {
       "id": 14,
       "text": "",
       "responseType": 3,
-      "mediaUrl": "",
+      "mediaUrl": "dt_bot_customer_ka_swagat_03.3gp",
       "optionsCount": 1,
       "answers": [
         {
           "id": 14,
-          "text": "ठीक है 👍🏼",
+          "text": "ठीक है 👍",
           "answerType": 0,
           "nextBubbleId": 15,
           "score": 0,
@@ -329,9 +343,9 @@
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": "dt_bot_customer_ka_swagat_02.3gp",
+      "filename": "",
       "nextBubbleId": 15,
-      "delay": ""
+      "delay": 1
     },
     {
       "id": 15,
@@ -605,11 +619,34 @@
     },
     {
       "id": 27,
-      "text": "Thank you and good luck 😊",
-      "responseType": 0,
+      "text": "क्या आप एक ट्यूटर के साथ प्रैक्टिस करना चाहेंगे?",
+      "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 27,
+          "text": "हाँ 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": -2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 27,
+          "text": "बाद में",
+          "answerType": 0,
+          "nextBubbleId": -2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",

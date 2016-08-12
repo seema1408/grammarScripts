@@ -54,7 +54,7 @@
       "id": 5,
       "text": "",
       "responseType": 3,
-      "mediaUrl": "sc_testbot_adverbs_frequency_1_01.mov",
+      "mediaUrl": "sc_testbot_adverbs_frequency_1_01.3gp",
       "optionsCount": 0,
       "answers": [],
       "isEntryPointForNewTest": false,
@@ -166,7 +166,7 @@
       "id": 11,
       "text": "",
       "responseType": 3,
-      "mediaUrl": "sc_testbot_adverbs_frequency_1_02.mov",
+      "mediaUrl": "sc_testbot_adverbs_frequency_1_02.3gp",
       "optionsCount": 3,
       "answers": [
         {

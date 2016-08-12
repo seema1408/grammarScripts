@@ -217,7 +217,7 @@
       "questionscount": 0,
       "filename": "",
       "isExitPoint": false,
-      "nextBubbleId": 10,
+      "nextBubbleId": 11,
       "delay": 1
     },
     {
@@ -298,7 +298,7 @@
     },
     {
       "id": 15,
-      "text": "There are several types of adverbs, such as those of- <br><i>Time</i><br><i>Frequency</i><br><i>Place</i><br><i>Manner</i><br><i>Degree</i><br><i>Affirmation</i><br><i>Reason</i><",
+      "text": "There are several types of adverbs, such as those of- <br><i>Time</i><br><i>Frequency</i><br><i>Place</i><br><i>Manner</i><br><i>Degree</i><br><i>Affirmation</i><br><i>Reason</i>",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -515,7 +515,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 23,
+      "nextBubbleId": 27,
       "delay": 4
     },
     {
@@ -632,7 +632,7 @@
     },
     {
       "id": 31,
-      "text": "📝 Remember, to identify a sentence with an adverb of time, look for words which answer the question - <b><i>when?</i></b>.",
+      "text": "📝 Remember, to identify a sentence with an adverb of time, look for words which answer the question - <b><i>when?</i></b>",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -677,7 +677,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 31,
+      "nextBubbleId": 33,
       "delay": 1
     },
     {

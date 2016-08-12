@@ -3,7 +3,7 @@
 	"Bubbles": [
 		{
 			"id": 0,
-			"text": "Hi ___! 🙂 <br> How are you?",
+			"text": "Hi! 🙂 <br> How are you?",
 			"responseType": 1,
 			"mediaUrl": "",
 			"optionsCount": 2,
