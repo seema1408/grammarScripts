@@ -876,14 +876,14 @@
     },
     {
       "id": 40,
-      "text": "Looks like you need more practice.",
+      "text": "Looks like you need a little more practice.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
       "answers": [
         {
           "id": 40,
-          "text": "Explain this topic again",
+          "text": "Practice with a tutor",
           "answerType": 0,
           "nextBubbleId": -2,
           "score": 0,
