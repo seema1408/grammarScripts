@@ -774,7 +774,7 @@
       "answers": [
         {
           "id": 36,
-          "text": "<i>Every day, Last year</i>  = adverbs of time <br> <i>Lately, Soon</i> = adverbs of frequency",
+          "text": "Every day, Last year = adverbs of time <br> Lately, Soon = adverbs of frequency",
           "answerType": 1,
           "nextBubbleId": 39,
           "score": 0,
@@ -785,7 +785,7 @@
         },
         {
           "id": 36,
-          "text": "<i>Last year, Soon</i>  = adverbs of time <br> <i>Every day, Lately</i> = adverbs of frequency",
+          "text": "Last year, Soon = adverbs of time <br> Every day, Lately = adverbs of frequency",
           "answerType": 1,
           "nextBubbleId": 39,
           "score": 0,
@@ -796,7 +796,7 @@
         },
         {
           "id": 36,
-          "text": "<i>Last year, Soon, Lately</i>  = adverbs of time <br> <i>Every day</i> = adverb of frequency",
+          "text": "Last year, Soon, Lately = adverbs of time <br> Every day = adverb of frequency",
           "answerType": 1,
           "nextBubbleId": 37,
           "score": 1,
@@ -809,7 +809,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 14,
+      "nextBubbleId": 38,
       "delay": 2
     },
     {
@@ -863,16 +863,29 @@
     },
     {
       "id": 39,
+      "text": "The correct answer is - <br>Last year, Soon, Lately = adverbs of time <br> Every day = adverb of frequency",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 40,
+      "delay": 4
+    },
+    {
+      "id": 40,
       "text": "Looks like you need more practice.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
       "answers": [
         {
-          "id": 39,
+          "id": 40,
           "text": "Explain this topic again",
           "answerType": 0,
-          "nextBubbleId": 0,
+          "nextBubbleId": -2,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -880,10 +893,10 @@
           "filename": ""
         },
         {
-          "id": 39,
+          "id": 40,
           "text": "Continue to the next topic",
           "answerType": 0,
-          "nextBubbleId": 0,
+          "nextBubbleId": -2,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,

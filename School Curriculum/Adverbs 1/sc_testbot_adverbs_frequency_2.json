@@ -16,7 +16,7 @@
     },
     {
       "id": 1,
-      "text": "<i>Linda always makes breakfast</i>. <br>The word <b>always</b> describes <i>how often</i> Linda makes (verb) breakfast.",
+      "text": "<i>Linda always makes breakfast</i>. <br> The word <b>always</b> describes <i>how often</i> Linda makes (verb) breakfast.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
