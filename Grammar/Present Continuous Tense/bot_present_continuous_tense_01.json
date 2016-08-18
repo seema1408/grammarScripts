@@ -377,7 +377,7 @@
       "id": 17,
       "text": "The man <b>is wearing</b> a white t-shirt. He <b>is drinking</b> coffee. He <b>is smiling</b>.",
       "responseType": 2,
-      "mediaUrl": "",
+      "mediaUrl": "coffee_man.jpg",
       "optionsCount": 1,
       "answers": [
         {
@@ -394,7 +394,7 @@
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": "coffee_man.jpg",
+      "filename": "",
       "nextBubbleId": 18,
       "delay": 1
     },
@@ -402,7 +402,7 @@
       "id": 18,
       "text": "Try describing this image using present continuous tense.",
       "responseType": 2,
-      "mediaUrl": "",
+      "mediaUrl": "teacher.jpg",
       "optionsCount": 3,
       "answers": [
         {
@@ -441,7 +441,7 @@
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": "teacher.jpg",
+      "filename": "",
       "nextBubbleId": 20,
       "delay": 1
     },
@@ -657,12 +657,12 @@
       "id": 28,
       "text": "This is Henry.",
       "responseType": 3,
-      "mediaUrl": "",
+      "mediaUrl": "henry.jpg",
       "optionsCount": 0,
       "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": "henry.jpg",
+      "filename": "",
       "nextBubbleId": 29,
       "delay": 1
     },
