@@ -1,9 +1,9 @@
 {
-  "BotId": 2,
+  "BotId": 6,
   "Bubbles": [
     {
       "id": 0,
-      "text": "Hi there! 😊",
+      "text": "Hey there 😊",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -16,29 +16,16 @@
     },
     {
       "id": 1,
-      "text": "Before we begin, let's test your knowledge of adverbs.",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 2,
-      "delay": 3
-    },
-    {
-      "id": 2,
-      "text": "Don't worry, you'll find it quite easy. 😊",
+      "text": "Before we begin, could you answer a few questions?",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
-          "id": 2,
-          "text": "Okay then!",
+          "id": 1,
+          "text": "Alright",
           "answerType": 0,
-          "nextBubbleId": 3,
+          "nextBubbleId": 2,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -49,34 +36,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 3,
-      "delay": 3
-    },
-    {
-      "id": 3,
-      "text": "In this sentence, which word is the adverb? <br> <br><i>Meera dances well.</i>",
-      "responseType": 4,
-      "correctResponses": [
-        "well"
-      ],
-      "acceptedIncorrectResponses": [
-        "Meera",
-        "dances"
-      ],
-      "nextErrorBubbleId": 5,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionscount": 0,
-      "filename": "",
-      "isExitPoint": false,
-      "nextBubbleId": 6,
+      "nextBubbleId": 2,
       "delay": 1
     },
     {
-      "id": 4,
-      "text": "Perfect!",
+      "id": 2,
+      "text": "Great! 😊",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -84,19 +49,79 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 6,
+      "nextBubbleId": 3,
       "delay": 1
     },
     {
-      "id": 5,
-      "text": "<i>Meera dances well.</i><br> <br> Here, 'Meera' is the <b>subject</b>, 'dances' is the <b>verb</b> and 'well' is the <b>adverb</b>.",
+      "id": 3,
+      "text": "First question - <br> What do you do?",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 2,
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 3,
+          "text": "I am a student.",
+          "answerType": 0,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 3,
+          "text": "I am a professional.",
+          "answerType": 0,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 3,
+          "text": "I am unemployed.",
+          "answerType": 0,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 2
+    },
+    {
+      "id": 4,
+      "text": " 📝  This answer is in <b>simple present</b> tense. It tells us a fact about you.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 3
+    },
+    {
+      "id": 5,
+      "text": "Next question - <br> What are you doing?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
       "answers": [
         {
           "id": 5,
-          "text": "Got it 👍",
+          "text": "I am studying.",
           "answerType": 0,
           "nextBubbleId": 6,
           "score": 0,
@@ -107,47 +132,87 @@
         },
         {
           "id": 5,
-          "text": "Explain more",
+          "text": "I am working.",
           "answerType": 0,
           "nextBubbleId": 6,
           "score": 0,
-          "isEntryPointForNewBot": true,
+          "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": "sc_bot_adverbs_2"
+          "filename": ""
+        },
+        {
+          "id": 5,
+          "text": "I am using Sling.",
+          "answerType": 0,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
         }
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 6,
-      "delay": 1
+      "delay": 2
     },
     {
       "id": 6,
-      "text": "Identify the verb in this sentence - <br> <br><i>Saad speaks politely.</i>",
-      "responseType": 4,
-      "correctResponses": [
-        "politely"
-      ],
-      "acceptedIncorrectResponses": [
-        "Saad",
-        "speaks"
-      ],
-      "nextErrorBubbleId": 8,
+      "text": "Awesome 😊 <br> 📝  This answer is in <b>present continuous</b> tense.",
+      "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
       "answers": [],
       "isEntryPointForNewTest": false,
-      "questionscount": 0,
+      "questionsCount": 0,
       "filename": "",
-      "isExitPoint": false,
       "nextBubbleId": 7,
       "delay": 1
     },
     {
       "id": 7,
-      "text": "Let's try a tougher one.",
+      "text": "It tells us what <b>action</b> you are doing <b>right now</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 7,
+          "text": "Could you explain more?",
+          "answerType": 0,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 1
+    },
+    {
+      "id": 8,
+      "text": "Of course 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 1
+    },
+    {
+      "id": 9,
+      "text": "Let's look at present continous tense as <b>present + continuous</b>.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -159,30 +224,17 @@
       "delay": 3
     },
     {
-      "id": 8,
-      "text": "The word <b><i>politely</i></b> describes <i>how</i> Saad speaks (verb).",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 9,
-      "delay": 3
-    },
-    {
-      "id": 9,
-      "text": "Hence, <b><i>politely</i></b> is the adverb.",
+      "id": 10,
+      "text": "As you know, for <i>present tense</i> we use - <br><br>I <b>am</b> <br> You, we or they <b>are</b> <br> She, he or it <b>is</b>",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
-          "id": 9,
-          "text": "Understood",
+          "id": 10,
+          "text": "That's right",
           "answerType": 0,
-          "nextBubbleId": 7,
+          "nextBubbleId": 11,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -193,49 +245,48 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 7,
-      "delay": 1
-    },
-    {
-      "id": 10,
-      "text": "<i>This poem is well written.</i>",
-      "responseType": 4,
-      "correctResponses": [
-        "well"
-      ],
-      "acceptedIncorrectResponses": [
-        "this",
-        "poem",
-        "is",
-        "written"
-      ],
-      "nextErrorBubbleId": 12,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionscount": 0,
-      "filename": "",
-      "isExitPoint": false,
       "nextBubbleId": 11,
       "delay": 1
     },
     {
       "id": 11,
-      "text": "Excellent 👌",
-      "responseType": 0,
+      "text": "For <i>continuous</i> we add <i>ing</> to the verb. <br> <br>think + ing = thinking <br>sing + ing = singing<br>grow + ing = growing",
+      "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 11,
+          "text": "Understood 👍",
+          "answerType": 0,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 11,
+          "text": "What's a verb?",
+          "answerType": 0,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_verbs"
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 14,
-      "delay": 2
+      "nextBubbleId": 12,
+      "delay": 1
     },
     {
       "id": 12,
-      "text": "The word <b><i>well</i></b> describes <i>how</i> the poem is written (verb).",
+      "text": "So, present = am / is / are <br> continuous = verb<i>ing</i>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -248,14 +299,14 @@
     },
     {
       "id": 13,
-      "text": "That makes <b><i>well</i></b> the adverb.",
+      "text": "Which means<br><br>Present + Continuous = am / is / are + verb<i>ing<i/>",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 13,
-          "text": "Noted 👍",
+          "text": "Got it 👍",
           "answerType": 0,
           "nextBubbleId": 14,
           "score": 0,
@@ -273,39 +324,65 @@
     },
     {
       "id": 14,
-      "text": "💬 Quick Tip <br>An adverb can be identified easily by asking - <i>how?<i>.",
-      "responseType": 1,
+      "text": "For example - <br>Vinny <b>is</b> (present) <b>riding</b> (ride+ing) the bike. <br><br>The children <b>are</b> (present) <b>going</b> (go+ing) home.",
+      "responseType": 0,
       "mediaUrl": "",
-      "optionsCount": 1,
-      "answers": [
-        {
-          "id": 14,
-          "text": "Got it 👍",
-          "answerType": 0,
-          "nextBubbleId": 15,
-          "score": 0,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        }
-      ],
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 15,
-      "delay": 1
+      "delay": 4
     },
     {
       "id": 15,
-      "text": "There are several types of adverbs, such as those of- <br><i>Time</i><br><i>Frequency</i><br><i>Place</i><br><i>Manner</i><br><i>Degree</i><br><i>Affirmation</i><br><i>Reason</i>",
+      "text": "Now, identify <b>present continuous tense</b> in some sentences.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 15,
-          "text": "Alright",
+          "text": "Let's start 😃",
+          "answerType": 0,
+          "nextBubbleId": 16,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "testbot_present_continuous_tense_01"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 16,
+      "delay": 1
+    },
+    {
+      "id": 16,
+      "text": "Look at how present continuous tense is used here.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 2
+    },
+    {
+      "id": 17,
+      "text": "The man <b>is wearing</b> a white t-shirt. He <b>is drinking</b> coffee. He <b>is smiling</b>.",
+      "responseType": 2,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 17,
+          "text": "Got it 👍",
           "answerType": 0,
           "nextBubbleId": 16,
           "score": 0,
@@ -317,49 +394,45 @@
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 16,
+      "filename": "coffee_man.jpg",
+      "nextBubbleId": 18,
       "delay": 1
     },
     {
-      "id": 16,
-      "text": "Let's look at the first category - Adverbs of <i>Time</i>",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 17,
-      "delay": 3
-    },
-    {
-      "id": 17,
-      "text": "An adverb of time tells you <i>when</i> something has happened.",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 18,
-      "delay": 3
-    },
-    {
       "id": 18,
-      "text": "Words like - <i>daily, lately, before</i> and <i>yesterday</i> are adverbs of time.",
-      "responseType": 1,
+      "text": "Try describing this image using present continuous tense.",
+      "responseType": 2,
       "mediaUrl": "",
-      "optionsCount": 1,
+      "optionsCount": 3,
       "answers": [
         {
           "id": 18,
-          "text": "Noted",
-          "answerType": 0,
+          "text": "This woman is a teacher.",
+          "answerType": 1,
           "nextBubbleId": 19,
           "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 18,
+          "text": "This woman teaches.",
+          "answerType": 1,
+          "nextBubbleId": 19,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 18,
+          "text": "This woman is teaching.",
+          "answerType": 1,
+          "nextBubbleId": 20,
+          "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -368,31 +441,33 @@
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 19,
+      "filename": "teacher.jpg",
+      "nextBubbleId": 20,
       "delay": 1
     },
     {
       "id": 19,
-      "text": "Great! Here are 3 sentences. Choose the one which has an <b>adverb of time</b>.",
+      "text": "This woman <b>is teaching</b>. ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 2
+    },
+    {
+      "id": 20,
+      "text": "",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
       "answers": [
         {
-          "id": 19,
-          "text": "We contacted them already.",
-          "answerType": 1,
-          "nextBubbleId": 20,
-          "score": 1,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        },
-        {
-          "id": 19,
-          "text": "She often eats here.",
+          "id": 20,
+          "text": "She writes on the blackboard.",
           "answerType": 1,
           "nextBubbleId": 21,
           "score": 0,
@@ -402,10 +477,21 @@
           "filename": ""
         },
         {
-          "id": 19,
-          "text": "Deepa answered quickly.",
+          "id": 20,
+          "text": "She is writing on the blackboard.",
           "answerType": 1,
           "nextBubbleId": 22,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 20,
+          "text": "She was writing on the blackboard.",
+          "answerType": 1,
+          "nextBubbleId": 21,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -416,12 +502,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 23,
+      "nextBubbleId": 22,
       "delay": 1
     },
     {
-      "id": 20,
-      "text": "That's correct 😊",
+      "id": 21,
+      "text": "She <b>is writing</b> on the blackboard. ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -429,45 +515,30 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 23,
+      "nextBubbleId": 22,
       "delay": 2
     },
     {
-      "id": 21,
-      "text": "Here, <i>often</i> shows <i>how frequently</i> she eats here, not <b><i>when</i></b>.",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 23,
-      "delay": 4
-    },
-    {
       "id": 22,
-      "text": "Here, <i>quickly</i> shows <i>how</i> Deepa answered, not <b><i>when</i></b>.",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 23,
-      "delay": 4
-    },
-    {
-      "id": 23,
-      "text": "Which sentence has an <b>adverb of time</b>?",
+      "text": "",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
       "answers": [
         {
-          "id": 23,
-          "text": "You should eat healthy every day.",
+          "id": 22,
+          "text": "She's wearing glasses.",
+          "answerType": 1,
+          "nextBubbleId": 23,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 22,
+          "text": "Shes wearing glasses.",
           "answerType": 1,
           "nextBubbleId": 24,
           "score": 0,
@@ -477,21 +548,10 @@
           "filename": ""
         },
         {
-          "id": 23,
-          "text": "I'll see you soon.",
+          "id": 22,
+          "text": "She wears glasses.",
           "answerType": 1,
           "nextBubbleId": 25,
-          "score": 1,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        },
-        {
-          "id": 23,
-          "text": "We therefore moved to Korea.",
-          "answerType": 1,
-          "nextBubbleId": 26,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -502,12 +562,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 27,
+      "nextBubbleId": 26,
       "delay": 1
     },
     {
-      "id": 24,
-      "text": "Here, <i>every day</i> shows <i>how often</i> you should eat healthy.",
+      "id": 23,
+      "text": "Good job!",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -515,12 +575,25 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 27,
-      "delay": 4
+      "nextBubbleId": 26,
+      "delay": 2
+    },
+    {
+      "id": 24,
+      "text": "💬  Quick Tip <br>She + is = she's",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 25,
+      "delay": 2
     },
     {
       "id": 25,
-      "text": "Awesome 😃",
+      "text": "<b>She's wearing</b> glasses. ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -528,34 +601,21 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 27,
+      "nextBubbleId": 26,
       "delay": 2
     },
     {
       "id": 26,
-      "text": "Here, <i>therefore</i> is an adverb of <i>reason</i>, not time.",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 27,
-      "delay": 4
-    },
-    {
-      "id": 27,
-      "text": "Which sentence has an <b>adverb of time</b>?",
+      "text": "Finally you have - <br><br>This woman <b>is teaching</b>. She <b>is writing</b> on the blackboard. She <b>is wearing</b> glasses.",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 3,
+      "optionsCount": 2,
       "answers": [
         {
-          "id": 27,
-          "text": "Sometimes, she thinks about him.",
-          "answerType": 1,
-          "nextBubbleId": 28,
+          "id": 26,
+          "text": "Understood",
+          "answerType": 0,
+          "nextBubbleId": 27,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -563,10 +623,61 @@
           "filename": ""
         },
         {
-          "id": 27,
-          "text": "I had an accident yesterday.",
+          "id": 26,
+          "text": "Practice more",
+          "answerType": 0,
+          "nextBubbleId": 27,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "testbot_present_continuous_tense_02"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
+      "delay": 1
+    },
+    {
+      "id": 27,
+      "text": "Let's introduce someone using <b>simple present</b> and <b>present continuous</b> tense. ",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 28,
+      "delay": 3
+    },
+    {
+      "id": 28,
+      "text": "This is Henry.",
+      "responseType": 3,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "henry.jpg",
+      "nextBubbleId": 29,
+      "delay": 1
+    },
+    {
+      "id": 29,
+      "text": "<i>He loves reading books.</i><br><br>Which tense is used here?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 29,
+          "text": "Simple Present",
           "answerType": 1,
-          "nextBubbleId": 29,
+          "nextBubbleId": 30,
           "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -574,10 +685,10 @@
           "filename": ""
         },
         {
-          "id": 27,
-          "text": "We always stop by the library.",
+          "id": 29,
+          "text": "Present Continuous",
           "answerType": 1,
-          "nextBubbleId": 30,
+          "nextBubbleId": 31,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -588,38 +699,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 31,
+      "nextBubbleId": 32,
       "delay": 1
     },
     {
-      "id": 28,
-      "text": "Here, <i>sometimes</i> shows <i>how often</i> she thinks about him.",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 31,
-      "delay": 4
-    },
-    {
-      "id": 29,
-      "text": "Well done 👌",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 31,
-      "delay": 2
-    },
-    {
       "id": 30,
-      "text": "Here, <i>always</i> shows <i>how often</i> we stop by at the library.",
+      "text": "Correct!",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -627,19 +712,19 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 31,
-      "delay": 4
+      "nextBubbleId": 32,
+      "delay": 1
     },
     {
       "id": 31,
-      "text": "📝 Remember, to identify a sentence with an adverb of time, look for words which answer the question - <b><i>when?</i></b>",
+      "text": "He loves = He <b>verb+s</b> <br> <br>So, this sentence is in <b>simple present</b> tense.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 31,
-          "text": "I'll keep that in mind",
+          "text": "I'll remember this",
           "answerType": 0,
           "nextBubbleId": 32,
           "score": 0,
@@ -657,88 +742,27 @@
     },
     {
       "id": 32,
-      "text": "Let's move on to adverbs of <b>frequency</b>.",
+      "text": "<i>He is working on his next book. He is looking for a publisher.</i><br><br>Which tense is used here?",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 1,
+      "optionsCount": 2,
       "answers": [
         {
           "id": 32,
-          "text": "Sure 😃",
-          "answerType": 0,
+          "text": "Simple Present",
+          "answerType": 1,
           "nextBubbleId": 33,
           "score": 0,
-          "isEntryPointForNewBot": true,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": "sc_testbot_adverbs_frequency_1"
-        }
-      ],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 33,
-      "delay": 1
-    },
-    {
-      "id": 33,
-      "text": "Let's summarize! 😃 <br>To identify an <b>adverb of time</b>, we ask...",
-      "responseType": 1,
-      "mediaUrl": "",
-      "optionsCount": 2,
-      "answers": [
-        {
-          "id": 33,
-          "text": "When?",
-          "answerType": 1,
-          "nextBubbleId": 34,
-          "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
         },
         {
-          "id": 33,
-          "text": "How often?",
+          "id": 32,
+          "text": "Present Continuous",
           "answerType": 1,
           "nextBubbleId": 34,
-          "score": 0,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        }
-      ],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 34,
-      "delay": 1
-    },
-    {
-      "id": 34,
-      "text": "To identify an <b>adverb of frequency</b>, we ask...",
-      "responseType": 1,
-      "mediaUrl": "",
-      "optionsCount": 2,
-      "answers": [
-        {
-          "id": 34,
-          "text": "When?",
-          "answerType": 1,
-          "nextBubbleId": 35,
-          "score": 0,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        },
-        {
-          "id": 34,
-          "text": "How often?",
-          "answerType": 1,
-          "nextBubbleId": 35,
           "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -753,53 +777,18 @@
       "delay": 1
     },
     {
-      "id": 35,
-      "text": "Listen to this clip closely and choose the correct answer.",
-      "responseType": 0,
+      "id": 33,
+      "text": "is working, is looking = is <b>verb<i>ing></i></b> <br> <br>So, this sentence is in <b>present continuous</b> tense.",
+      "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 36,
-      "delay": 4
-    },
-    {
-      "id": 36,
-      "text": "",
-      "responseType": 3,
-      "mediaUrl": "sc_bot_adverbs_1_01.3gp",
-      "optionsCount": 3,
+      "optionsCount": 1,
       "answers": [
         {
-          "id": 36,
-          "text": "Every day, Last year = time/Lately, Soon = frequency",
-          "answerType": 1,
-          "nextBubbleId": 39,
+          "id": 33,
+          "text": "I'll keep this in mind",
+          "answerType": 0,
+          "nextBubbleId": 35,
           "score": 0,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        },
-        {
-          "id": 36,
-          "text": "Last year, Soon = time/Every day, Lately = frequency",
-          "answerType": 1,
-          "nextBubbleId": 39,
-          "score": 0,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        },
-        {
-          "id": 36,
-          "text": "Last year, Soon, Lately = time/Every day = frequency",
-          "answerType": 1,
-          "nextBubbleId": 37,
-          "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -809,12 +798,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 38,
-      "delay": 2
+      "nextBubbleId": 35,
+      "delay": 1
     },
     {
-      "id": 37,
-      "text": "Excellent! 👏 <br>Looks like you've understood adverbs of time and frequency.",
+      "id": 34,
+      "text": "Excellent 😊",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -822,21 +811,59 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 38,
-      "delay": 4
+      "nextBubbleId": 35,
+      "delay": 1
     },
     {
-      "id": 38,
+      "id": 35,
+      "text": "We have -<br><br>This is Henry. He loves reading books. He is working on his next book. He is looking for a publisher.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 35,
+          "text": "Awesome!",
+          "answerType": 0,
+          "nextBubbleId": 36,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 36,
+      "delay": 1
+    },
+    {
+      "id": 36,
+      "text": "Well done! You've understood how to use <b>present continuous tense</b>. 🌟",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 37,
+      "delay": 3
+    },
+    {
+      "id": 37,
       "text": "What would you like to do next?",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
       "answers": [
         {
-          "id": 38,
-          "text": "Solve doubts with a tutor",
+          "id": 37,
+          "text": "Learn how to introduce myself",
           "answerType": 0,
-          "nextBubbleId": 0,
+          "nextBubbleId": 38,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -844,26 +871,26 @@
           "filename": ""
         },
         {
-          "id": 38,
-          "text": "Continue to the next topic",
+          "id": 37,
+          "text": "Learn more about present continuous",
           "answerType": 0,
-          "nextBubbleId": 0,
+          "nextBubbleId": -2,
           "score": 0,
-          "isEntryPointForNewBot": false,
+          "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": ""
+          "filename": "bot_present_continuous_tense_02"
         }
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": -2,
-      "delay": 4
+      "nextBubbleId": 38,
+      "delay": 1
     },
     {
-      "id": 39,
-      "text": "The correct answer is - <br>Last year, Soon, Lately = adverbs of time <br> Every day = adverb of frequency",
+      "id": 38,
+      "text": "Great choice!",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -871,32 +898,21 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 40,
-      "delay": 4
+      "nextBubbleId": 39,
+      "delay": 1
     },
     {
-      "id": 40,
-      "text": "Looks like you need a little more practice.",
+      "id": 39,
+      "text": "If you have any doubts, you can always come back to this chat.",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 2,
+      "optionsCount": 1,
       "answers": [
         {
-          "id": 40,
-          "text": "Practice with a tutor",
+          "id": 39,
+          "text": "Thanks 😊",
           "answerType": 0,
-          "nextBubbleId": -2,
-          "score": 0,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        },
-        {
-          "id": 40,
-          "text": "Continue to the next topic",
-          "answerType": 0,
-          "nextBubbleId": -2,
+          "nextBubbleId": 40,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -907,8 +923,21 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
+      "nextBubbleId": 40,
+      "delay": 1
+    },
+    {
+      "id": 40,
+      "text": "See you soon!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
       "nextBubbleId": -2,
-      "delay": 4
+      "delay": 1
     }
   ]
 }

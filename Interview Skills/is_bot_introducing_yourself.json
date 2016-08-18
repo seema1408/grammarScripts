@@ -28,7 +28,7 @@
 		},
 		{
 			"id": 1,
-			"text": "The first question every interviewer asks is - <i>Tell me something about yourself</i>.",
+			"text": "The first question every interviewer asks is - <i>Could you tell me something about yourself?</i>",
 			"responseType": 1,
 			"mediaUrl": "",
 			"optionsCount": 1,
@@ -271,7 +271,7 @@
 					"id": 11,
 					"text": "Thanks!",
 					"answerType": 0,
-					"nextBubbleId": 14,
+					"nextBubbleId": 13,
 					"score": 0,
 					"isEntryPointForNewBot": false,
 					"isEntryPointForNewTest": false,
