@@ -1,0 +1,185 @@
+{
+  "BotId": 10004,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "I ___ for lunch on my birthday.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 0,
+          "text": "gone",
+          "answerType": 1,
+          "nextBubbleId": 1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "went",
+          "answerType": 1,
+          "nextBubbleId": 1,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "Ram's teacher ___ to his parents.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 1,
+          "text": "spoke",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 1,
+          "text": "speaked",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 1
+    },
+    {
+      "id": 2,
+      "text": "Ravi ___ how to sing.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 2,
+          "text": "learnt",
+          "answerType": 1,
+          "nextBubbleId": 3,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 2,
+          "text": "learning",
+          "answerType": 1,
+          "nextBubbleId": 3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "The children ___ football every afternoon.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 3,
+          "text": "plays",
+          "answerType": 1,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 3,
+          "text": "played",
+          "answerType": 1,
+          "nextBubbleId": 4,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "We ___ pizza yesterday.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 4,
+          "text": "eated",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 4,
+          "text": "ate",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 1
+    }
+  ]
+}

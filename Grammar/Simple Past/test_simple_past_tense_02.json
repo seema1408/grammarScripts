@@ -1,0 +1,221 @@
+{
+  "BotId": 10005,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "They ___ about you all the time.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 0,
+          "text": "thinked",
+          "answerType": 1,
+          "nextBubbleId": 1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "thought",
+          "answerType": 1,
+          "nextBubbleId": 1,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "I ___ about this.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 1,
+          "text": "knowed",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 1,
+          "text": "knew",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 1
+    },
+    {
+      "id": 2,
+      "text": "We ___ he moved to Canada.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 2,
+          "text": "moved",
+          "answerType": 1,
+          "nextBubbleId": 3,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 2,
+          "text": "move",
+          "answerType": 1,
+          "nextBubbleId": 3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "They ___ along the river.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 3,
+          "text": "rided",
+          "answerType": 1,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 3,
+          "text": "rode",
+          "answerType": 1,
+          "nextBubbleId": 4,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "I ___ him stealing.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 4,
+          "text": "caught",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 4,
+          "text": "catched",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 1
+    },
+        {
+      "id": 5,
+      "text": "We ___ the protest.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 5,
+          "text": "joined",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 5,
+          "text": "joint",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+  ]
+}

@@ -168,7 +168,7 @@
       "nextBubbleId": 6,
       "delay": 1
     },
-        {
+    {
       "id": 5,
       "text": "The dog <b>is lying</b> on the grass. ✅",
       "responseType": 0,
@@ -217,18 +217,18 @@
       "nextBubbleId": 7,
       "delay": 1
     },
-        {
+    {
       "id": 7,
       "text": "Use present continuous tense to describe this picture.",
       "responseType": 2,
-      "mediaUrl": "",
+      "mediaUrl": "teaching_cooking.jpeg",
       "optionsCount": 3,
       "answers": [
         {
           "id": 7,
           "text": "Paula was chopping the apples.",
           "answerType": 1,
-          "nextBubbleId": 1,
+          "nextBubbleId": 8,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -240,7 +240,7 @@
           "text": "Paula is chopping the apples.",
           "answerType": 1,
           "nextBubbleId": 1,
-          "score": 0,
+          "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -248,10 +248,10 @@
         },
         {
           "id": 7,
-          "text": "Paula cuts apples.",
+          "text": "Paula chops apples.",
           "answerType": 1,
-          "nextBubbleId": 2,
-          "score": 1,
+          "nextBubbleId": 8,
+          "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -261,12 +261,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 2,
+      "nextBubbleId": 9,
       "delay": 1
     },
     {
-      "id": 1,
-      "text": "The children <b>are playing</b> outside. ✅",
+      "id": 8,
+      "text": "Paula <b>is chopping</b> the apples. ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -274,21 +274,21 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 2,
+      "nextBubbleId": 9,
       "delay": 2
     },
     {
-      "id": 2,
+      "id": 9,
       "text": "",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
       "answers": [
         {
-          "id": 2,
-          "text": "They are playing with the dog.",
+          "id": 9,
+          "text": "Her mom's helping her.",
           "answerType": 1,
-          "nextBubbleId": 4,
+          "nextBubbleId": 11,
           "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -296,10 +296,10 @@
           "filename": ""
         },
         {
-          "id": 2,
-          "text": "They is playing with the dog.",
+          "id": 9,
+          "text": "Her mom are helping her.",
           "answerType": 1,
-          "nextBubbleId": 3,
+          "nextBubbleId": 10,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -307,10 +307,10 @@
           "filename": ""
         },
         {
-          "id": 2,
-          "text": "They play with the dog.",
+          "id": 9,
+          "text": "Her mom will helping her.",
           "answerType": 1,
-          "nextBubbleId": 3,
+          "nextBubbleId": 10,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -321,12 +321,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 4,
+      "nextBubbleId": 10,
       "delay": 1
     },
     {
-      "id": 3,
-      "text": "They <b>are playing</b> with the dog. ✅",
+      "id": 10,
+      "text": "Her <b>mom's helping</b> her. ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -334,21 +334,21 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 4,
+      "nextBubbleId": 11,
       "delay": 2
     },
     {
-      "id": 4,
+      "id": 11,
       "text": "",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
       "answers": [
         {
-          "id": 4,
-          "text": "The dog is lie on the grass.",
+          "id": 11,
+          "text": "They baking apple pie.",
           "answerType": 1,
-          "nextBubbleId": 5,
+          "nextBubbleId": 12,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -356,22 +356,22 @@
           "filename": ""
         },
         {
-          "id": 4,
-          "text": "The dog is lying on the grass.",
+          "id": 11,
+          "text": "They is bake apple pie.",
           "answerType": 1,
-          "nextBubbleId": 6,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 11,
+          "text": "They are baking apple pie.",
+          "answerType": 1,
+          "nextBubbleId": 13,
           "score": 1,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        },
-        {
-          "id": 4,
-          "text": "The dog lies on the grass.",
-          "answerType": 1,
-          "nextBubbleId": 5,
-          "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -381,12 +381,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 6,
+      "nextBubbleId": 13,
       "delay": 1
     },
-        {
-      "id": 5,
-      "text": "The dog <b>is lying</b> on the grass. ✅",
+    {
+      "id": 12,
+      "text": "They <b>are baking/b> apple pie. ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -394,21 +394,21 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 6,
+      "nextBubbleId": 13,
       "delay": 2
     },
     {
-      "id": 6,
-      "text": "You get - <br>The children <b>are playing</b> outside. They <b>are playing</b> with the dog. The dog <b>is lying</b> on the grass.",
+      "id": 13,
+      "text": "You get - <br>Paula <b>is chopping</b> apples. Her <b>mom's helping</b> her. They <b>are baking</b> apple pie.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
       "answers": [
         {
-          "id": 6,
-          "text": "Next one, please",
+          "id": 13,
+          "text": "Next image",
           "answerType": 0,
-          "nextBubbleId": 7,
+          "nextBubbleId": 14,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -416,7 +416,7 @@
           "filename": ""
         },
         {
-          "id": 6,
+          "id": 13,
           "text": "Go back",
           "answerType": 0,
           "nextBubbleId": -1,
@@ -430,7 +430,212 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 7,
+      "nextBubbleId": 14,
+      "delay": 1
+    },
+    {
+      "id": 14,
+      "text": "Describe using present continuous tense.",
+      "responseType": 2,
+      "mediaUrl": "writing_exam.jpeg",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 14,
+          "text": "Kim takes a test.",
+          "answerType": 1,
+          "nextBubbleId": 15,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 14,
+          "text": "Kim was taking a test.",
+          "answerType": 1,
+          "nextBubbleId": 15,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 14,
+          "text": "Kim is taking a test.",
+          "answerType": 1,
+          "nextBubbleId": 16,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 16,
+      "delay": 1
+    },
+    {
+      "id": 15,
+      "text": "Kim <b>is taking</b> a test. ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 16,
+      "delay": 2
+    },
+    {
+      "id": 16,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 16,
+          "text": "She is thinks about the answer.",
+          "answerType": 1,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 16,
+          "text": "She is thinking about the answer.",
+          "answerType": 1,
+          "nextBubbleId": 18,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 16,
+          "text": "She solves the test slowly.",
+          "answerType": 1,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 18,
+      "delay": 1
+    },
+    {
+      "id": 17,
+      "text": "She <b>is thinking</b> about the answer. ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 18,
+      "delay": 2
+    },
+    {
+      "id": 18,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 18,
+          "text": "She is solving the test slowly.",
+          "answerType": 1,
+          "nextBubbleId": 20,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 18,
+          "text": "She is solveing the test slowly.",
+          "answerType": 1,
+          "nextBubbleId": 19,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 18,
+          "text": "She solves the test slowly.",
+          "answerType": 1,
+          "nextBubbleId": 19,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 1
+    },
+    {
+      "id": 19,
+      "text": "She <b>is solving</b> the test slowly. ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 2
+    },
+    {
+      "id": 20,
+      "text": "The final description - Kim <b>is taking</b> a test. She <b>is thinking</b> about the answer. She <b>is solving</b> the test slowly.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 20,
+          "text": "Understood 😊 ",
+          "answerType": 0,
+          "nextBubbleId": -1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
       "delay": 1
     }
   ]

@@ -1,0 +1,326 @@
+{
+  "BotId": 1006,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 0,
+          "text": "She did her work on time.",
+          "answerType": 1,
+          "nextBubbleId": 1,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "She will do her work on time.",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": " She does her work on time.",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "Well done 👌",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 2,
+      "text": "The correct answer is - <br>She <b>did</b> her work on time.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 2
+    },
+    {
+      "id": 3,
+      "text": "📝  Look for a word that indicates the action was done in the past.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 2
+    },
+    {
+      "id": 4,
+      "text": "In this case, the past tense of the verb 'do' is <b>'did'</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 4,
+          "text": "Noted 👍",
+          "answerType": 0,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 1
+    },
+    {
+      "id": 5,
+      "text": "Here are a few more for you to practice 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 2
+    },
+    {
+      "id": 6,
+      "text": "Choose the past tense sentence.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 6,
+          "text": "She wrote a letter to her friend.",
+          "answerType": 1,
+          "nextBubbleId": 7,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 6,
+          "text": "She writes a letter to her friend.",
+          "answerType": 1,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 6,
+          "text": "She will write a letter to her friend.",
+          "answerType": 1,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "That's correct!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 1
+    },
+    {
+      "id": 8,
+      "text": "In this case, the past tense of the verb 'write' is <b>'wrote'</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 2
+    },
+    {
+      "id": 9,
+      "text": "The correct answer is - <br>She <b>wrote</b> a letter to her friend.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 3
+    },
+    {
+      "id": 10,
+      "text": "Next...",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 10,
+          "text": "Rahul will speak to you about the meeting.",
+          "answerType": 1,
+          "nextBubbleId": 11,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 10,
+          "text": "Rahul spoke to you about the meeting.",
+          "answerType": 1,
+          "nextBubbleId": 13,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 10,
+          "text": "Rahul speaked to you about the meeting.",
+          "answerType": 1,
+          "nextBubbleId": 11,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 1
+    },
+    {
+      "id": 11,
+      "text": "The past tense of the verb 'speak' is <b>'spoke'</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 12,
+      "delay": 3
+    },
+    {
+      "id": 12,
+      "text": "The correct answer is - <br>Rahul <b>spoke</b> to you about the meeting.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 3
+    },
+    {
+      "id": 13,
+      "text": "Perfect!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 2
+    },
+    {
+      "id": 14,
+      "text": "💬  Quick Tip<br>Most verbs are regular verbs and can be changed to past tense by adding <b>ed</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 14,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": -1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 1
+    }
+  ]
+}

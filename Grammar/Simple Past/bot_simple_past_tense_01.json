@@ -1,0 +1,704 @@
+{
+  "BotId": 8,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Hi! How was your weekend?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 0,
+          "text": "It was fun.",
+          "answerType": 0,
+          "nextBubbleId": 1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "It was boring.",
+          "answerType": 0,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "Awesome 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 2,
+      "text": "Too bad 😞",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "<i>It was awesome</i>  is in <b>simple past tense</b>. <br>It indicates something that has <b>already happened</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 3,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "<i>It was boring</i>  is in <b>simple past tense</b>. <br>It indicates something that has <b>already happened</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 4,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 1
+    },
+    {
+      "id": 5,
+      "text": "Here's a simple exercise. Choose the sentence that is in <b>simple past</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 5,
+          "text": "Let's begin 😃",
+          "answerType": 0,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "testbot_simple_past_tense_01"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 6,
+      "text": "Not bad 👏 <br>Now let's look at how a verb changes while using past tense.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 6,
+          "text": "Sure 😊",
+          "answerType": 0,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 6,
+          "text": "What's a verb?",
+          "answerType": 0,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_verbs"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 7,
+      "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "Let's start with regular verbs. <br><b>Regular verbs</b> are verbs whose past tense forms simply have -<b>ed</b> at the end.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 7,
+          "text": "Could you show me an example?",
+          "answerType": 0,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 1
+    },
+    {
+      "id": 8,
+      "text": "Let's look at the regular verb <b>play</b>.<br><br>I <b>played</b> with the dog.<br>You <b>played</b> with the dog.<br>She / He / It <b>played</b> with the dog.<br>We / They <b>played</b> with the dog.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 4
+    },
+    {
+      "id": 9,
+      "text": "Notice how the verb <b>play</b> has become <b>play+ed</b> in past tense. 😊 ",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 9,
+          "text": "Okay 👍",
+          "answerType": 0,
+          "nextBubbleId": 10,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 1
+    },
+    {
+      "id": 10,
+      "text": "Here are a few more regular verbs.",
+      "responseType": 2,
+      "mediaUrl": "regular_verbs_01.jpeg",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 10,
+          "text": "Awesome 😊",
+          "answerType": 0,
+          "nextBubbleId": 11,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 11,
+      "delay": 1
+    },
+    {
+      "id": 11,
+      "text": "Verbs which cannot be made into past tense by adding ed at the end are called <b>irregular verbs</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 11,
+          "text": " Could you explain in detail?",
+          "answerType": 0,
+          "nextBubbleId": 13,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 13,
+      "delay": 1
+    },
+    {
+      "id": 13,
+      "text": "With pleasure 😃",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 4
+    },
+    {
+      "id": 14,
+      "text": "Let's look at the irregular verb <b>teach</b>.<br><br>I <b>taught</b> English.<br>You <b>taught</b> English.<br>She / He / It <b>taught</b> English.<br>We / They <b>taught</b> English.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 15,
+      "delay": 4
+    },
+    {
+      "id": 15,
+      "text": " Notice how the past tense of <b>teach</b> is <b>taught</b>, and not teached.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 15,
+          "text": "Noted 👍",
+          "answerType": 0,
+          "nextBubbleId": 16,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 16,
+      "delay": 1
+    },
+    {
+      "id": 16,
+      "text": "Here are a few more irregular verbs.",
+      "responseType": 2,
+      "mediaUrl": "irregular_verbs_01.jpeg",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 16,
+          "text": "Got it 😊",
+          "answerType": 0,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 1
+    },
+    {
+      "id": 17,
+      "text": "Let's do a quick test for irregular verbs. Choose the correct past tense sentence.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 17,
+          "text": "Alright!",
+          "answerType": 0,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "testbot_simple_past_tense_02"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 18,
+      "delay": 1
+    },
+    {
+      "id": 18,
+      "text": " Let's work on a few sentences, to practice regular and irregular verbs!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 19,
+      "delay": 3
+    },
+    {
+      "id": 19,
+      "text": "Select the correct past tense word to fill in the blanks.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 19,
+          "text": "Sure! 😊",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "scoreBasedNextBubblesId" : {
+            "0-3" : 20,
+            "4-5" : 21
+          },
+          "questionsCount": 5,
+          "filename": "test_simple_past_tense_01"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 1
+    },
+    {
+      "id": 20,
+      "text": "Looks like you need more practice❗️",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 20,
+          "text": "Explain the verb rule again",
+          "answerType": 0,
+          "nextBubbleId": 22,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "testbot_simple_past_tense_03"
+        },
+        {
+          "id": 20,
+          "text": "Practice more",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": true,
+          "questionsCount": 6,
+          "filename": "test_simple_past_tense_02"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 22,
+      "delay": 1
+    },
+    {
+      "id": 21,
+      "text": "Well done! 👏<br>You've understood how to use verbs in simple past tense.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 21,
+          "text": "I'm a fast learner 🙂",
+          "answerType": 0,
+          "nextBubbleId": 22,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 21,
+          "text": "Practice more",
+          "answerType": 0,
+          "nextBubbleId": 0,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": true,
+          "questionsCount": 6,
+          "filename": "test_simple_past_tense_02"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 22,
+      "delay": 1
+    },
+    {
+      "id": 22,
+      "text": "We commonly use simple past tense while talking about <br>- memories<br>- past incidences<br>- events that happened",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 23,
+      "delay": 4
+    },
+    {
+      "id": 23,
+      "text": "Listen to this clip and answer the questions.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 24,
+      "delay": 2
+    },
+    {
+      "id": 24,
+      "text": "",
+      "responseType": 3,
+      "mediaUrl": "past_tense_01.3gp",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 25,
+      "delay": 6
+    },
+    {
+      "id": 25,
+      "text": "I ___ three books.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 25,
+          "text": "bought",
+          "answerType": 1,
+          "nextBubbleId": 26,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 25,
+          "text": "brought",
+          "answerType": 1,
+          "nextBubbleId": 26,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 26,
+      "delay": 1
+    },
+    {
+      "id": 26,
+      "text": "I ___ for lunch.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 26,
+          "text": "gone",
+          "answerType": 1,
+          "nextBubbleId": 26,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 26,
+          "text": "went",
+          "answerType": 1,
+          "nextBubbleId": 26,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
+      "delay": 1
+    },
+    {
+      "id": 27,
+      "text": "I ___ with my dog.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 27,
+          "text": "play",
+          "answerType": 1,
+          "nextBubbleId": 28,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 27,
+          "text": "played",
+          "answerType": 1,
+          "nextBubbleId": 28,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 28,
+      "delay": 1
+    },
+    {
+      "id": 28,
+      "text": "You've learnt the basics of simple past tense. Great job. ⭐️",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 29,
+      "delay": 3
+    },
+    {
+      "id": 29,
+      "text": "To understand past tense better, practice talking about <i>My Weekend</i> with a tutor.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 29,
+          "text": "Sure!",
+          "answerType": 0,
+          "nextBubbleId": 39,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 30,
+      "delay": 1
+    },
+    {
+      "id": 30,
+      "text": "Hope you enjoyed this session.😃",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 3
+    }
+  ]
+}

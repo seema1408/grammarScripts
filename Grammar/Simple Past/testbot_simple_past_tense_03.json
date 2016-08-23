@@ -1,0 +1,81 @@
+{
+  "BotId": 1007,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "There are two rules for simple past tense. ✌️",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 3
+    },
+    {
+      "id": 1,
+      "text": " If the verb is <b>regular</b>, we use <b>verb+ed</b>. <br><br> <i>I/You/We/They/He/She/It followed Hillary Clinton on Twitter.</i>",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 1,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 1
+    },
+    {
+      "id": 2,
+      "text": "If the verb is <b>irregular</b>, it is changed.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 2
+    },
+    {
+      "id": 3,
+      "text": "The <b>past tense form</b> of irregular verbs must be practiced regularly.<br><br> <i>He/She <b>drank</b> milk every morning.</i>",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 3,
+          "text": "Noted 👍",
+          "answerType": 0,
+          "nextBubbleId": -1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 1
+    }
+  ]
+}

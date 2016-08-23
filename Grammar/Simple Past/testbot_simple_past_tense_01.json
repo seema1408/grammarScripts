@@ -1,0 +1,262 @@
+{
+  "BotId": 8,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 0,
+          "text": "Ram was asleep during class.",
+          "answerType": 1,
+          "nextBubbleId": 1,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "Ram is sleeping in class.",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "Ram will sleep in class.",
+          "answerType": 1,
+          "nextBubbleId": 3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "Perfect! 👍",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 1
+    },
+    {
+      "id": 2,
+      "text": "This sentence is in <i>present</i> tense.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 2
+    },
+    {
+      "id": 3,
+      "text": "This sentence is in <i>future</i> tense.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 2
+    },
+    {
+      "id": 4,
+      "text": "To identify the right answer, look for-<br>I <b>was</b>...<br>You/We/They <b>were</b>...<br>He/She/It <b>was</b>...",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 4,
+          "text": "Alright",
+          "answerType": 0,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 1
+    },
+    {
+      "id": 5,
+      "text": "Here are a few more 😊",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 5,
+          "text": "They are quite annoyed.",
+          "answerType": 1,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 5,
+          "text": "They will be quite annoyed.",
+          "answerType": 1,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 5,
+          "text": "They were quite annoyed.",
+          "answerType": 1,
+          "nextBubbleId": 7,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 1
+    },
+    {
+      "id": 6,
+      "text": "Look for <b>'they were'</b> in the next sentence.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 2
+    },
+    {
+      "id": 7,
+      "text": "Good job! 😊 Next...",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 1
+    },
+    {
+      "id": 8,
+      "text": "Here are a few more 😊",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 8,
+          "text": "They were very tired.",
+          "answerType": 1,
+          "nextBubbleId": 69,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 8,
+          "text": "They are very tired.",
+          "answerType": 1,
+          "nextBubbleId": 10,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 8,
+          "text": "They is very tired.",
+          "answerType": 1,
+          "nextBubbleId": 10,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 1
+    },
+    {
+      "id": 9,
+      "text": "Nice!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 2
+    },
+    {
+      "id": 10,
+      "text": "They were very tired. ✔️",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 3
+    }
+  ]
+}
