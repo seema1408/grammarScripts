@@ -1,0 +1,450 @@
+{
+   "BotId": 1010,
+   "Bubbles": [
+      {
+         "id": 0,
+         "text": "Why is <b>should</b> used in this sentence?<br><br><i>You should go home now.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 11,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 0,
+               "text": "expectation",
+               "answerType": 1,
+               "nextBubbleId": 1,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 0,
+               "text": "advice",
+               "answerType": 1,
+               "nextBubbleId": 2,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 1,
+         "text": "The speaker is giving advice.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 3,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 2,
+         "text": "Spot on! 🎯 <br> Next...",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 3,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 3,
+         "text": "<i>Sheeba should not argue with her sister.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 4,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 3,
+               "text": "expectation",
+               "answerType": 1,
+               "nextBubbleId": 4,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 3,
+               "text": "advice",
+               "answerType": 1,
+               "nextBubbleId": 4,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 4,
+         "text": "The speaker is <b>advising</b> that Sheeba should not argue.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 6,
+         "delay": "2",
+         "answers": []
+      },
+      {
+         "id": 5,
+         "text": "Correct! 😊",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 6,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 6,
+         "text": "<i>Yasmin should arrive by evening.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 7,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 6,
+               "text": "expectation",
+               "answerType": 1,
+               "nextBubbleId": 7,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 6,
+               "text": "advice",
+               "answerType": 1,
+               "nextBubbleId": 8,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 7,
+         "text": "That's the right answer 🎉",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 9,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 8,
+         "text": "It is <b>expected</b> that Yasmine will arrive by evening.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 9,
+         "delay": "2",
+         "answers": []
+      },
+      {
+         "id": 9,
+         "text": "<i> Most restaurants should be full now.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 10,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 9,
+               "text": "expectation",
+               "answerType": 1,
+               "nextBubbleId": 10,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 9,
+               "text": "advice",
+               "answerType": 1,
+               "nextBubbleId": 11,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 10,
+         "text": "Absolutely right! 😃",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 12,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 11,
+         "text": "The speaker means - <br><i>It is <b>most likely</b> that most restaurants should be full.</i>",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 12,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 12,
+         "text": "<i>We should meet once a week.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 15,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 12,
+               "text": "expectation",
+               "answerType": 1,
+               "nextBubbleId": 13,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 12,
+               "text": "advice",
+               "answerType": 1,
+               "nextBubbleId": 14,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 13,
+         "text": "Make sure you read the options carefully",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 15,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 14,
+         "text": "Awesome 😊",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 15,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 15,
+         "text": " Here's the next one - <br><br> <i>Risha should be ready soon</i>.",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 17,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 15,
+               "text": "expectation",
+               "answerType": 1,
+               "nextBubbleId": 17,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 15,
+               "text": "advice",
+               "answerType": 1,
+               "nextBubbleId": 16,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 16,
+         "text": "The speaker means - <br>It is <b>expected</b> that Risha will be ready soon.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 17,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 17,
+         "text": "One more to go - <br> <br> <i>Kim should be more responsible.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 18,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 17,
+               "text": "expectation",
+               "answerType": 1,
+               "nextBubbleId": 18,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 17,
+               "text": "advice",
+               "answerType": 1,
+               "nextBubbleId": 19,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 18,
+         "text": "This is an example if advice.",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": -1,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 18,
+               "text": "Understood",
+               "answerType": 0,
+               "nextBubbleId": -1,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 19,
+         "text": "Well done!",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": -1,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 19,
+               "text": "Thanks a lot!",
+               "answerType": 0,
+               "nextBubbleId": -1,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      }
+   ]
+}
