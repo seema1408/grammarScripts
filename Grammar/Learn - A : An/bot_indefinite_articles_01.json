@@ -65,7 +65,7 @@
       "nextBubbleId": 4,
       "delay": 3
     },
-        {
+    {
       "id": 4,
       "text": "Notice how <i>a</i>, <i>an</i> and <i>the</i> are used to point towards a <b>noun</b> (person, place or object).",
       "responseType": 1,
@@ -83,7 +83,7 @@
           "questionsCount": 0,
           "filename": ""
         },
-                {
+        {
           "id": 4,
           "text": "What is a noun?",
           "answerType": 0,
@@ -93,7 +93,7 @@
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": "bot_nouns"
-        },
+        }
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
@@ -101,7 +101,7 @@
       "nextBubbleId": 5,
       "delay": 1
     },
-            {
+    {
       "id": 5,
       "text": "Let's look at the rules for articles.",
       "responseType": 1,
@@ -126,7 +126,7 @@
       "nextBubbleId": 6,
       "delay": 1
     },
-                {
+    {
       "id": 6,
       "text": "<b>A</b> and <b>an</b> are used for <b>singular nouns</b> (one person, place, object or group).",
       "responseType": 0,
@@ -139,7 +139,7 @@
       "nextBubbleId": 7,
       "delay": 3
     },
-                {
+    {
       "id": 7,
       "text": "For example,<br><b>a</b> lemon = 1 lemon<br><b>a</b> family = 1 family<br><b>an</b> umbrella = 1 umbrella<br><b>an</b>idea = 1 idea",
       "responseType": 1,
@@ -164,7 +164,7 @@
       "nextBubbleId": 8,
       "delay": 1
     },
-                    {
+    {
       "id": 8,
       "text": "Absolutely 😃<br><br>Look at these sentences -",
       "responseType": 0,
@@ -177,7 +177,7 @@
       "nextBubbleId": 9,
       "delay": 2
     },
-                        {
+    {
       "id": 9,
       "text": "I want to buy <b>a</b> dress (noun).<br>He is <b>an</b> honorable man (noun).<br><b>A</b>child (noun) is crying.",
       "responseType": 0,
@@ -190,7 +190,7 @@
       "nextBubbleId": 10,
       "delay": 3
     },
-                            {
+    {
       "id": 10,
       "text": "In all these sentences, we are talking about <b>one</b> object or person.",
       "responseType": 0,
@@ -203,14 +203,14 @@
       "nextBubbleId": 11,
       "delay": 2
     },
-                                {
+    {
       "id": 11,
       "text": "Let's start with <b>a</b>. Choose the right option-",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
       "answers": [
-              {
+        {
           "id": 11,
           "text": "I will have a cookies.",
           "answerType": 1,
@@ -221,7 +221,7 @@
           "questionsCount": 0,
           "filename": ""
         },
-              {
+        {
           "id": 11,
           "text": "I will have cookie.",
           "answerType": 1,
@@ -232,7 +232,7 @@
           "questionsCount": 0,
           "filename": ""
         },
-              {
+        {
           "id": 11,
           "text": "I will have a cookie.",
           "answerType": 1,
@@ -250,7 +250,7 @@
       "nextBubbleId": 17,
       "delay": 1
     },
-                                {
+    {
       "id": 12,
       "text": "a cookies ❌",
       "responseType": 0,
@@ -263,7 +263,7 @@
       "nextBubbleId": 13,
       "delay": 1
     },
-                                    {
+    {
       "id": 13,
       "text": "Remember, <b>a</b> and <b>an</b> are only used for <b>singular</b> nouns.",
       "responseType": 0,
@@ -276,7 +276,7 @@
       "nextBubbleId": 14,
       "delay": 2
     },
-                                        {
+    {
       "id": 14,
       "text": "The correct answer is -<br>I will have <b>a</b> cookie. ✅",
       "responseType": 0,
@@ -289,7 +289,7 @@
       "nextBubbleId": 17,
       "delay": 3
     },
-                                        {
+    {
       "id": 15,
       "text": "have cookie ❌",
       "responseType": 0,
@@ -302,7 +302,7 @@
       "nextBubbleId": 13,
       "delay": 1
     },
-                                            {
+    {
       "id": 16,
       "text": "Perfect! 👌",
       "responseType": 0,
@@ -315,14 +315,14 @@
       "nextBubbleId": 17,
       "delay": 1
     },
-                                    {
+    {
       "id": 17,
       "text": "Let's start with <b>a</b>. Choose the right option-",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
       "answers": [
-              {
+        {
           "id": 17,
           "text": "Rohit took a test.",
           "answerType": 1,
@@ -333,7 +333,7 @@
           "questionsCount": 0,
           "filename": ""
         },
-              {
+        {
           "id": 17,
           "text": "Rohit took a tests.",
           "answerType": 1,
@@ -344,7 +344,7 @@
           "questionsCount": 0,
           "filename": ""
         },
-              {
+        {
           "id": 17,
           "text": "Rohit took test.",
           "answerType": 1,
@@ -362,7 +362,7 @@
       "nextBubbleId": 23,
       "delay": 1
     },
-                                                {
+    {
       "id": 18,
       "text": " Nice!",
       "responseType": 0,
@@ -375,7 +375,7 @@
       "nextBubbleId": 23,
       "delay": 1
     },
-                                                    {
+    {
       "id": 19,
       "text": "1 <b>test</b><br>2 or more <b>tests</b><br>So, a tests is wrong❌",
       "responseType": 0,
@@ -386,9 +386,9 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 20,
-      "delay": 1
+      "delay": 3
     },
-                                                        {
+    {
       "id": 20,
       "text": "Remember, <b>a</b> and <b>an</b> are only used for <b>singular</b> nouns.",
       "responseType": 0,
@@ -399,9 +399,9 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 20,
-      "delay": 1
+      "delay": 3
     },
-                                                            {
+    {
       "id": 21,
       "text": "The correct answer is -<br>Rohit took a test. ✅",
       "responseType": 0,
@@ -412,9 +412,9 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 23,
-      "delay": 1
+      "delay": 2
     },
-                                                                {
+    {
       "id": 22,
       "text": "1 test = 1 object = singular noun, and must have a in front of it. So,<br> took test ❌",
       "responseType": 0,
@@ -425,7 +425,232 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 23,
+      "delay": 3
+    },
+    {
+      "id": 23,
+      "text": "Let's start with <b>a</b>. Choose the right option-",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 23,
+          "text": "I am buying a car.",
+          "answerType": 1,
+          "nextBubbleId": 24,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 23,
+          "text": "I am buying car.",
+          "answerType": 1,
+          "nextBubbleId": 25,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 23,
+          "text": "I am buying a cars.",
+          "answerType": 1,
+          "nextBubbleId": 26,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
       "delay": 1
     },
+    {
+      "id": 24,
+      "text": "Well done!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
+      "delay": 1
+    },
+    {
+      "id": 25,
+      "text": "1 car = 1 object = <b>singular</b> noun. So,<br><br>buying car ❌",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 26,
+      "delay": 3
+    },
+    {
+      "id": 26,
+      "text": "The correct answer is -<br>I am buying a car. ✅",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 26,
+          "text": "Got it!",
+          "answerType": 0,
+          "nextBubbleId": 27,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
+      "delay": 1
+    },
+    {
+      "id": 27,
+      "text": "Let's move on to <b>an</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 28,
+      "delay": 2
+    },
+    {
+      "id": 28,
+      "text": "An is used in front of words which begin with vowel sounds.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 28,
+          "text": "What are vowel sounds?",
+          "answerType": 0,
+          "nextBubbleId": 29,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bots_vowels"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 29,
+      "delay": 1
+    },
+    {
+      "id": 29,
+      "text": "Let's take a small test 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 30,
+      "delay": 1
+    },
+    {
+      "id": 30,
+      "text": "Fill in the blanks with <b>a</b> or <b>an</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 10,
+      "answers": [],
+      "isEntryPointForNewTest": true,
+      "questionsCount": 0,
+      "filename": "test_indefinite_articles_01",
+      "nextBubbleId": 31,
+      "delay": 1
+    },
+    {
+      "id": 31,
+      "text": "Here's an image to help you use a and an correctly.",
+      "responseType": 2,
+      "mediaUrl": "articles_indefinite.jpeg",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": true,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 32,
+      "delay": 1
+    },
+    {
+      "id": 32,
+      "text": "You've learnt how to use indefinite articles. 🌟",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 32,
+          "text": "Awesome!",
+          "answerType": 0,
+          "nextBubbleId": 33,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 33,
+      "delay": 1
+    },
+    {
+      "id": 33,
+      "text": "Make sure you practice everything we learnt today with a tutor. ",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 33,
+          "text": "I will 😊",
+          "answerType": 0,
+          "nextBubbleId": -2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 1
+    }
   ]
 }
