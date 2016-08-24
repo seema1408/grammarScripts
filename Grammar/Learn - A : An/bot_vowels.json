@@ -1,0 +1,43 @@
+{
+  "BotId": 1011,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Vowel sounds are sounds made from the letters <i>a, e, i, o, u.</i> Let's listen to this clip.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 2
+    },
+    {
+      "id": 1,
+      "text": "",
+      "responseType": 3,
+      "mediaUrl": "bot_vowels.3gp",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 1,
+          "text": "Understood",
+          "answerType": 0,
+          "nextBubbleId": -1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 1
+    }
+  ]
+}
