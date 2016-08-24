@@ -1,0 +1,631 @@
+{
+  "BotId": 12,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Hey there!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "Articles are of 2 types -<b>a</b> and <b>an</b> - indefinite articles <br> <b>the</b> - definite article.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 2
+    },
+    {
+      "id": 2,
+      "text": "Articles are placed in front of nouns or adjectives.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 2,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "Take a look at this example -<br>There is <b>a</b> lamp in my bedroom.<br><b>The</b> lamp is on my desk.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 2
+    },
+    {
+      "id": 4,
+      "text": " Notice how we use <b><i>the</i></b> when we know <b>exactly</b> which lamp is being spoken about.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 4,
+          "text": "Please explain some more.👍",
+          "answerType": 0,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 4,
+          "text": "What is a noun?",
+          "answerType": 0,
+          "nextBubbleId": 3,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_nouns"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 2
+    },
+    {
+      "id": 5,
+      "text": "Let's look at an example -<br><i>I will buy <b>a</b> shirt.</i><br>Here, the person is talking about <b>any</b> shirt.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 6,
+      "text": "<i>I will buy <b>the</b> blue shirt.</i><br>Here, the person is talking about <b>a specific</b> blue coloured shirt.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 6,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 7,
+      "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "There are a few important rules for <b>the.</b>",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 1
+    },
+    {
+      "id": 8,
+      "text": " The first rule is -<br>We <b>do not use <i>the</i> before names</b> of places or people.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 1
+    },
+    {
+      "id": 9,
+      "text": "For example,<br>John goes to school.✅<br>The John goes to school. ❌<br>",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 9,
+          "text": "I'll keep that in mind.",
+          "answerType": 0,
+          "nextBubbleId": 10,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 2
+    },
+    {
+      "id": 10,
+      "text": "Here's a small exercise for you. Identify the correct sentence.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 10,
+          "text": "1.) I live on Bhandarkar road.",
+          "answerType": 1,
+          "nextBubbleId": 11,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 10,
+          "text": "2.) I live on the Bhandarkar road.",
+          "answerType": 1,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 3
+    },
+    {
+      "id": 11,
+      "text": " Good job! 😃",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 1
+    },
+    {
+      "id": 12,
+      "text": "The correct answer is - <b>I live on Bhandarkar Road</b> ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 13,
+      "delay": 1
+    },
+    {
+      "id": 13,
+      "text": "Bhandarkar Road is a name of a road. We do not use <b>the</b> before a name.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 1
+    },
+    {
+      "id": 14,
+      "text": "Here's another one.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 14,
+          "text": "1.) Hi, my name is the Rahul",
+          "answerType": 1,
+          "nextBubbleId": 15,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 14,
+          "text": "2.) Hi, my name is Rahul",
+          "answerType": 1,
+          "nextBubbleId": 16,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 3
+    },
+    {
+      "id": 15,
+      "text": "Rahul is a proper noun (name). We do not use <b>the</b> before a name.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 1
+    },
+    {
+      "id": 16,
+      "text": "Wonderful! 👍",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 1
+    },
+    {
+      "id": 17,
+      "text": "Let's look at the next one",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 17,
+          "text": "1.) The Himalayas are beautiful.",
+          "answerType": 1,
+          "nextBubbleId": 18,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 17,
+          "text": "2.) Himalayas are beautiful.",
+          "answerType": 1,
+          "nextBubbleId": 19,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 3
+    },
+    {
+      "id": 18,
+      "text": "That's correct! 👍",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 1
+    },
+    {
+      "id": 19,
+      "text": " The correct answer is -<br><b>The</b> Himalayas are beautiful.  ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 1
+    },
+    {
+      "id": 20,
+      "text": "📝  Note, we use <b>the</b> in front of the names of rivers, deserts and mountains. For example -<br>The Ganga<br>The Alps<br>The Sahara desert",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 20,
+          "text": "Alright. Could we try a few more?",
+          "answerType": 0,
+          "nextBubbleId": 21,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 21,
+      "delay": 2
+    },
+    {
+      "id": 21,
+      "text": "Absolutely! Here's the next one.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 21,
+          "text": "1.) The New York is a great city.",
+          "answerType": 1,
+          "nextBubbleId": 22,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 21,
+          "text": "2.) New York is a great city.",
+          "answerType": 1,
+          "nextBubbleId": 23,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 24,
+      "delay": 3
+    },
+    {
+      "id": 22,
+      "text": "The correct answer is -<br>New York is a great city.  ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 24,
+      "delay": 1
+    },
+    {
+      "id": 23,
+      "text": "Perfect! 👍",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 24,
+      "delay": 1
+    },
+    {
+      "id": 24,
+      "text": "📝  Note, we do not use the in front of the names of cities, towns, villages and states. For example -<br>New York ✅  The New York❌<br>London ✅  The London ❌<br>New Delhi ✅  The New Delhi ❌",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 25,
+      "delay": 1
+    },
+    {
+      "id": 25,
+      "text": "Here's  the last one for this session.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 25,
+          "text": "1.) I am visiting the United States of America",
+          "answerType": 1,
+          "nextBubbleId": 26,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 25,
+          "text": "2.) I am visiting the America.",
+          "answerType": 1,
+          "nextBubbleId": 27,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 28,
+      "delay": 3
+    },
+    {
+      "id": 26,
+      "text": "Brilliant",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 28,
+      "delay": 1
+    },
+    {
+      "id": 27,
+      "text": "<i>The America</i> is incorrect.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 28,
+      "delay": 1
+    },
+    {
+      "id": 28,
+      "text": "📝  Note, If the name of a country is a phrase like <i>United States of America, United Arab Emirates or United Kingdom,</i> we use <b>the.</b>",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 29,
+      "delay": 1
+    },
+    {
+      "id": 29,
+      "text": "If you use the name form of the country, like America or England, you do not need to use <b>the.</b>",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 29,
+          "text": "Understood 😊 ",
+          "answerType": 0,
+          "nextBubbleId": 30,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 30,
+      "delay": 2
+    },
+    {
+      "id": 30,
+      "text": "You've learnt how to use definite articles. 🌟",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 31,
+      "delay": 1
+    },
+    {
+      "id": 31,
+      "text": "Make sure you practice everything we learnt today with a tutor.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 31,
+          "text": "I will.",
+          "answerType": 0,
+          "nextBubbleId": -2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 2
+    }
+  ]
+}
