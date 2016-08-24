@@ -1,0 +1,473 @@
+{
+   "BotId": 13,
+   "Bubbles": [
+      {
+         "id": 0,
+         "text": " Hello 😃",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 1,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 1,
+         "text": "Could is a commonly used <b>modal verb.</b>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 1,
+               "text": "Okay",
+               "answerType": 0,
+               "nextBubbleId": 2,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 1,
+               "text": "Could you explain more?",
+               "answerType": 0,
+               "nextBubbleId": 2,
+               "score": 0,
+               "isEntryPointForNewBot": true,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": "bot_modals"
+            }
+         ]
+      },
+      {
+         "id": 2,
+         "text": "Could is the past tense of can.",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 2,
+               "text": "Alright 👍",
+               "answerType": 0,
+               "nextBubbleId": 3,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "text": "Let's look at some examples.<br> <br>Present tense - He <b>can</b> study for hours.<br> <br>Past Tense - He <b>could</b> study for hours.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 4,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 4,
+         "text": "It's time to practice",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 5,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 4,
+               "text": "Awesome 😊 ",
+               "answerType": 0,
+               "nextBubbleId": 5,
+               "score": 0,
+               "isEntryPointForNewBot": true,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": "testbot_could_01"
+            }
+         ]
+      },
+      {
+         "id": 5,
+         "text": "We can also use could to frame questions politely.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 6,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 6,
+         "text": "For example - <br> <br>Can you take a look at my work? (rude) <br>Could you take a look at my work? (polite)",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 7,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 6,
+               "text": "Got it 👍",
+               "answerType": 0,
+               "nextBubbleId": 7,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 7,
+         "text": "Let's listen to the question and the answer in this clip -",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 8,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 8,
+         "text": "",
+         "responseType": 3,
+         "mediaUrl": "could_you_help.3gp",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 9,
+         "delay": "1",
+         "answers": [{
+               "id": 8,
+               "text": "Heard the clip ",
+               "answerType": 0,
+               "nextBubbleId": 9,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }]
+      },
+      {
+         "id": 9,
+         "text": "Awesome 👍",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 10,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 10,
+         "text": "Now listen to this answer and choose the correct question.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 11,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 11,
+         "text": "",
+         "responseType": 3,
+         "mediaUrl": "rina_take_care_of_the_baby.3gp",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 12,
+         "delay": "1",
+         "answers": [{
+               "id": 11,
+               "text": "Could Rina take care of the baby?",
+               "answerType": 1,
+               "nextBubbleId": 12,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+         {
+               "id": 11,
+               "text": "Rina could take care of the baby?",
+               "answerType": 1,
+               "nextBubbleId": 13,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }]
+      },
+      {
+         "id": 12,
+         "text": "Correct 😊 ",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 13,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 13,
+         "text": "💬  Quick Tip <br> The question must always begin with the modal verb.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 14,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 14,
+         "text": "",
+         "responseType": 3,
+         "mediaUrl": "i_could_pick_her_up.3gp",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 15,
+         "delay": "1",
+         "answers": [{
+               "id": 14,
+               "text": "You can pick her up?",
+               "answerType": 1,
+               "nextBubbleId": 15,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+         {
+               "id": 14,
+               "text": "Could you pick her up?",
+               "answerType": 1,
+               "nextBubbleId": 16,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }]
+      },
+      {
+         "id": 15,
+         "text": "💬  Quick Tip <br> The question must always begin with the modal verb.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 17,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 16,
+         "text": "Excellent 🎉",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 17,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 17,
+         "text": "And one last one ☝️",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 18,
+         "delay": "1",
+         "answers": []
+      },
+       {
+         "id": 18,
+         "text": "",
+         "responseType": 3,
+         "mediaUrl": "i_could_not_see_anything.3gp",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 19,
+         "delay": "1",
+         "answers": [{
+               "id": 18,
+               "text": "Could you not see anything?",
+               "answerType": 1,
+               "nextBubbleId": 19,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+         {
+               "id": 18,
+               "text": " Could you see anything?",
+               "answerType": 1,
+               "nextBubbleId": 20,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }]
+      },
+      {
+         "id": 19,
+         "text": "This answer is correct too. But the better question would be - <br> <br>Could you see anything? ✅",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 21,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 20,
+         "text": "Perfect ✔️",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 21,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 21,
+         "text": "You have learnt how to use could- <br> <br> 1. as a past tense of can <br> 2. to ask polite questions",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 22,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 21,
+               "text": "That's right 😊",
+               "answerType": 0,
+               "nextBubbleId": 22,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 22,
+         "text": "To practice everything you've learnt, make sure you do the practice session with a tutor.",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 23,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 21,
+               "text": "I'll do that",
+               "answerType": 0,
+               "nextBubbleId": 23,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 23,
+         "text": "Thanks! We'll speak soon",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": -2,
+         "delay": "1",
+         "answers": []
+      }
+   ]
+}

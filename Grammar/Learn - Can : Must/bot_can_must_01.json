@@ -1,0 +1,327 @@
+{
+   "BotId": 12,
+   "Bubbles": [
+      {
+         "id": 0,
+         "text": "Hi! Nice to see you again. 😊 ",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 0,
+               "text": "Nice to see you too ",
+               "answerType": 0,
+               "nextBubbleId": 1,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 1,
+         "text": "Words like - can, must, may, should, could are called <b>modal verbs</b>.",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 1,
+               "text": "Understood",
+               "answerType": 0,
+               "nextBubbleId": 2,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 1,
+               "text": "Explain more",
+               "answerType": 0,
+               "nextBubbleId": 2,
+               "score": 0,
+               "isEntryPointForNewBot": true,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": "bot_modals"
+            }
+         ]
+      },
+      {
+         "id": 2,
+         "text": "We will be learning how to use <b> can</b> and <b> must</b>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 2,
+               "text": "Alright 👍",
+               "answerType": 0,
+               "nextBubbleId": 3,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "text": "Can is used to express ability. <br>-<br> Example -<br>-<br>I can play the guitar.She can sing well.",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 3,
+               "text": "What does 'ability' mean?",
+               "answerType": 0,
+               "nextBubbleId": 4,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 3,
+               "text": " Okay 😊 ",
+               "answerType": 0,
+               "nextBubbleId": 5,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 4,
+         "text": "Ability means having the capability, skill or talent to do something.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 5,
+         "delay": "1",
+         "answers": [
+            {
+               "id": null,
+               "text": "",
+               "answerType": null,
+               "nextBubbleId": null,
+               "score": null,
+               "isEntryPointForNewBot": null,
+               "isEntryPointForNewTest": null,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 5,
+         "text": "<5> Must is used to express <b>compulsion. </b><br> <br>Example -<br> <br>You <b> must </b> sleep early.They <b>must </b> visit the temple every Tuesday.",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 5,
+               "text": "What does 'compulsion' mean?",
+               "answerType": 0,
+               "nextBubbleId": 6,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 5,
+               "text": " Understood 👍",
+               "answerType": 0,
+               "nextBubbleId": 7,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": null,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 6,
+         "text": "Compulsion means doing something under pressure or against your will.",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 7,
+         "delay": "1",
+         "answers": [
+            {
+               "id": null,
+               "text": "",
+               "answerType": null,
+               "nextBubbleId": null,
+               "score": null,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 7,
+         "text": "Here are a few sentences. Choose if they express <b>ability</b> or <b>compulsion.</b>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 8,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 7,
+               "text": " Let's begin 😃",
+               "answerType": 0,
+               "nextBubbleId": 8,
+               "score": 0,
+               "isEntryPointForNewBot": true,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": "testbot_can_must_01"
+            }
+         ]
+      },
+      {
+         "id": 8,
+         "text": "Good job!",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 8,
+               "text": "Thank you!",
+               "answerType": 0,
+               "nextBubbleId": 9,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 9,
+         "text": "You have learnt how to use <b> can </b> and <b> must </b>. ",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": null,
+         "filename": "",
+         "nextBubbleId": 10,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 10,
+         "text": "Practice making some sentences using <b> can  </b> and <b> must </b>.",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 10,
+               "text": "Will do  👍",
+               "answerType": 0,
+               "nextBubbleId": 11,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 11,
+         "text": "You <b> must </b> get your sentences corrected from your Sling tutor. ",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 12,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 12,
+         "text": "You <b> can </b> always read this chat again. Let's speak soon 😃",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": -2,
+         "delay": "1",
+         "answers": []
+      }
+   ]
+}

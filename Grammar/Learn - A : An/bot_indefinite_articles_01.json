@@ -89,7 +89,7 @@
           "answerType": 0,
           "nextBubbleId": 5,
           "score": 0,
-          "isEntryPointForNewBot": false,
+          "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": "bot_nouns"

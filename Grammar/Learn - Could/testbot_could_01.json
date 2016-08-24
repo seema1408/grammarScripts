@@ -1,0 +1,450 @@
+{
+   "BotId": 10013,
+   "Bubbles": [
+      {
+         "id": 0,
+         "text": "What is the past tense of this sentence - <br> <br> <i>I can swim very well.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": null,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 0,
+               "text": "I was swim very well.",
+               "answerType": 1,
+               "nextBubbleId": 1,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 0,
+               "text": "I could swim very well.",
+               "answerType": 1,
+               "nextBubbleId": 2,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 1,
+         "text": "I <b>could</b> swim very well. ✅ <br> <br> Next...",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 3,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 2,
+         "text": "Spot on! 🎯 <br> Next...",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 3,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 3,
+         "text": "<i> Wally can solve any problem.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 4,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 3,
+               "text": "Wally could solve any problem.",
+               "answerType": 1,
+               "nextBubbleId": 4,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 3,
+               "text": "Wally could solved any problem.",
+               "answerType": 1,
+               "nextBubbleId": 4,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 4,
+         "text": "Correct!  😊 ",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 6,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 5,
+         "text": "The correct answer is - <br> <br> Wally <b>could solve </b>any problem.. ✅",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 6,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 6,
+         "text": "<i>My brother thinks he can dance.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 7,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 6,
+               "text": "My brother thinks he could dance.",
+               "answerType": 1,
+               "nextBubbleId": 7,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 6,
+               "text": "My brother thought he could dance.",
+               "answerType": 1,
+               "nextBubbleId": 8,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 7,
+         "text": "The past tense of think is <b>thought</b>. <br>My brother <b> thought </b> he <b>could</b> dance. ✅",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 9,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 8,
+         "text": " That's the right answer 🎉",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 9,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 9,
+         "text": "<i>How can I fix it?</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 10,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 9,
+               "text": "How could I fixed it?",
+               "answerType": 1,
+               "nextBubbleId": 10,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 9,
+               "text": "How could I fix it?",
+               "answerType": 1,
+               "nextBubbleId": 11,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 10,
+         "text": "The verb after could <b>does not change</b. <br>How <b>could</b> I <b>fix</b> it? ✅",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 12,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 11,
+         "text": "Absolutely correct! 😃",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 12,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 12,
+         "text": "<i>We can all contribute.</i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 15,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 12,
+               "text": "We could all contribute.",
+               "answerType": 1,
+               "nextBubbleId": 13,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 12,
+               "text": "We could all contributed.",
+               "answerType": 1,
+               "nextBubbleId": 14,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 13,
+         "text": "Awesome 😊 ",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 15,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 14,
+         "text": "The verb after could <b>does not change<b>. <br>We <b>could</b> all <b>contribute.>/b> ✅",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 15,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 15,
+         "text": " Here's the next one - <br><br> <i>Norah believes she can win</i>.",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 17,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 15,
+               "text": "Norah believed she could win.",
+               "answerType": 1,
+               "nextBubbleId": 17,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 15,
+               "text": "Norah believed she could win.",
+               "answerType": 1,
+               "nextBubbleId": 16,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 16,
+         "text": "Norah <b>believed</b> she <b>could win</b>. ✅",
+         "responseType": 0,
+         "mediaUrl": "",
+         "optionsCount": 0,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 17,
+         "delay": "1",
+         "answers": []
+      },
+      {
+         "id": 17,
+         "text": " The last one is - <br> <br> <i> He says he can talk to anyone. </i>",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 2,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": 18,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 17,
+               "text": "He says he could talk to anyone.",
+               "answerType": 1,
+               "nextBubbleId": 18,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            },
+            {
+               "id": 17,
+               "text": "Norah believed she could win.",
+               "answerType": 1,
+               "nextBubbleId": 19,
+               "score": 1,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 18,
+         "text": "The verb before could changes to past tense. <br> <br>He <b>said</b> he <b>could talk</b> to anyone. ✅",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": -1,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 18,
+               "text": "I'll remember that",
+               "answerType": 0,
+               "nextBubbleId": -1,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      },
+      {
+         "id": 19,
+         "text": "Well done!",
+         "responseType": 1,
+         "mediaUrl": "",
+         "optionsCount": 1,
+         "isEntryPointForNewTest": false,
+         "questionsCount": 0,
+         "filename": "",
+         "nextBubbleId": -1,
+         "delay": "1",
+         "answers": [
+            {
+               "id": 19,
+               "text": "Thanks a lot!",
+               "answerType": 0,
+               "nextBubbleId": -1,
+               "score": 0,
+               "isEntryPointForNewBot": false,
+               "isEntryPointForNewTest": false,
+               "questionsCount": 0,
+               "filename": ""
+            }
+         ]
+      }
+   ]
+}
