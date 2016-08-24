@@ -722,7 +722,7 @@
     },
     {
       "id": 35,
-      "text": "This sentence is in <i>past tense</i>",
+      "text": "This sentence is in <i>past tense</i>.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -748,9 +748,9 @@
     },
     {
       "id": 37,
-      "text": "(IMAGE CAPTION)Remember, for future continuous tense, you simply need to add <b>will be</b> before the <b>verb</b> and <b>ing</b> after it.",
+      "text": "Remember, for future continuous tense, you simply need to add <b>will be</b> before the <b>verb</b> and <b>ing</b> after it.",
       "responseType": 2,
-      "mediaUrl": "will be_verbing_01",
+      "mediaUrl": "will_be_verbing_01.jpeg",
       "optionsCount": 1,
       "answers": [
         {
