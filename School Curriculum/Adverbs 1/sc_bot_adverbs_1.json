@@ -125,7 +125,7 @@
     },
     {
       "id": 6,
-      "text": "Identify the verb in this sentence - <br> <br><i>Saad speaks politely.</i>",
+      "text": "Identify the adverb in this sentence - <br> <br><i>Saad speaks politely.</i>",
       "responseType": 4,
       "correctResponses": [
         "politely"
