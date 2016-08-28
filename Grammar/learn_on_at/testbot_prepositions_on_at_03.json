@@ -1,0 +1,241 @@
+{
+  "BotId": 1014,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Pick the sentence where on should be used for time",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 0,
+          "text": "He was born ___ the hospital.",
+          "answerType": 1,
+          "nextBubbleId": 1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "He was born ___ a Friday.",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "<b>on</b> the hospital ❌<br><b>in</b> the hospital ✅",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 3
+    },
+    {
+      "id": 2,
+      "text": "Well done👍",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 3,
+          "text": "They are never ___ time.",
+          "answerType": 1,
+          "nextBubbleId": 4,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 3,
+          "text": "They are sitting at the sofa.",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "That's correct!",
+      "responseType": 0,
+      "nextBubbleId": 6,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 5,
+      "text": "<b>on</b> the thief ❌<br><b>at</b> the thief ✅",
+      "responseType": 0,
+      "nextBubbleId": 6,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 6,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 6,
+          "text": "Is it hot ___ June?",
+          "answerType": 1,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 6,
+          "text": "He left ___ the day of the wedding.",
+          "answerType": 1,
+          "nextBubbleId": 8,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "<b>on</b> June ❌<br><b>in</b> June ✅",
+      "responseType": 0,
+      "nextBubbleId": 9,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 8,
+      "text": "Excellent!",
+      "responseType": 0,
+      "nextBubbleId": 9,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 9,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 9,
+          "text": "They are playing ___ the rain.",
+          "answerType": 1,
+          "nextBubbleId": 10,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 9,
+          "text": "Are you sure you will be here ___ 20th June?",
+          "answerType": 1,
+          "nextBubbleId": 11,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 10,
+      "delay": 1
+    },
+    {
+      "id": 10,
+      "text": "<b>on</b> the rain ❌<br><b>in</b> the rain ✅",
+      "responseType": 0,
+      "nextBubbleId": -1,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 11,
+      "text": "Perfect 😊",
+      "responseType": 0,
+      "nextBubbleId": -1,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    }
+  ]
+}

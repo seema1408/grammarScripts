@@ -1,0 +1,299 @@
+{
+  "BotId": 1015,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Pick the correct sentence",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 0,
+          "text": "My book is at the table.",
+          "answerType": 1,
+          "nextBubbleId": 1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "She is at the reception.",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "Note that we say 'on' a surface.<br> For example - The keys are <b>on</b< the table, NOT <b>at</b> the table.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 3
+    },
+    {
+      "id": 2,
+      "text": "Very good!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 3,
+          "text": "He is at the theatre.",
+          "answerType": 1,
+          "nextBubbleId": 4,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 3,
+          "text": "They are sitting at the sofa.",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "Excellent!",
+      "responseType": 0,
+      "nextBubbleId": 6,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 5,
+      "text": "We sit <b>on</b> a sofa, NOT <b>at</b> a sofa.",
+      "responseType": 0,
+      "nextBubbleId": 6,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 6,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 6,
+          "text": "I haven't gone at the new mall yet.",
+          "answerType": 1,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 6,
+          "text": "She broke her fast at sunset.",
+          "answerType": 1,
+          "nextBubbleId": 8,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "We can go <b>to</b> a mall, NOT <b>at</b> a mall.",
+      "responseType": 0,
+      "nextBubbleId": 9,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 8,
+      "text": "Well done!",
+      "responseType": 0,
+      "nextBubbleId": 9,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 9,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 9,
+          "text": "She visited me at my birthday.",
+          "answerType": 1,
+          "nextBubbleId": 10,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 9,
+          "text": "Look at her umbrella.",
+          "answerType": 1,
+          "nextBubbleId": 11,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 12,
+      "delay": 1
+    },
+    {
+      "id": 10,
+      "text": "<b>at</b> my birthday❌<br><b>on</b> my birthday ✅",
+      "responseType": 0,
+      "nextBubbleId": 12,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 11,
+      "text": "Keep it up!",
+      "responseType": 0,
+      "nextBubbleId": 12,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 12,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 12,
+          "text": "Let's meet at night",
+          "answerType": 1,
+          "nextBubbleId": 13,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 12,
+          "text": "You'll find the book at my bag.",
+          "answerType": 1,
+          "nextBubbleId": 14,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 13,
+      "delay": 1
+    },
+    {
+      "id": 13,
+      "text": "Very good!",
+      "responseType": 0,
+      "nextBubbleId": -1,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 14,
+      "text": "Look at the options carefully.",
+      "responseType": 0,
+      "nextBubbleId": -1,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    }
+  ]
+}
