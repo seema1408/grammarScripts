@@ -74,7 +74,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 3,
+      "nextBubbleId": 4,
       "delay": 1
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "id": 5,
-      "text": " What is the girl talking about?",
+      "text": "What is the girl talking about?",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -206,7 +206,7 @@
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": "bot_verb"
+          "filename": "bot_verbs"
         },
         {
           "id": 10,
@@ -228,16 +228,28 @@
     },
     {
       "id": 11,
-      "text": "Future tense is very simple. Only add <b>will</b> before the <b>verb</b>, for example - <br>I <b>will</b> find<br>They, we <b>will</b> find<br>He, she or it <b>will</b> find",
-      "responseType": 0,
+      "text": "For future tense, <b>will</b> before the <b>verb</b>, for example - <br><br>I <b>will</b> find<br>They, we <b>will</b> find<br>He, she or it <b>will</b> find",
+      "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
+      "optionsCount": 1,
+      "answers": [
+              {
+          "id": 11,
+          "text": "I'll keep this is mind.",
+          "answerType": 0,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 12,
-      "delay": 4
+      "delay": 1
     },
     {
       "id": 12,
@@ -254,7 +266,7 @@
     },
     {
       "id": 13,
-      "text": "The first verb is - <b>teach<b/>",
+      "text": "The first verb is - <b>teach</b>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -274,7 +286,7 @@
       "answers": [
         {
           "id": 14,
-          "text": "Alright?",
+          "text": "Alright",
           "answerType": 0,
           "nextBubbleId": 15,
           "score": 0,
@@ -305,7 +317,7 @@
     },
     {
       "id": 16,
-      "text": " Choose the correct <b> future tense </b> sentence",
+      "text": "Choose the correct <b>future tense</b> sentence",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
@@ -352,7 +364,7 @@
     },
     {
       "id": 17,
-      "text": "This sentence is in <i>present continuous</i> tense. Look for <b>will + verb.</b>",
+      "text": "This sentence is in <i>present continuous</i> tense. <br>Look for <b>will + verb.</b>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -378,7 +390,7 @@
     },
     {
       "id": 19,
-      "text": "This question is in <i>future continuous</i> tense. Look for <b>will + verb.</b>",
+      "text": "This question is in <i>future continuous</i> tense. <br>Look for <b>will + verb.</b>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -438,7 +450,7 @@
     },
     {
       "id": 21,
-      "text": "This sentence is in <i>present continuous</i> tense. Look for <b>will + verb.</b>",
+      "text": "This sentence is in <i>present continuous</i> tense. <br>Look for <b>will + verb.</b>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -451,7 +463,7 @@
     },
     {
       "id": 22,
-      "text": "The correct option is -<br>The boys will drive to school.",
+      "text": "The correct option is -<br>The boys will drive to school. ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -464,7 +476,7 @@
     },
     {
       "id": 23,
-      "text": "This question is in <i>future continuous</i> tense. Look for <b>will + verb.</b>",
+      "text": "This question is in <i>future continuous</i> tense. <br>Look for <b>will + verb.</b>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -477,7 +489,7 @@
     },
     {
       "id": 24,
-      "text": " The next verb is -<b>ask</b>",
+      "text": " The next verb is - <b>ask</b>",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
@@ -524,7 +536,7 @@
     },
     {
       "id": 25,
-      "text": "This sentence is in <i>present</i> tense. Look for <b>will + verb.</b>",
+      "text": "This sentence is in <i>present</i> tense. <br>Look for <b>will + verb.</b>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -623,7 +635,7 @@
     },
     {
       "id": 30,
-      "text": " This sentence is in <i>future continuous</i> tense. Look for <b>will + verb.</b>",
+      "text": " This sentence is in <i>future continuous</i> tense. <br>Look for <b>will + verb.</b>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -636,7 +648,7 @@
     },
     {
       "id": 31,
-      "text": "  <i>will entertains</i> ❌ <br>I t should be - <i>will entertain</i> ✔️",
+      "text": "  <i>will entertains</i> ❌ <br>It should be - <i>will entertain</i> ✔️",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -678,7 +690,7 @@
         },
         {
           "id": 32,
-          "text": " Krish steals from me.",
+          "text": "Krish steals from me.",
           "answerType": 1,
           "nextBubbleId": 35,
           "score": 0,
@@ -704,12 +716,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 37,
+      "nextBubbleId": 36,
       "delay": 1
     },
     {
       "id": 34,
-      "text": "The correct option is -<br> The girls <b>will steal</b> your idea.",
+      "text": "The correct option is -<br>The girls <b>will steal</b> your idea. ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -717,7 +729,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 37,
+      "nextBubbleId": 36,
       "delay": 1
     },
     {
@@ -730,12 +742,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 36,
+      "nextBubbleId": 34,
       "delay": 1
     },
     {
       "id": 36,
-      "text": "The correct option is -<br>The girls <b>will steal</b> your idea",
+      "text": "Remember, for future tense, you simply need to add <b>will</b> before the <b>verb</b>.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -744,18 +756,18 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 37,
-      "delay": 1
+      "delay": 4
     },
     {
       "id": 37,
-      "text": "Remember, for future tense, you simply need to add <b>will</b> before the <b>verb</b>.",
+      "text": "Here are a few more examples.",
       "responseType": 2,
-      "mediaUrl": "will_verb_01",
+      "mediaUrl": "will_verb_01.jpeg",
       "optionsCount": 1,
       "answers": [
         {
           "id": 37,
-          "text": "Will do!",
+          "text": "Alright",
           "answerType": 0,
           "nextBubbleId": 38,
           "score": 0,
@@ -773,11 +785,45 @@
     },
     {
       "id": 38,
-      "text": " Practice talking about a future tense topic with a tutor. Remember to use <b>will + verb</b>.",
-      "responseType": 0,
+      "text": "You can practice talking about a future tense topic with a tutor.",
+      "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
+      "optionsCount": 3,
+      "answers": [
+                {
+          "id": 37,
+          "text": "Practice now",
+          "answerType": 0,
+          "nextBubbleId": -4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+                {
+          "id": 37,
+          "text": "Practice later",
+          "answerType": 0,
+          "nextBubbleId": 39,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+                        {
+          "id": 37,
+          "text": "Learn the next topic",
+          "answerType": 0,
+          "nextBubbleId": -3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
@@ -786,7 +832,7 @@
     },
     {
       "id": 39,
-      "text": " Good luck!",
+      "text": "Remember, the best way to improve your flueny is with practice.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -794,8 +840,21 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 39,
-      "delay": 1
+      "nextBubbleId": 40,
+      "delay": 3
+    },
+        {
+      "id": 40,
+      "text": "Have a good day!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 2
     }
   ]
 }

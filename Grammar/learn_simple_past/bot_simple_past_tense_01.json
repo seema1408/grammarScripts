@@ -390,7 +390,7 @@
     },
     {
       "id": 18,
-      "text": " Let's work on a few sentences, to practice regular and irregular verbs!",
+      "text": "Let's work on a few sentences, to practice regular and irregular verbs!",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -414,12 +414,12 @@
           "answerType": 0,
           "nextBubbleId": 0,
           "score": 0,
-          "isEntryPointForNewBot": true,
-          "isEntryPointForNewTest": false,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": true,
           "scoreBasedNextBubblesId" : {
-            "0-3" : 20,
-            "4-5" : 21
-          },
+            "0-3" : 20,
+            "4-5" : 21
+          },
           "questionsCount": 5,
           "filename": "test_simple_past_tense_01"
         }
