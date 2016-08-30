@@ -667,13 +667,35 @@
       "text": "To understand past tense better, practice talking about <i>My Weekend</i> with a tutor.",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 1,
+      "optionsCount": 3,
       "answers": [
         {
           "id": 29,
-          "text": "Sure!",
+          "text": "Practice now",
           "answerType": 0,
-          "nextBubbleId": 39,
+          "nextBubbleId": -4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+                {
+          "id": 29,
+          "text": "Maybe later",
+          "answerType": 0,
+          "nextBubbleId": 30,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+                        {
+          "id": 29,
+          "text": "Learn the next topic",
+          "answerType": 0,
+          "nextBubbleId": -3,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -689,7 +711,7 @@
     },
     {
       "id": 30,
-      "text": "Hope you enjoyed this session.😃",
+      "text": "ALright. Hope you enjoyed this session.😃",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,

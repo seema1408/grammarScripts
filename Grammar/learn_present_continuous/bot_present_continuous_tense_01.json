@@ -286,7 +286,7 @@
     },
     {
       "id": 12,
-      "text": "So, present = am / is / are <br> continuous = verb<i>ing</i>",
+      "text": "Present = am, is or are <br> continuous = verb<i>ing</i>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -299,7 +299,7 @@
     },
     {
       "id": 13,
-      "text": "Which means<br><br>Present + Continuous = am / is / are + verb<i>ing<i/>",
+      "text": "Which means<br><br>Present + Continuous = am, is or are + verb<i>ing<i/>",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -324,7 +324,7 @@
     },
     {
       "id": 14,
-      "text": "For example - <br>Vinny <b>is</b> (present) <b>riding</b> (ride+ing) the bike. <br><br>The children <b>are</b> (present) <b>going</b> (go+ing) home.",
+      "text": "For example - <br><br>Vinny <b>is</b> (present) <b>riding</b> (ride+ing) the bike. <br><br>The children <b>are</b> (present) <b>going</b> (go+ing) home.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -384,7 +384,7 @@
           "id": 17,
           "text": "Got it 👍",
           "answerType": 0,
-          "nextBubbleId": 16,
+          "nextBubbleId": 18,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -656,7 +656,7 @@
     {
       "id": 28,
       "text": "This is Henry.",
-      "responseType": 3,
+      "responseType": 2,
       "mediaUrl": "henry.jpg",
       "optionsCount": 0,
       "answers": [],
@@ -854,14 +854,25 @@
     },
     {
       "id": 37,
-      "text": "What would you like to do next?",
+      "text": "You can now practice introducing yourself with a live tutor!",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 2,
+      "optionsCount": 3,
       "answers": [
         {
           "id": 37,
-          "text": "Learn how to introduce myself",
+          "text": "Practice now",
+          "answerType": 0,
+          "nextBubbleId": -4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 37,
+          "text": "Practice later",
           "answerType": 0,
           "nextBubbleId": 38,
           "score": 0,
@@ -872,14 +883,14 @@
         },
         {
           "id": 37,
-          "text": "Learn more about present continuous",
+          "text": "Learn the next topic",
           "answerType": 0,
-          "nextBubbleId": -2,
+          "nextBubbleId": -3,
           "score": 0,
-          "isEntryPointForNewBot": true,
+          "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": "bot_present_continuous_tense_02"
+          "filename": ""
         }
       ],
       "isEntryPointForNewTest": false,
@@ -890,7 +901,7 @@
     },
     {
       "id": 38,
-      "text": "Great choice!",
+      "text": "Okay!",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,

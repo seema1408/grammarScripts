@@ -89,7 +89,7 @@
     },
     {
       "id": 4,
-      "text": "To identify the right answer, look for <br> <br> I <b>am</b> <br> You/We/They <b>are</b> <br> He/She/It <b>is</b>",
+      "text": "Look for <br> <br> I <b>am</b> <br> You/We/They <b>are</b> <br> He/She/It <b>is</b>",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -333,7 +333,7 @@
     },
         {
       "id": 14,
-      "text": "📝 Simple Present Tense can be identified by <br> <br> I <b>am</b>... <br> You/We/They <b>are</b>... <br> He/She/It <b>is</b>...",
+      "text": "For Simple Present Tense we use <br> <br> I <b>am</b>... <br> You/We/They <b>are</b>... <br> He/She/It <b>is</b>...",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,

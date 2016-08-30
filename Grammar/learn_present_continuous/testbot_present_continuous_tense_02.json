@@ -239,7 +239,7 @@
           "id": 7,
           "text": "Paula is chopping the apples.",
           "answerType": 1,
-          "nextBubbleId": 1,
+          "nextBubbleId": 9,
           "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -386,7 +386,7 @@
     },
     {
       "id": 12,
-      "text": "They <b>are baking/b> apple pie. ✅",
+      "text": "They <b>are baking</b> apple pie. ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
