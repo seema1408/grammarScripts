@@ -1,0 +1,473 @@
+{
+  "BotId": 1015,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Let's practise! Pick the correct sentence.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 0,
+          "text": "Can I sit of you?",
+          "answerType": 1,
+          "nextBubbleId": 1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 0,
+          "text": "Can I sit by you?",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "The correct answer is Can I sit <b>by</b> you?",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 3
+    },
+    {
+      "id": 2,
+      "text": "Excellent!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 3,
+          "text": "She has to leave of next week.",
+          "answerType": 1,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 3,
+          "text": "She has to leave by next week.",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "The correct answer is She has to leave <b>by</b> next week.",
+      "responseType": 0,
+      "nextBubbleId": 6,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 5,
+      "text": "Excellent!",
+      "responseType": 0,
+      "nextBubbleId": 6,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 6,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 6,
+          "text": "There is only one of this colour available.",
+          "answerType": 1,
+          "nextBubbleId": 7,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 6,
+          "text": "There is only one by this colour available.",
+          "answerType": 1,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "Excellent!",
+      "responseType": 0,
+      "nextBubbleId": 9,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 8,
+      "text": "The correct answer is There is only one <b>of</b> this colour available.",
+      "responseType": 0,
+      "nextBubbleId": 9,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 9,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 9,
+          "text": "I am of the opinion that being impolite is rude.",
+          "answerType": 1,
+          "nextBubbleId": 10,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 9,
+          "text": "I am by the opinion that being impolite is rude.",
+          "answerType": 1,
+          "nextBubbleId": 11,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 12,
+      "delay": 1
+    },
+    {
+      "id": 10,
+      "text": "Excellent!,
+      "responseType": 0,
+      "nextBubbleId": 12,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 11,
+      "text": "The correct answer is I am <b>of</b> the opinion that being impolite is rude.",
+      "responseType": 0,
+      "nextBubbleId": 12,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 12,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 12,
+          "text": "Please come to class of 3pm.",
+          "answerType": 1,
+          "nextBubbleId": 13,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 12,
+          "text": "Please come to class by 3pm.",
+          "answerType": 1,
+          "nextBubbleId": 14,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 13,
+      "delay": 1
+    },
+    {
+      "id": 13,
+      "text": "Try reading the sentence again.",
+      "responseType": 0,
+      "nextBubbleId": 15,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 14,
+      "text": "Good going!",
+      "responseType": 0,
+      "nextBubbleId": 15,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 15,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 15,
+          "text": "Rahul has not met his parents since he moved out of their house.",
+          "answerType": 1,
+          "nextBubbleId": 16,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 15,
+          "text": "Rahul has not met his parents since he moved out by their house.",
+          "answerType": 1,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 1
+    },
+    {
+      "id": 16,
+      "text": "Excellent!",
+      "responseType": 0,
+      "nextBubbleId": 18,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 17,
+      "text": "The correct answer is Rahul has not met his parents since he moved out of their house.",
+      "responseType": 0,
+      "nextBubbleId": 18,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+     {
+      "id": 18,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 18,
+          "text": "How many friends of yours are in your school?",
+          "answerType": 1,
+          "nextBubbleId": 19,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 18,
+          "text": "How many friends by yours are in your school?",
+          "answerType": 1,
+          "nextBubbleId": 20,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 13,
+      "delay": 1
+    },
+    {
+      "id": 19,
+      "text": "Excellent!",
+      "responseType": 0,
+      "nextBubbleId": 21,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 20,
+      "text": "The correct answer is How many friends <b>of</b> yours are in your school?",
+      "responseType": 0,
+      "nextBubbleId": 21,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 21,
+      "text": "",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 21,
+          "text": "I can go of the bank and drop your cheque.",
+          "answerType": 1,
+          "nextBubbleId": 22,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 21,
+          "text": "I can go by the bank and drop your cheque.",
+          "answerType": 1,
+          "nextBubbleId": 23,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 1
+    },
+    {
+      "id": 22,
+      "text": "Read the options carefully!",
+      "responseType": 0,
+      "nextBubbleId": -1,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    },
+    {
+      "id": 23,
+      "text": "Excellent!",
+      "responseType": 0,
+      "nextBubbleId": -1,
+      "score": 0,
+      "isEntryPointForNewBot": false,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": ""
+    }
+  ]
+}

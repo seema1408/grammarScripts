@@ -1,0 +1,210 @@
+{
+  "BotId": 10005,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Press ✔️ if 'in' can be used in the following sentences and press ❌ if it can't.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 0,
+          "text": "Okay, let's start 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "I'm staying ___ a hotel.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+       {
+          "id": 1,
+          "text": "✔️",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+         {
+          "id": 1,
+          "text": "❌",
+          "answerType": 1,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 3
+    },
+     {
+      "id": 2,
+      "text": "She left a letter ___ you.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+       {
+          "id": 2,
+          "text": "✔️",
+          "answerType": 1,
+          "nextBubbleId": 3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+         {
+          "id": 2,
+          "text": "❌",
+          "answerType": 1,
+          "nextBubbleId": 3,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 3
+    },
+     {
+      "id": 3,
+      "text": "Sushil was sick ___ his exams.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+       {
+          "id": 3,
+          "text": "✔️",
+          "answerType": 1,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+         {
+          "id": 3,
+          "text": "❌",
+          "answerType": 1,
+          "nextBubbleId": 4,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 3
+    },
+     {
+      "id": 4,
+      "text": "Mumbai is ___ Maharashtra.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+       {
+          "id": 4,
+          "text": "✔️",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+         {
+          "id": 4,
+          "text": "❌",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 3
+    },
+    {
+      "id": 5,
+      "text": "They're playing videogames ___ the bedroom.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+       {
+          "id": 5,
+          "text": "✔️",
+          "answerType": 1,
+          "nextBubbleId": 6,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+         {
+          "id": 5,
+          "text": "❌",
+          "answerType": 1,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 3
+    },
+  ]
+}

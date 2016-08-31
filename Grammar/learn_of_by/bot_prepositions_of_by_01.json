@@ -1,0 +1,541 @@
+{
+  "BotId": 
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Hi! 😃",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "We're going to learn some commonly used prepositions today. ",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 1,
+          "text": "Okay 😃",
+          "answerType": 0,
+          "nextBubbleId": 9,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+        {}
+        "id": 1,
+          "text": "What are prepositions?",
+          "answerType": 0,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 3
+    },
+    {
+      "id": 2,
+      "text": "Prepositions are words that describe the relation between two or more words in a sentence.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "For example -<br>There were two types <b>of</b> trees in the garden.<br>She is <b>in</b> trouble.<br>We will meet <b>at</b> the mall.<br>The dog hid <b>under</b> the table.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 3,
+          "text": "Okay 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "Here, the words in bold help us understand where something is, or when something will happen, etc.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 1
+    },
+    {
+      "id": 5,
+      "text": "For example -<br><b>Where</b> will we meet? We will meet <b>at</b> the mall.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 5,
+          "text": "Understood 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 6,
+      "text": "Great! Let's check your understanding! 😃",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 6,
+          "text": "Let's start 😃 ",
+          "answerType": 0,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_ofby_01",
+          "nextBubbleId": 8,
+          "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "Now, let's look at the first preposition that we are going to learn today. We can start with 'OF'.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 7,
+          "text": "Okay 😃",
+          "answerType": 0,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 1
+    },
+    {
+      "id": 8,
+      "text": "<b>Of</b> has multiple uses.<br> First- it is used as a preposition of possession. It is used to indicate that something belongs to or is connected to someone or something.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 1
+    },
+    {
+      "id": 9,
+      "text": "For example -<br>That is the notebook <b>of</b> my roommate.<br>I cannot tell you the secret <b>of</b> the game.<br>The end <b>of</b> the movie was never seen by them",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 9,
+          "text": "More examples 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 10,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+        {
+          "id": 9,
+          "text": "Okay 👍",
+          "answerType": 0,
+          "nextBubbleId": 11,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 11,
+      "delay": 1
+    },
+    {
+      "id": 10,
+      "text": "That movie is one <b>of</b> my favourites.<br>How many <b>of</b> those bags do you own?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 11
+          "text": "Got it 😃"
+          "answerType": 0,
+          "nextBubbleId": 11
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 11,
+      "delay": 1
+    },
+    {
+      "id": 11,
+      "text": "Here are a few sentences to test if you've understood the usage of <b>'of'</b>-",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 11,
+          "text": "Okay, let's start 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_test_of01"
+        }
+      ]
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 12,
+      "delay": 1
+    },
+    {
+      "id": 12,
+      "text": "Let us look at more uses of the preposition 'of'.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": []
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 13,
+      "delay": 1
+    },
+    {
+      "id": 13,
+      "text": "'Of' is also used to indicate a number/amount or to refer to something.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": []
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 1
+    },
+    {
+      "id": 14,
+      "text": "For example,<br>I had three bags <b>of</b> chips today.<br>This is a picture <b>of</> my favourite actor.<br>Friday was the best day <b>of</b> the week.<br>You can buy two pairs <b>of</b> shoes.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [
+        {
+          "id": 14,
+          "text": "Got it 😃 ",
+          "answerType": 0,
+          "nextBubbleId": 15,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 15,
+      "delay": 1
+    },
+     {
+      "id": 15,
+      "text": "Let's practise a few sentences now.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [
+        {
+          "id": 15,
+          "text": "Okay! 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 16,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_test_of02"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 16,
+      "delay": 1
+    {
+      "id": 16,
+      "text": "Shall we move to the next preposition?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 16,
+          "text": "Sure! 👍",
+          "answerType": 1,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 1
+    },
+    {
+      "id": 17,
+      "text": "Great! The next preposition is <b>by</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 18,
+      "delay": 3
+    },
+    {
+      "id": 18,
+      "text": "<b>By</b> also has multiple uses! It can be used to indicate the position of something or someone.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 19,
+      "delay": 3
+    },
+    {
+      "id": 19,
+      "text": "Examples:<br>The book was <b>by</b> the table.<br>Raj stood <b>by</b> Veena for the ceremony.<br>Good friends must stand <b>by</b> each other in difficult times.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 21,
+          "text": "Got it 👍",
+          "answerType": 1,
+          "nextBubbleId": 20,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_test_by01"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 1
+    },
+    {
+      "id": 20,
+      "text": "Let's look at the next use of <b>by</b>. It can also be used as a preposition of time to indicate when something should be done.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 21,
+      "delay": 1
+      "answers": []
+    }
+    {
+      "id": 21,
+      "text": "Examples:<br>The meeting should end <b>by</b> 6pm.<br>Meet me at the mall <b>by</b> 8pm.<br>Please submit your assignment <b>by</b> Friday.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 21,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 22,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_test_by02"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 22,
+      "delay": 1
+    },
+    {
+      "id": 22,
+      "text": "Let's revise the prepositions we learnt today.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 23,
+      "delay": 1
+    },
+    {
+      "id": 23,
+      "text": "Image caption of",
+      "responseType": 2,
+      "mediaUrl": "image_of.png",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 24,
+      "delay": 2
+    },
+    {
+      "id": 24,
+      "text": "Image caption by",
+      "responseType": 2,
+      "mediaUrl": "image_by.png",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 24,
+          "text": "Understood!"
+          "answerType": 0,
+          "nextBubbleId": 25,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_test_of_by01"
+        }
+      ],"
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 25,
+      "delay": 2
+    },
+      ],"
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 29,
+      "delay": 2
+    },
+    {
+      "id": 25,
+      "text": "You were excellent! Keep it up!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 26,
+      "delay": 2
+    },
+    {
+      "id": 26,
+      "text": "You can pick "Practice- Describe the Picture" as your next session.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 1
+    }
+  ]
+}

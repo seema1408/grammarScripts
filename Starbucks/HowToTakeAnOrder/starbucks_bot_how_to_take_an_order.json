@@ -1231,13 +1231,13 @@
             "text": "The next step is to practice with a tutor.",
             "responseType": 1,
             "mediaUrl": "",
-            "optionsCount": 2,
+            "optionsCount": 3,
             "answers": [
                 {
                     "id": 57,
                     "text": "Practice now",
                     "answerType": 0,
-                    "nextBubbleId": -2,
+                    "nextBubbleId": -4,
                     "score": 0,
                     "isEntryPointForNewBot": false,
                     "isEntryPointForNewTest": false,
@@ -1249,6 +1249,17 @@
                     "text": "Practice later",
                     "answerType": 0,
                     "nextBubbleId": 58,
+                    "score": 0,
+                    "isEntryPointForNewBot": false,
+                    "isEntryPointForNewTest": false,
+                    "questionsCount": 0,
+                    "filename": ""
+                },
+                                {
+                    "id": 57,
+                    "text": "Go to the topic",
+                    "answerType": 0,
+                    "nextBubbleId": -3,
                     "score": 0,
                     "isEntryPointForNewBot": false,
                     "isEntryPointForNewTest": false,

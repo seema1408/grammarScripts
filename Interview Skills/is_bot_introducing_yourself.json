@@ -579,13 +579,13 @@
 			"text": "Would you like to practice with a live tutor?",
 			"responseType": 1,
 			"mediaUrl": "",
-			"optionsCount": 2,
+			"optionsCount": 3,
 			"answers": [
 				{
 					"id": 27,
 					"text": "Sure!",
 					"answerType": 0,
-					"nextBubbleId": -2,
+					"nextBubbleId": -4,
 					"score": 0,
 					"isEntryPointForNewBot": false,
 					"isEntryPointForNewTest": false,
@@ -596,7 +596,18 @@
 					"id": 27,
 					"text": "Maybe later",
 					"answerType": 0,
-					"nextBubbleId": -2,
+					"nextBubbleId": 28,
+					"score": 0,
+					"isEntryPointForNewBot": false,
+					"isEntryPointForNewTest": false,
+					"questionsCount": 0,
+					"filename": ""
+				},
+								{
+					"id": 27,
+					"text": "Prep for the next topic",
+					"answerType": 0,
+					"nextBubbleId": -3,
 					"score": 0,
 					"isEntryPointForNewBot": false,
 					"isEntryPointForNewTest": false,
@@ -607,8 +618,34 @@
 			"isEntryPointForNewTest": false,
 			"questionsCount": 0,
 			"filename": "",
-			"nextBubbleId": -2,
+			"nextBubbleId": 28,
 			"delay": 1
+		},
+				{
+			"id": 28,
+			"text": "Alright! Don't forget to practice with a tutor before your interview.",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": 29,
+			"delay": 3
+		},
+						{
+			"id": 29,
+			"text": "Good luck!",
+			"responseType": 0,
+			"mediaUrl": "",
+			"optionsCount": 0,
+			"answers": [],
+			"isEntryPointForNewTest": false,
+			"questionsCount": 0,
+			"filename": "",
+			"nextBubbleId": -2,
+			"delay": 3
 		}
 	]
 }

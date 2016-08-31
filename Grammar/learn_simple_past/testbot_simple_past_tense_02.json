@@ -182,7 +182,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 8,
+      "nextBubbleId": 10,
       "delay": 1
     },
     {
@@ -299,7 +299,7 @@
     },
     {
       "id": 14,
-      "text": "💬  Quick Tip<br>Most verbs are regular verbs and can be changed to past tense by adding <b>ed</b>.",
+      "text": "💬 Quick Tip<br> To improve your past tense, keep learning new verbs and their past tense forms.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,

@@ -1,4 +1,4 @@
-{
+ {
   "BotId": 2,
   "Bubbles": [
     {
@@ -876,16 +876,16 @@
     },
     {
       "id": 40,
-      "text": "Looks like you need a little more practice.",
+      "text": "What would you like to do next?",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 2,
+      "optionsCount": 3,
       "answers": [
         {
           "id": 40,
-          "text": "Practice with a tutor",
+          "text": "Solve my doubts a tutor",
           "answerType": 0,
-          "nextBubbleId": -2,
+          "nextBubbleId": -4,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -896,7 +896,18 @@
           "id": 40,
           "text": "Continue to the next topic",
           "answerType": 0,
-          "nextBubbleId": -2,
+          "nextBubbleId": -3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+                {
+          "id": 40,
+          "text": "Continue later",
+          "answerType": 0,
+          "nextBubbleId": 41,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -907,8 +918,21 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
+      "nextBubbleId": 41,
+      "delay": 1
+    },
+        {
+      "id": 41,
+      "text": "You can always come back to revise. See you soon! 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
       "nextBubbleId": -2,
       "delay": 4
-    }
+    },
   ]
 }

@@ -65,38 +65,39 @@
     },
     {
       "id": 3,
-      "text": "<i>It was awesome</i>  is in <b>simple past tense</b>. <br>It indicates something that has <b>already happened</b>.",
-      "responseType": 1,
+      "text": "<i>It was awesome</i>  is in <b>simple past tense</b>.",
+      "responseType": 0,
       "mediaUrl": "",
-      "optionsCount": 1,
-      "answers": [
-        {
-          "id": 3,
-          "text": "Got it 👍",
-          "answerType": 0,
-          "nextBubbleId": 5,
-          "score": 0,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        }
-      ],
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 5,
+      "nextBubbleId": 50,
       "delay": 1
     },
     {
       "id": 4,
-      "text": "<i>It was boring</i>  is in <b>simple past tense</b>. <br>It indicates something that has <b>already happened</b>.",
+      "text": "<i>It was boring</i> is in <b>simple past tense</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 50,
+      "delay": 1
+    },
+        {
+      "id": 50,
+      "text": "Here, you are talking what has <b>already happened</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
-        {
-          "id": 4,
+              {
+          "id": 50,
           "text": "Got it 👍",
           "answerType": 0,
           "nextBubbleId": 5,
@@ -115,7 +116,7 @@
     },
     {
       "id": 5,
-      "text": "Here's a simple exercise. Choose the sentence that is in <b>simple past</b>.",
+      "text": "Here's a simple exercise. Choose the sentence that is in <b>simple past tense</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -140,7 +141,7 @@
     },
     {
       "id": 6,
-      "text": "Not bad 👏 <br>Now let's look at how a verb changes while using past tense.",
+      "text": "Not bad 👏 <br>Now let's look at how a verb changes for past tense.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -176,7 +177,7 @@
     },
     {
       "id": 7,
-      "text": "Let's start with regular verbs. <br><b>Regular verbs</b> are verbs whose past tense forms simply have -<b>ed</b> at the end.",
+      "text": "For <b>regular verbs</b>, we simply add <i>ed</i> at the end to make its past tense form.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -201,7 +202,20 @@
     },
     {
       "id": 8,
-      "text": "Let's look at the regular verb <b>play</b>.<br><br>I <b>played</b> with the dog.<br>You <b>played</b> with the dog.<br>She / He / It <b>played</b> with the dog.<br>We / They <b>played</b> with the dog.",
+      "text": "Look at these examples using the verb <b>play</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 51,
+      "delay": 4
+    },
+        {
+      "id": 51,
+      "text": "I <b>played</b> with the dog.<br><br>You <b>played</b> with the dog.<br><br>Gopi <b>played</b> with the dog.<br><br>The children <b>played</b> with the dog.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -210,11 +224,11 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 9,
-      "delay": 4
+      "delay": 6
     },
     {
       "id": 9,
-      "text": "Notice how the verb <b>play</b> has become <b>play+ed</b> in past tense. 😊 ",
+      "text": "🔍 Notice how the verb <b>play</b> has become <b>play+ed</b> in past tense.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -264,16 +278,16 @@
     },
     {
       "id": 11,
-      "text": "Verbs which cannot be made into past tense by adding ed at the end are called <b>irregular verbs</b>.",
+      "text": "Verbs which cannot be made into past tense by adding <i>ed</i> at the end are called <b>irregular verbs</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 11,
-          "text": " Could you explain in detail?",
+          "text": "Could you explain in detail?",
           "answerType": 0,
-          "nextBubbleId": 13,
+          "nextBubbleId": 12,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -284,11 +298,11 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 13,
+      "nextBubbleId": 12,
       "delay": 1
     },
     {
-      "id": 13,
+      "id": 12,
       "text": "With pleasure 😃",
       "responseType": 0,
       "mediaUrl": "",
@@ -297,12 +311,37 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 14,
+      "nextBubbleId": 13,
       "delay": 4
     },
     {
+      "id": 13,
+      "text": "Let's look at the irregular verb <b>teach</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+              {
+          "id": 13,
+          "text": "Sure!",
+          "answerType": 0,
+          "nextBubbleId": 14,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 1
+    },
+        {
       "id": 14,
-      "text": "Let's look at the irregular verb <b>teach</b>.<br><br>I <b>taught</b> English.<br>You <b>taught</b> English.<br>She / He / It <b>taught</b> English.<br>We / They <b>taught</b> English.",
+      "text": "I <b>taught</b> English.<br><br>You <b>taught</b> English.<br><br>The man <b>taught</b> English.<br><br>They <b>taught</b> English.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -315,7 +354,7 @@
     },
     {
       "id": 15,
-      "text": " Notice how the past tense of <b>teach</b> is <b>taught</b>, and not teached.",
+      "text": "🔍 Notice how the past tense of <b>teach</b> is <b>taught</b>, and not teached.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -365,7 +404,7 @@
     },
     {
       "id": 17,
-      "text": "Let's do a quick test for irregular verbs. Choose the correct past tense sentence.",
+      "text": "Let's take a quick test for <b>irregular verbs</b>. Choose the correct past tense sentence.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -374,7 +413,7 @@
           "id": 17,
           "text": "Alright!",
           "answerType": 0,
-          "nextBubbleId": 17,
+          "nextBubbleId": 18,
           "score": 0,
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
@@ -390,7 +429,7 @@
     },
     {
       "id": 18,
-      "text": "Let's work on a few sentences, to practice regular and irregular verbs!",
+      "text": "Let's study a few sentences to practice regular and irregular verbs!",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -475,7 +514,7 @@
       "answers": [
         {
           "id": 21,
-          "text": "I'm a fast learner 🙂",
+          "text": "I'm a fast learner 😃",
           "answerType": 0,
           "nextBubbleId": 22,
           "score": 0,
@@ -504,11 +543,23 @@
     },
     {
       "id": 22,
-      "text": "We commonly use simple past tense while talking about <br>- memories<br>- past incidences<br>- events that happened",
-      "responseType": 0,
+      "text": "We usually use simple past tense while talking about <br><br>- memories<br>- past incidences<br>- events that happened",
+      "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
+      "optionsCount": 1,
+      "answers": [
+                {
+          "id": 22,
+          "text": "I see",
+          "answerType": 0,
+          "nextBubbleId": 23,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
@@ -532,9 +583,21 @@
       "id": 24,
       "text": "",
       "responseType": 3,
-      "mediaUrl": "past_tense_01.3gp",
-      "optionsCount": 0,
-      "answers": [],
+      "mediaUrl": "simple_past_01.3gp",
+      "optionsCount": 1,
+      "answers": [
+                      {
+          "id": 24,
+          "text": "I'm ready for the test 👍",
+          "answerType": 0,
+          "nextBubbleId": 25,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
@@ -588,7 +651,7 @@
           "id": 26,
           "text": "gone",
           "answerType": 1,
-          "nextBubbleId": 26,
+          "nextBubbleId": 27,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -599,7 +662,7 @@
           "id": 26,
           "text": "went",
           "answerType": 1,
-          "nextBubbleId": 26,
+          "nextBubbleId": 27,
           "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -664,14 +727,14 @@
     },
     {
       "id": 29,
-      "text": "To understand past tense better, practice talking about <i>My Weekend</i> with a tutor.",
+      "text": "To understand past tense better, talk to a tutor on the topic 'My Weekend'.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
       "answers": [
         {
           "id": 29,
-          "text": "Practice now",
+          "text": "I'd like to practice now.",
           "answerType": 0,
           "nextBubbleId": -4,
           "score": 0,
@@ -682,7 +745,7 @@
         },
                 {
           "id": 29,
-          "text": "Maybe later",
+          "text": "I'll practice later.",
           "answerType": 0,
           "nextBubbleId": 30,
           "score": 0,
@@ -693,7 +756,7 @@
         },
                         {
           "id": 29,
-          "text": "Learn the next topic",
+          "text": "I'd like to learn the next topic.",
           "answerType": 0,
           "nextBubbleId": -3,
           "score": 0,

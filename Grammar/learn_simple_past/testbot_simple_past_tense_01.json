@@ -1,5 +1,5 @@
 {
-  "BotId": 8,
+  "BotId": 1005,
   "Bubbles": [
     {
       "id": 0,
@@ -89,7 +89,7 @@
     },
     {
       "id": 4,
-      "text": "To identify the right answer, look for-<br>I <b>was</b>...<br>You/We/They <b>were</b>...<br>He/She/It <b>was</b>...",
+      "text": "To identify the right answer, look for<br>I <b>was</b>...<br>You, we or they <b>were</b>...<br>He, she or it <b>was</b>...",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -187,7 +187,7 @@
     },
     {
       "id": 8,
-      "text": "Here are a few more 😊",
+      "text": "",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
@@ -196,7 +196,7 @@
           "id": 8,
           "text": "They were very tired.",
           "answerType": 1,
-          "nextBubbleId": 69,
+          "nextBubbleId": 9,
           "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -229,7 +229,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": -1,
+      "nextBubbleId": 9,
       "delay": 1
     },
     {

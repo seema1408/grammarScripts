@@ -75,7 +75,7 @@
     },
     {
       "id": 2,
-      "text": "We ___ he moved to Canada.",
+      "text": "We ___ moved to Canada.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -216,6 +216,6 @@
       "filename": "",
       "nextBubbleId": 6,
       "delay": 1
-    },
+    }
   ]
 }

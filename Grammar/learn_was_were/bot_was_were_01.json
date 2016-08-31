@@ -3,7 +3,7 @@
   "Bubbles": [
     {
       "id": 0,
-      "text": "Hi! How was your weekend?",
+      "text": "Hi! How was your day?",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -77,7 +77,7 @@
     },
     {
       "id": 3,
-      "text": "We say -<br><br>I <b>was</b>...<br>You/We/They <b>were</b>...<br>He/She/It <b>was</b>...",
+      "text": "We say -<br><br>I <b>was</b>...<br>You, we or they <b>were</b>...<br>He, she or it <b>was</b>...",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -102,7 +102,7 @@
     },
     {
       "id": 4,
-      "text": "For example -<br><br>I <b>was</b> scared.<br><They <b>were</b> a family of doctors.<br>Mr. Malhotra <b>was</b> a good cook.",
+      "text": "For example -<br><br>I <b>was</b> scared.<br><br>They <b>were</b> a family of doctors.<br><br>Mr. Malhotra <b>was</b> a good cook.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -127,7 +127,7 @@
     },
     {
       "id": 5,
-      "text": "Let's see how much you understood.",
+      "text": "Let's see how much you've understood.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -263,7 +263,7 @@
     },
     {
       "id": 12,
-      "text": "You/We/They were... ✅",
+      "text": "You/We/They <b>were</b>... ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -301,7 +301,7 @@
     },
     {
       "id": 14,
-      "text": "Let's see how much you understood.",
+      "text": "What were you doing before you started this session?",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
@@ -319,7 +319,7 @@
         },
         {
           "id": 14,
-          "text": "I was using Sling.",
+          "text": "I was watching TV",
           "answerType": 0,
           "nextBubbleId": 15,
           "score": 0,
@@ -393,7 +393,7 @@
       "answers": [
         {
           "id": 17,
-          "text": "Understood",
+          "text": "Sure 😊",
           "answerType": 0,
           "nextBubbleId": 18,
           "score": 0,
@@ -422,13 +422,38 @@
     },
     {
       "id": 18,
-      "text": "📝 For multiple people or objects, we use - <b>were verb+ing</b>...<br><i>We were dancing.</i><br><i>They were speaking French</i>.",
+      "text": "📝 For many people or objects, we use <b>were verb+ing</b>.<br>",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 18,
+          "text": "Could you show me some examples?",
+          "answerType": 0,
+          "nextBubbleId": 50,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 50,
+      "delay": 1
+    },
+        {
+      "id": 50,
+      "text": "Take a look at these 👇<br><br>We <b>were dancing</b>.<br><br>They <b>were speaking</b> French.<br><br>The cats <b>were sleeping</b>.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 50,
           "text": "Noted 👍",
           "answerType": 0,
           "nextBubbleId": 19,
@@ -442,18 +467,43 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 19,
+      "nextBubbleId": 50,
       "delay": 1
     },
-    {
+            {
       "id": 19,
-      "text": "📝  For singular people or objects - <b>was verb+ing</b>...<br><br></i>She was cooking.<br><i>I was studying last night</i>.",
+      "text": "📝 For one person or object, we use <b>was verb+ing</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 19,
+          "text": "Understood",
+          "answerType": 0,
+          "nextBubbleId": 51,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 51,
+      "delay": 1
+    },
+    {
+      "id": 51,
+      "text": "Here are a few examples.<br><br>She <b>was cooking</b>.<br><br>I <b>was studying</b> last night.<br><br>John <b>was hoping</b> I'd call.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 51,
           "text": "Let's practice",
           "answerType": 0,
           "nextBubbleId": 0,
@@ -471,12 +521,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 20,
+      "nextBubbleId": 23,
       "delay": 1
     },
     {
       "id": 20,
-      "text": "Make sure you study rules we just learnt again.",
+      "text": "Make sure you study the rules we just learnt again.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -552,7 +602,7 @@
     },
     {
       "id": 24,
-      "text": "<i>They were swimming in the ocean.</i><br><i>My sister was playing with her friends.</i><br><br>These sentences are in...",
+      "text": "<i>They were swimming in the ocean.</i><br><br><i>My sister was playing with her friends.</i><br><br>These sentences are in...",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -588,7 +638,7 @@
     },
     {
       "id": 25,
-      "text": "<i>He was scared of dogs.</i><br><i>They were excellent swimmers. </i><br><br>These sentences are in...",
+      "text": "<i>He was scared of dogs.</i><br><br><i>They were excellent swimmers. </i><br><br>These sentences are in...",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -662,7 +712,67 @@
     },
     {
       "id": 28,
-      "text": "Keep practising!",
+      "text": "The next step is to practice what you've learnt today with a tutor.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+              {
+          "id": 28,
+          "text": "Practice now",
+          "answerType": 0,
+          "nextBubbleId": -4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+                      {
+          "id": 28,
+          "text": "Practice later",
+          "answerType": 0,
+          "nextBubbleId": 29,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+                              {
+          "id": 28,
+          "text": "Learn the next topic",
+          "answerType": 0,
+          "nextBubbleId": -3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 29,
+      "delay": 2
+    },
+        {
+      "id": 29,
+      "text": "Alright! Hope you enjoyed this session.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 30,
+      "delay": 3
+    },
+            {
+      "id": 30,
+      "text": "Bye 😊",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
