@@ -1,80 +1,42 @@
 {
-  "BotId": 10005,
+  "BotId": 
   "Bubbles": [
     {
       "id": 0,
-      "text": "Pick the correct sentence.",
-      "responseType": 1,
+      "text": "Identify the preposition in the following sentences.",
+      "responseType": 0,
       "mediaUrl": "",
-      "optionsCount": 2,
-      "answers": [
-        {
-          "id": 0,
-          "text": "My book has been missing since yesterday.",
-          "answerType": 1,
-          "nextBubbleId": 1,
-          "score": 1,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        },
-        {
-          "id": 0,
-          "text": "He hasn't called me since months.",
-          "answerType": 1,
-          "nextBubbleId": 2,
-          "score": 0,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        }
-      ],
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 3,
-      "delay": 1
+      "nextBubbleId": 1,
+      "delay": 2
     },
     {
       "id": 1,
-      "text": "Well done!",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 3,
-      "delay": 3
-    },
-    {
-      "id": 2,
-      "text": "since months ❌<br>in months ✅",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 3,
-      "delay": 1
-    },
-    {
-      "id": 3,
-      "text": "",
+      "text": "The book is under the bag.",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 2,
+      "optionsCount": 3,
       "answers": [
         {
-          "id": 3,
-          "text": "I haven't met him since years.",
+          "id": 1,
+          "text": "under",
           "answerType": 1,
-          "nextBubbleId": 4,
+          "nextBubbleId": 2,
+          "score": 1,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 1,
+          "text": "bag",
+          "answerType": 1,
+          "nextBubbleId": 3,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -82,11 +44,11 @@
           "filename": ""
         },
         {
-          "id": 3,
-          "text": "I haven't met him since August.",
+          "id": 1,
+          "text": "is",
           "answerType": 1,
-          "nextBubbleId": 5,
-          "score": 1,
+          "nextBubbleId": 3,
+          "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -96,56 +58,118 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 6,
+      "nextBubbleId": 4,
       "delay": 1
-    }
+    },
+    {
+      "id": 2,
+      "text": "Excellent! 😃",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 2
+    },
+    {
+      "id": 3,
+      "text": "The correct answer is <b>under</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 2
+    },
     {
       "id": 4,
-      "text": "since years ❌<br>in years ✅",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 3,
-      "delay": 3
-    },
-    {
-      "id": 5,
-      "text": "Keep it up!",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 6,
-      "delay": 1
-    },
- {
-      "id": 6,
-      "text": "",
+      "text": "I have two shirts of the same colour.",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 2,
+      "optionsCount": 3,
       "answers": [
         {
-          "id": 6,
-          "text": "The shop has been closed since Sunday.",
+          "id": 4,
+          "text": "same",
           "answerType": 1,
-          "nextBubbleId": 7,
-          "score": 1,
+          "nextBubbleId": 5,
+          "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
         },
         {
-          "id": 6,
-          "text": "The shop will be closed since December.",
+          "id": 4,
+          "text": "of",
+          "answerType": 1,
+          "nextBubbleId": 6,
+          "score": 1,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 4,
+          "text": "have",
+          "answerType": 1,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 7,
+      "delay": 1
+    },
+    {
+      "id": 5,
+      "text": "<b>of</b> ✔️ ",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 7,
+      "delay": 2
+    },
+    {
+      "id": 6,
+      "text": "Excellent! 😃 ",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 7,
+      "delay": 2
+    },
+    {
+      "id": 7,
+      "text": "He will meet her in the lobby.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 7,
+          "text": "lobby",
           "answerType": 1,
           "nextBubbleId": 8,
           "score": 0,
@@ -153,30 +177,39 @@
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
+        },
+        {
+          "id": 7,
+          "text": "will",
+          "answerType": 1,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 7,
+          "text": "in",
+          "answerType": 1,
+          "nextBubbleId": 9,
+          "score": 1,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
         }
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 9,
+      "nextBubbleId": 10,
       "delay": 1
-    }
-    {
-      "id": 7,
-      "text": "Very good!",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 9,
-      "delay": 3
     },
     {
       "id": 8,
-      "text": "We can't use since here because it talks about an action that will take place in the future.",
+      "text": "The correct answer is <b>in</b>! ",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -184,84 +217,46 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 9,
-      "delay": 1
+      "nextBubbleId": 10,
+      "delay": 2
     },
-{
+    {
       "id": 9,
-      "text": "",
-      "responseType": 1,
+      "text": "Excellent! 😃 ",
+      "responseType": 0,
       "mediaUrl": "",
-      "optionsCount": 2,
-      "answers": [
-        {
-          "id": 9,
-          "text": "I stayed with him since three weeks.",
-          "answerType": 1,
-          "nextBubbleId": 10,
-          "score": 0,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        },
-        {
-          "id": 9,
-          "text": "I have stayed with him since Diwali.",
-          "answerType": 1,
-          "nextBubbleId": 11,
-          "score": 1,
-          "isEntryPointForNewBot": false,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": ""
-        }
-      ],
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 9,
-      "delay": 1
-    }
+      "nextBubbleId": 10,
+      "delay": 2
+    },
     {
       "id": 10,
-      "text": "since three weeks ❌
- <br>for three weeks ✅",
+      "text": "Here are a few more 😃",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
-      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 12,
-      "delay": 3
+      "nextBubbleId": 11,
+      "delay": 1
     },
     {
       "id": 11,
-      "text": "in ❌<br>for  ✅",
-      "responseType": 0,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "answers": [],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 12,
-      "delay": 1
-    },
-{
-      "id": 12,
-      "text": "",
+      "text": "I put the bag above the cupboard.",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 2,
+      "optionsCount": 3,
       "answers": [
         {
-          "id": 12,
-          "text": "I haven't seen a movie since a month.",
+          "id": 11,
+          "text": "put",
           "answerType": 1,
-          "nextBubbleId": 13,
+          "nextBubbleId": 12,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -269,12 +264,23 @@
           "filename": ""
         },
         {
-          "id": 12,
-          "text": "I haven't seen a movie since my birthday.",
+          "id": 11,
+          "text": "above",
           "answerType": 1,
-          "nextBubbleId": 14,
+          "nextBubbleId": 13,
           "score": 1,
           "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 11,
+          "text": "cupboard",
+          "answerType": 1,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
@@ -283,13 +289,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 13,
+      "nextBubbleId": 14,
       "delay": 1
-    }
+    },
     {
-      "id": 13,
-      "text": "since a month ❌
- <br>in a month✅",
+      "id": 12,
+      "text": "<b>above</b> ✔️  ",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -297,12 +302,72 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 13,
-      "delay": 3
+      "nextBubbleId": 14,
+      "delay": 2
+    },
+    {
+      "id": 13,
+      "text": "Excellent! 😃 ",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 2
     },
     {
       "id": 14,
-      "text": "Awesome!",
+      "text": "He hid in the car.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 14,
+          "text": "he",
+          "answerType": 1,
+          "nextBubbleId": 15,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 14,
+          "text": "hid",
+          "answerType": 1,
+          "nextBubbleId": 15,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 14,
+          "text": "in",
+          "answerType": 1,
+          "nextBubbleId": 16,
+          "score": 1,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 16,
+      "delay": 1
+    },
+    {
+      "id": 15,
+      "text": "<b>in</b> ✔️ ",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -310,8 +375,21 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 13,
-      "delay": 1
+      "nextBubbleId": -1,
+      "delay": 2
     },
+    {
+      "id": 16,
+      "text": "Excellent! 😃",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 2
+    }
   ]
 }

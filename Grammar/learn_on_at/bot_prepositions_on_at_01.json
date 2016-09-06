@@ -6,6 +6,7 @@
       "text": "Hi! 😃",
       "responseType": 0,
       "mediaUrl": "",
+      "answers": [],
       "optionsCount": 0,
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
@@ -15,14 +16,14 @@
     },
     {
       "id": 1,
-      "text": "We're going to learn some commonly used prepositions today. ",
+      "text": "We're going to learn some commonly used <b>prepositions</b> today. ",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 1,
-          "text": "Okay 😃",
+          "text": "What are prepositions?",
           "answerType": 0,
           "nextBubbleId": 2,
           "score": 0,
@@ -40,7 +41,7 @@
     },
     {
       "id": 2,
-      "text": "First, let's discuss what prepositions are.",
+      "text": "Prepositions tell us -<br>- <b>where</b> an object is<br>- <b>when</b> an activity happens.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -61,31 +62,31 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 3,
-      "delay": 1
+      "delay": 3
     },
     {
       "id": 3,
-      "text": "Prepositions are words that describe the relation between two or more words in a sentence.",
-      "responseType": 0,
-      "mediaUrl": "",
+      "text": "Let's describe this image using prepositions.",
+      "responseType": 2,
+      "mediaUrl": "laptop_table.jpg",
       "optionsCount": 0,
       "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 4,
-      "delay": 1
+      "delay": 3
     },
     {
       "id": 4,
-      "text": "For example -<br>The book was <b>on</b> the table.<br>She is <b>at</b> the bar.<br>He will be here <b>in</b> an hour.<br>They are jumping <b>over</b> the wall.",
+      "text": "The laptop is <b>on</b> the table.<br>A mug is kept <b>next to</b> the laptop.<br>There is coffee <b>in</b> the mug.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 4,
-          "text": "Noted ✍️",
+          "text": "I see",
           "answerType": 0,
           "nextBubbleId": 5,
           "score": 0,
@@ -99,11 +100,11 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 5,
-      "delay": 1
+      "delay": 2
     },
     {
       "id": 5,
-      "text": "Prepositions can help us understand where an object is.",
+      "text": "<i><b>On</b></i>, <i><b>next to</b></i> and <i><b>in</b></i> are prepostions.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -112,11 +113,11 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 6,
-      "delay": 1
+      "delay": 4
     },
     {
       "id": 6,
-      "text": "For example -<br><b>Where</b> is she? She is <b>at</b> the bar.",
+      "text": "You can identify prepositions by asking - <i>where?</i><br><br><i>Where</i> is she? <br>She is <b>at</b> the bar.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -137,7 +138,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 7,
-      "delay": 1
+      "delay": 3
     },
     {
       "id": 7,
@@ -194,6 +195,7 @@
       "text": "<b>On</b> is used when an object is placed on a surface.",
       "responseType": 0,
       "mediaUrl": "",
+      "answers": [],
       "optionsCount": 0,
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
@@ -217,7 +219,7 @@
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": "testbot_prepositions_on_at_01"
+          "filename": "testbot_prepositions_on_at_02"
         }
       ],
       "isEntryPointForNewTest": false,
@@ -228,7 +230,7 @@
     },
     {
       "id": 11,
-      "text": "<i>On</i> can be used as a preposition of time as well.",
+      "text": "<i>On</i> can be used as a preposition of <b>time</b> as well.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -237,7 +239,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 12,
-      "delay": 1
+      "delay": 3
     },
     {
       "id": 12,
@@ -262,7 +264,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 13,
-      "delay": 1
+      "delay": 3
     },
     {
       "id": 13,
@@ -273,7 +275,7 @@
       "answers": [
         {
           "id": 13,
-          "text": "Got it 😃 ",
+          "text": "Got it 😃",
           "answerType": 0,
           "nextBubbleId": 14,
           "score": 0,
@@ -329,7 +331,7 @@
     },
     {
       "id": 16,
-      "text": "<b>At</b> can be used for <b>places</b> and <b>time</b>.",
+      "text": "<b>At</b> can be used for <b>places</b>. For example -",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -342,9 +344,9 @@
     },
     {
       "id": 17,
-      "text": "She was sitting <b>at</b> the table.<br>He was waiting <b>at</b> the cafe.<br>I will study <b>at</b> night.<br>They will be there <b>at</b> 8 pm.",
-      "responseType": 1,
-      "mediaUrl": "",
+      "text": "She was sitting <b>at</b> the table.",
+      "responseType": 2,
+      "mediaUrl": "at_1.jpg",
       "optionsCount": 1,
       "answers": [
         {
@@ -352,43 +354,6 @@
           "text": "Got it 👍",
           "answerType": 1,
           "nextBubbleId": 18,
-          "score": 0,
-          "isEntryPointForNewBot": true,
-          "isEntryPointForNewTest": false,
-          "questionsCount": 0,
-          "filename": "testbot_prepositions_on_at_04"
-        }
-      ],
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 18,
-      "delay": 1
-    },
-    {
-      "id": 18,
-      "text": "Let's revise.",
-      "responseType": 1,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "nextBubbleId": 19,
-      "delay": 1
-    },
-    {
-      "id": 19,
-      "text": "Let's look at the uses of at and on.",
-      "responseType": 2,
-      "mediaUrl": "on-at.png",
-      "optionsCount": 1,
-      "answers": [
-        {
-          "id": 19,
-          "text": "Got it 👍",
-          "answerType": 0,
-          "nextBubbleId": 20,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -399,32 +364,145 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 20,
-      "delay": 1
+      "nextBubbleId": 18,
+      "delay": 3
     },
     {
-      "id": 20,
-      "text": "You've done very well! Keep it up!",
+      "id": 18,
+      "text": "<b>At</b> can also be used for <b>time</b>.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 19,
+      "delay": 3
+    },
+    {
+      "id": 19,
+      "text": "I have an appointment <b>at</b> 10:20 AM.",
+      "responseType": 2,
+      "mediaUrl": "at_3.jpg",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 19,
+          "text": "Understood",
+          "answerType": 1,
+          "nextBubbleId": 20,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "testbot_prepositions_on_at_04"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 3
+    },
+    {
+      "id": 20,
+      "text": "You've learnt how to use <b>on</b> and <b>at</b>. Keep it up!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 21,
-      "delay": 2
+      "delay": 3
     },
     {
       "id": 21,
-      "text": "You can come back anytime for a quick revision.",
+      "text": "Next, you must practice using <b>on</b> and <b>at</b> while talking to a tutor.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 3,
+      "answers": [
+        {
+          "id": 21,
+          "text": "Practice now",
+          "answerType": 0,
+          "nextBubbleId": -4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 21,
+          "text": "Learn more prepositions",
+          "answerType": 0,
+          "nextBubbleId": -3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 21,
+          "text": "Continue later",
+          "answerType": 0,
+          "nextBubbleId": 22,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 22,
+      "delay": 1
+    },
+    {
+      "id": 22,
+      "text": "Okay 😊",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 23,
+      "delay": 3
+    },
+    {
+      "id": 23,
+      "text": "Don't forget to revise what you learnt in this session.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 24,
+      "delay": 2
+    },
+    {
+      "id": 24,
+      "text": "See you soon!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": -2,
-      "delay": 1
+      "delay": 2
     }
   ]
 }

@@ -50,11 +50,11 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 3,
-      "delay": 1
+      "delay": 3
     },
     {
       "id": 3,
-      "text": " For example -<br>I should buy <b>a</b> pen.<br>We met <b>an</b> architect.<br><b>The</b> players will arrive shortly.",
+      "text": " For example -<br><br>I should buy <b>a</b> pen.<br><br>We met <b>an</b> architect.<br><br><b>The</b> players will arrive shortly.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -63,11 +63,11 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 4,
-      "delay": 3
+      "delay": 2
     },
     {
       "id": 4,
-      "text": "Notice how <i>a</i>, <i>an</i> and <i>the</i> are used to point towards a <b>noun</b> (person, place or object).",
+      "text": "Notice how <i>a</i>, <i>an</i> and <i>the</i> are used to point towards a <b>noun</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -179,7 +179,7 @@
     },
     {
       "id": 9,
-      "text": "I want to buy <b>a</b> dress (noun).<br>He is <b>an</b> honorable man (noun).<br><b>A</b>child (noun) is crying.",
+      "text": "I want to buy <b>a</b> dress (noun).<br><br>He is <b>an</b> honorable man (noun).<br><br><b>A</b> child (noun) is crying.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -299,7 +299,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 13,
+      "nextBubbleId": 14,
       "delay": 1
     },
     {
@@ -317,7 +317,7 @@
     },
     {
       "id": 17,
-      "text": "Let's start with <b>a</b>. Choose the right option-",
+      "text": "Choose the sentence in which <b>a</b> is used correctly.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
@@ -377,7 +377,7 @@
     },
     {
       "id": 19,
-      "text": "1 <b>test</b><br>2 or more <b>tests</b><br>So, a tests is wrong❌",
+      "text": "1 <b>test</b><br>2 or more <b>tests</b><br>So, <i>a tests</i> is wrong❌",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -398,7 +398,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 20,
+      "nextBubbleId": 21,
       "delay": 3
     },
     {
@@ -429,7 +429,7 @@
     },
     {
       "id": 23,
-      "text": "Let's start with <b>a</b>. Choose the right option-",
+      "text": "Next...",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 3,
@@ -489,7 +489,7 @@
     },
     {
       "id": 25,
-      "text": "1 car = 1 object = <b>singular</b> noun. So,<br><br>buying car ❌",
+      "text": "1 car = 1 object = <b>singular</b> noun. So, <i>buying car/i> is incorrect. ❌",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -540,7 +540,7 @@
     },
     {
       "id": 28,
-      "text": "An is used in front of words which begin with vowel sounds.",
+      "text": "<b>An</b> is used in front of words which begin with vowel sounds.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -554,7 +554,7 @@
           "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": "bots_vowels"
+          "filename": "bot_vowels"
         }
       ],
       "isEntryPointForNewTest": false,
@@ -581,10 +581,10 @@
       "text": "Fill in the blanks with <b>a</b> or <b>an</b>.",
       "responseType": 0,
       "mediaUrl": "",
-      "optionsCount": 10,
+      "optionsCount": 0,
       "answers": [],
       "isEntryPointForNewTest": true,
-      "questionsCount": 0,
+      "questionsCount": 10,
       "filename": "test_indefinite_articles_01",
       "nextBubbleId": 31,
       "delay": 1
@@ -629,16 +629,38 @@
     },
     {
       "id": 33,
-      "text": "Make sure you practice everything we learnt today with a tutor. ",
+      "text": "The next step is to practice using <b>indefinite articles</b> in a real conversation. 💁💬",
       "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 1,
+      "optionsCount": 3,
       "answers": [
         {
           "id": 33,
-          "text": "I will 😊",
+          "text": "Practice with a tutor now",
           "answerType": 0,
-          "nextBubbleId": -2,
+          "nextBubbleId": -4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 33,
+          "text": "Learn the next topic",
+          "answerType": 0,
+          "nextBubbleId": -3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 33,
+          "text": "Continue later",
+          "answerType": 0,
+          "nextBubbleId": 34,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -646,6 +668,32 @@
           "filename": ""
         }
       ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 34,
+      "delay": 1
+    },
+    {
+      "id": 34,
+      "text": "Make sure you revise everything we've learnt in this session.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 35,
+      "delay": 2
+    },
+    {
+      "id": 35,
+      "text": "See you 😊",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",

@@ -3,7 +3,7 @@
   "Bubbles": [
     {
       "id": 0,
-      "text": "Pick the sentence where on should be used for time",
+      "text": "Pick the sentence where <b>on</b> should be used for <b>time</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -83,7 +83,7 @@
         },
         {
           "id": 3,
-          "text": "They are sitting at the sofa.",
+          "text": "The dog was barking ___ the thief.",
           "answerType": 1,
           "nextBubbleId": 5,
           "score": 0,

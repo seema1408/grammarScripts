@@ -1,0 +1,602 @@
+{
+  "BotId": 
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "Hi! 😃",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 1
+    },
+    {
+      "id": 1,
+      "text": "We're going to learn some commonly used prepositions today. ",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 1,
+          "text": "Okay 😃",
+          "answerType": 0,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+        {}
+        "id": 1,
+          "text": "What are prepositions?",
+          "answerType": 0,
+          "nextBubbleId": 2,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 3
+    },
+    {
+      "id": 2,
+      "text": "Prepositions are words that describe the relation between two or more words in a sentence.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 1
+    },
+    {
+      "id": 3,
+      "text": "For example -<br>There were two types <b>of</b> trees in the garden.<br>She is <b>in</b> trouble.<br>We will meet <b>at</b> the mall.<br>The dog hid <b>under</b> the table.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 3,
+          "text": "Okay 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 1
+    },
+    {
+      "id": 4,
+      "text": "Here, the words in bold help us understand where something is, or when something will happen, etc.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 1
+    },
+    {
+      "id": 5,
+      "text": "For example -<br><b>Where</b> will we meet? We will meet <b>at</b> the mall.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 5,
+          "text": "Understood 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 1
+    },
+    {
+      "id": 6,
+      "text": "Great! Let's check your understanding! 😃",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 6,
+          "text": "Let's start 😃 ",
+          "answerType": 0,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_under_test01",
+          "nextBubbleId": 7,
+          "delay": 1
+    },
+    {
+      "id": 7,
+      "text": "All three prepositions that we will be learning are prepositions of place. They indicate where an object or person is.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 7,
+          "text": "Okay 😃",
+          "answerType": 0,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 1
+    },
+    {
+      "id": 8,
+      "text": "Let's look at examples of each preposition one by one, beginning with <b>Under</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 1
+    },
+    {
+      "id": 9,
+      "text": "</b>Under</b> means directly below. For example-<br>The bag is <b>under</b> the table.<br>Ravi was sitting <b>under</b> the fan.<br>The dog was hiding <b>under</b> the blanket.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 9,
+          "text": "More examples 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 10,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+        {
+          "id": 9,
+          "text": "Okay 👍",
+          "answerType": 0,
+          "nextBubbleId": 11,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 11,
+      "delay": 1
+    },
+    {
+      "id": 10,
+      "text": "You can find the letter <b>under</b> my book.<br>The pen has fallen <b>under</b> the bed.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 10
+          "text": "Got it 😃"
+          "answerType": 0,
+          "nextBubbleId": 11
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 11,
+      "delay": 1
+    },
+    {
+      "id": 11,
+      "text": "Let's practise!",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 11,
+          "text": "Okay 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_test_under01"
+        }
+      ]
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 12,
+      "delay": 1
+    },
+    {
+      "id": 12,
+      "text": "Got it 😃",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": []
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 13,
+      "delay": 1
+    },
+    {
+      "id": 13,
+      "text": "The next preposition, <b>In Front Of</b> is used to indicate something/someone that is ahead of something/ someone else.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": []
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 1
+    },
+    {
+      "id": 14,
+      "text": "For example,<br>Maya stood <b>in front of</b> Reena in the lunch line.<br>Anu wanted to park her car <b>in front of</b> Isha's.<br>The driver braked when the dog ran <b>in front of</b> the car.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [
+        {
+          "id": 14,
+          "text": "Got it 😃 ",
+          "answerType": 0,
+          "nextBubbleId": 15,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 15,
+      "delay": 1
+    },
+     {
+      "id": 15,
+      "text": "Let's practise a few sentences now.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [
+        {
+          "id": 15,
+          "text": "Okay! 👍🏼",
+          "answerType": 0,
+          "nextBubbleId": 16,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_test_infrontof01"
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 16,
+      "delay": 1
+    {
+      "id": 16,
+      "text": "Shall we move to the last preposition?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 16,
+          "text": "Okay! 👍",
+          "answerType": 1,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 17,
+      "delay": 1
+    },
+    {
+      "id": 17,
+      "text": "Great! The last preposition for this session is <b>next to</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 18,
+      "delay": 3
+    },
+    {
+      "id": 18,
+      "text": "<b>Next to</b> indicates that someone/something is beside someone/something else.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 19,
+      "delay": 3
+    },
+    {
+      "id": 19,
+      "text": "For example-<br>Reema sat <b>next to</b> Alisha during the exam.<br>The toothbrush was <b>next to</b> the toothpaste.<br>The parrots' cage was <b>next to</b> the eagles' cage in the zoo.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 19,
+          "text": "Got it 👍",
+          "answerType": 1,
+          "nextBubbleId": 20,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 20,
+      "delay": 1
+    },
+    {
+      "id": 20,
+      "text": "Let's practise a few sentences now.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewBot": true,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "bot_prepositions_test_nextto01",
+      "nextBubbleId": 21,
+      "delay": 1
+    },
+    {
+      "id": 21,
+      "text": "Let's revise all three prepositions that we learnt today.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 22,
+      "delay": 1
+      "answers": [
+      {
+          "id": 21,
+          "text": "Okay!👍🏼",
+          "answerType": 1,
+          "nextBubbleId": 22,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 22,
+      "delay": 1
+    },
+    {
+      "id": 22,
+      "text": "Remember- Under, In Front Of and Next To are used to indicate positions of someone or something. The position varies depending on the preposition used.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 22,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 23,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 23,
+      "delay": 1
+    },
+    {
+      "id": 23,
+      "text": "Look at the following images to gain a better understanding!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 24,
+      "delay": 1
+    },
+    {
+      "id": 24,
+      "text": "Image caption under",
+      "responseType": 2,
+      "mediaUrl": "image_under.png",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 25,
+      "delay": 2
+    },
+    {
+      "id": 25,
+      "text": "Image caption in front of",
+      "responseType": 2,
+      "mediaUrl": "image_infrontof.png",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 26,
+      "delay": 2
+    },
+    {
+      "id": 26,
+      "text": "Image caption next to",
+      "responseType": 2,
+      "mediaUrl": "image_nextto.png",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 26,
+          "text": "Got it 👍🏼"
+          "answerType": 0,
+          "nextBubbleId": 27,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],"
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 27,
+      "delay": 1
+    },
+    {
+      "id": 27,
+      "text": "Let's practise sentences on all three prepositions now!",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 26,
+          "text": "Okay 👍🏼"
+          "answerType": 0,
+          "nextBubbleId": 28,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "bot_prepositions_test_all01"
+        }
+      ],"
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 28,
+      "delay": 2
+    },
+    {
+      "id": 28,
+      "text": "Well done! Keep up the good work!",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 26,
+      "delay": 2
+    },
+    {
+      "id": 29,
+      "text": "You can pick "Practice- Describe the Picture" as your next session.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -2,
+      "delay": 1
+    }
+  ]
+}

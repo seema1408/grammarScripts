@@ -7,6 +7,7 @@
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
@@ -15,7 +16,7 @@
     },
     {
       "id": 1,
-      "text": "We're going to learn some commonly used prepositions today. ",
+      "text": "Let's look at some new prepositions in this session.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -51,14 +52,14 @@
     },
     {
       "id": 2,
-      "text": "Let's look at the first preposition. We can start with 'IN'.",
+      "text": "Let's start with <b>in</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 2,
-          "text": "Okay! 😃",
+          "text": "Sure 😊",
           "answerType": 0,
           "nextBubbleId": 3,
           "score": 0,
@@ -72,25 +73,26 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 3,
-      "delay": 1
+      "delay": 3
     },
      {
       "id": 3,
-      "text": "The first use of <b>'in'</b> is as a preposition of place. We use it to show that something is <b>inside</b> an object or place.",
+      "text": "We use <b>in</b> to show that something is <b>inside</b> an object or place.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 4,
-      "delay": 1
+      "delay": 4
     },
     {
       "id": 4,
-      "text": "For example -<br>I was <b>in</b> Mumbai.<br>The lion was <b>in</b> a cage.<br>Did you find the chocolate <b>in</b> my bag?",
-      "responseType": 1,
-      "mediaUrl": "",
+      "text": "The dog is <b>in</b> the cage.",
+      "responseType": 2,
+      "mediaUrl": "dog_cage.jpg",
       "optionsCount": 1,
       "answers": [
         {
@@ -120,33 +122,34 @@
       "isEntryPointForNewBot": true,
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": "testbot_in_since_01",
+      "filename": "testbot_prepositions_in_since_01",
       "nextBubbleId": 6,
       "delay": 1
     },
  {
       "id": 6,
-      "text": "Let's see where else we can use the preposition 'in'.",
+      "text": "We can use <b>in</b> to show <b>when</b> something is happening. 📅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewBot": false,
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 7,
-      "delay": 1
+      "delay": 2
     },
 {
       "id": 7,
-      "text": "We can use it to show <b>when</b> something is happening. Rememeber that <b>in</b> is used only when the exact date/day is not mentioned.",
+      "text": "We use in for<br><br>- weeks<br>- months<br>- years",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 7,
-          "text": "Could you give me some examples?",
+          "text": "Noted 🖋",
           "answerType": 0,
           "nextBubbleId": 8,
           "score": 0,
@@ -164,21 +167,21 @@
     },
     {
       "id": 8,
-      "text": "Her birthday is <b>in</b> June.<br>You can't finish this assignment <b>in</b> a day.<br>They left Delh <b>in</br> 2005.",
+      "text": "For example<br><br>- <b>In</b> the first week of May<br>- <b>In</b> June<br>- <b>In</b> 1988",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 8,
-          "text": "Got it 😃",
+          "text": "Let's practice! 😃",
           "answerType": 0,
           "nextBubbleId": 9,
           "score": 0,
-          "isEntryPointForNewBot": false,
+          "isEntryPointForNewBot": true,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
-          "filename": ""
+          "filename": "testbot_prepositions_in_since_02"
         }
       ],
       "isEntryPointForNewTest": false,
@@ -196,7 +199,7 @@
       "answers": [
         {
           "id": 9,
-          "text": "Sure! 😃",
+          "text": "Sure! 👍",
           "answerType": 0,
           "nextBubbleId": 10,
           "score": 0,
@@ -218,6 +221,7 @@
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewBot": false,
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
@@ -227,34 +231,97 @@
     },
      {
       "id": 11,
-      "text": "<b>Since</b> is a preposition of <b>time</b>. It helps us talk actions that started in the <b>past</b> and are still continuing/have been completed.",
-      "responseType": 0,
+      "text": "<i><b>Since</b></i> is used while talking about an activity that started in the past.",
+      "responseType": 1,
       "mediaUrl": "",
-      "optionsCount": 0,
+      "optionsCount": 1,
+      "answers": [
+              {
+          "id": 11,
+          "text": "Please explain with examples",
+          "answerType": 0,
+          "nextBubbleId": 12,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
       "isEntryPointForNewBot": false,
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 12,
-      "delay": 1
+      "delay": 2
     },
     {
       "id": 12,
-      "text": "Example -<br>Sheetal has lived in Mumbai <b>since</b>1985.<br>The weather has been great <b>since</b> Diwali.<br>They have been friends <b>since</b> college.",
+      "text": "Let's say you had a headache last night and your head continues to hurt today as well.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 12,
-          "text": "Got it 👍",
+          "text": "Alright",
           "answerType": 0,
-          "nextBubbleId": 13,
+          "nextBubbleId": 50,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 50,
+      "delay": 1
+    },
+        {
+      "id": 50,
+      "text": "You will say -<br><br><i>I've had a headache <b>since</b> last night.</i>",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 50,
+          "text": "Noted 🖋",
+          "answerType": 0,
+          "nextBubbleId": 51,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 51,
+      "delay": 1
+    },
+            {
+      "id": 51,
+      "text": "Ready for a qick test?",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 51,
+          "text": "I'm ready 😃",
+          "answerType": 0,
+          "nextBubbleId": 13,
+          "score": 0,
+          "isEntryPointForNewBot": true,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": "testbot_prepositions_in_since_03"
         }
       ],
       "isEntryPointForNewTest": false,
@@ -265,16 +332,42 @@
     },
     {
       "id": 13,
-      "text": "",
-      "responseType": 1,
+      "text": "Let's revise.",
+      "responseType": 0,
       "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 14,
+      "delay": 1
+      },
+     {
+      "id": 14,
+      "text": "We can use <b>in</b> as a perposition of <b>place</b>.",
+      "responseType": 2,
+      "mediaUrl": "in_since.001.jpeg",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 15,
+      "delay": 3
+    },
+         {
+      "id": 15,
+      "text": "We can use <b>in</b> as a perposition of <b>time</b>.",
+      "responseType": 2,
+      "mediaUrl": "in_since.002.jpeg",
       "optionsCount": 1,
       "answers": [
-        {
-          "id": 13,
-          "text": "Let's revise.",
+              {
+          "id": 15,
+          "text": "Understood",
           "answerType": 0,
-          "nextBubbleId": 13,
+          "nextBubbleId": 16,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -285,43 +378,32 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 14,
-      "delay": 1
-      },
-     {"id": 14,
-      "text": "í¸ƒ",
-      "responseType": 2,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "mediaUrl": "in2.jpg",
-      "nextBubbleId": 15,
-      "delay": 1
-    },
-         {"id": 15,
-      "text": "",
-      "responseType": 2,
-      "mediaUrl": "",
-      "optionsCount": 0,
-      "isEntryPointForNewTest": false,
-      "questionsCount": 0,
-      "filename": "",
-      "mediaUrl": "in.jpg",
       "nextBubbleId": 16,
-      "delay": 1
+      "delay": 3
     },
-     {"id": 16,
-      "text": "",
+     {
+      "id": 16,
+      "text": "We can use <b>since</b> while refering to the past.<b>time</b>.",
       "responseType": 2,
-      "mediaUrl": "",
-      "optionsCount": 0,
+      "mediaUrl": "in_since.003.jpeg",
+      "optionsCount": 1,
+      "answers": [
+                    {
+          "id": 16,
+          "text": "Got it 👍",
+          "answerType": 0,
+          "nextBubbleId": 17,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 17,
-      "mediaUrl": "since.jpg",
       "delay": 1
     },
     {"id": 17,
@@ -329,6 +411,7 @@
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
@@ -340,6 +423,7 @@
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
@@ -351,6 +435,7 @@
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",

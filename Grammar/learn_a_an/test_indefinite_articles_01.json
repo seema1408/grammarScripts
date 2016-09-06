@@ -260,7 +260,7 @@
     },
         {
       "id": 17,
-      "text": "They gave me an iPhone. ✅",
+      "text": "They gave me <b>an</b> iPhone. ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,

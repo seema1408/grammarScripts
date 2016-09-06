@@ -3,14 +3,14 @@
   "Bubbles": [
     {
       "id": 0,
-      "text": "Press ✔️ if 'in' can be used in the following sentences and press ❌ if it can't.",
+      "text": "Press ✔️ if <b>in</b> can be used in the following sentences, and press ❌ if it can't.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 0,
-          "text": "Okay, let's start 👍🏼",
+          "text": "Okay, let's start. 👍",
           "answerType": 0,
           "nextBubbleId": 1,
           "score": 0,
@@ -181,7 +181,7 @@
           "id": 5,
           "text": "✔️",
           "answerType": 1,
-          "nextBubbleId": 6,
+          "nextBubbleId": -1,
           "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -192,7 +192,7 @@
           "id": 5,
           "text": "❌",
           "answerType": 1,
-          "nextBubbleId": 6,
+          "nextBubbleId": -1,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
@@ -203,7 +203,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 6,
+      "nextBubbleId": -1,
       "delay": 3
     },
   ]

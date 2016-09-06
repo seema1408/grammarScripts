@@ -1,0 +1,182 @@
+{
+  "BotId": 1020,
+  "Bubbles": [
+    {
+      "id": 0,
+      "text": "The first rule of articles is -",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 1,
+      "delay": 2
+    },
+    {
+      "id": 1,
+      "text": "📝  While talking about specific objects, we use <b>the.</b>",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 2,
+      "delay": 2
+    },
+    {
+      "id": 2,
+      "text": "<b>The</b> is a <b>definite</b> article.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 2,
+          "text": "Okay",
+          "answerType": 0,
+          "nextBubbleId": 3,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 3,
+      "delay": 3
+    },
+    {
+      "id": 3,
+      "text": "The second rule is -<br><br>📝  While talking about a <b>general</b>, <b>single</b> object, we use <b>a</b> or <b>an</b>.",
+      "responseType": 0,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 4,
+      "delay": 2
+    },
+    {
+      "id": 4,
+      "text": "<b>A</b> and <b>An</b> are <b>indefinite</b> articles.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 4,
+          "text": "Explain more",
+          "answerType": 0,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 5,
+      "delay": 2
+    },
+    {
+      "id": 5,
+      "text": "Look at this picture of Naresh's shirts.",
+      "responseType": 2,
+      "mediaUrl": "blue_shirt_random.jpg",
+      "optionsCount": 0,
+      "answers": [],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 4
+    },
+    {
+      "id": 6,
+      "text": "If you say -<br><br><i>Give me <b>a</b> shirt</i><br><br>- Naresh will give you <b>any</b> one of his shirts.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 6,
+          "text": "Got it",
+          "answerType": 0,
+          "nextBubbleId": 7,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 7,
+      "delay": 3
+    },
+    {
+      "id": 7,
+      "text": "Let's say you want <b>this</b> blue shirt.",
+      "responseType": 2,
+      "mediaUrl": "blue_shirt_specific.jpg",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 7,
+          "text": "How will I point it out?",
+          "answerType": 0,
+          "nextBubbleId": 8,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 8,
+      "delay": 2
+    },
+    {
+      "id": 8,
+      "text": "You will say -<br><br><i>Give me <b>the</b> blue shirt next to <b>the</b> checked shirt.</i>",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 8,
+          "text": "Understood 😊",
+          "answerType": 0,
+          "nextBubbleId": -1,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 2
+    }
+  ]
+}

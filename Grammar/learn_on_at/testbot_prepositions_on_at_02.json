@@ -3,7 +3,7 @@
   "Bubbles": [
     {
       "id": 0,
-      "text": "Pick the sentence where on should be used.",
+      "text": "Pick the sentence in which <b>on</b> should be used.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,

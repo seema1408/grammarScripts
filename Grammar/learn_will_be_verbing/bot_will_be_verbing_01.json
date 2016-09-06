@@ -3,7 +3,7 @@
   "Bubbles": [
     {
       "id": 0,
-      "text": "Hey there! 😊 ",
+      "text": "Hey there! 😊",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -16,14 +16,14 @@
     },
     {
       "id": 1,
-      "text": "We will be covering a very important topic in this session.",
+      "text": "We <b>will be covering</b> a very important topic in this session.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
       "answers": [
         {
           "id": 1,
-          "text": "What will we be learning??",
+          "text": "What will we be learning?",
           "answerType": 0,
           "nextBubbleId": 2,
           "score": 0,
@@ -41,7 +41,7 @@
     },
     {
       "id": 2,
-      "text": "We will be learning <b>future continuous tense.<b/>.",
+      "text": "We <b>will be learning</b> future continuous tense.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -81,18 +81,30 @@
       "id": 4,
       "text": "",
       "responseType": 3,
-      "mediaUrl": "will be_verbing_01.3gp",
+      "mediaUrl": "will_be_verbing_01.3gp",
       "optionsCount": 0,
-      "answers": [],
+      "answers": [
+        {
+          "id": 4,
+          "text": "Heard it 👍",
+          "answerType": 0,
+          "nextBubbleId": 5,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 5,
-      "delay": 6
+      "delay": 2
     },
     {
       "id": 5,
-      "text": " What is the boy talking about?",
+      "text": "What is the boy talking about?",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -110,7 +122,7 @@
         },
         {
           "id": 5,
-          "text": "What Rshul is doing right now.",
+          "text": "What Rahul is doing right now.",
           "answerType": 1,
           "nextBubbleId": 7,
           "score": 0,
@@ -150,11 +162,11 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 8,
-      "delay": 1
+      "delay": 3
     },
     {
       "id": 8,
-      "text": "The boy is talking about what <i>will be happening in the future</i>. He is talking in <b>future continous tense.<b/>",
+      "text": "The boy is talking about what <i>will be happening in the future</i>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -179,7 +191,7 @@
     },
     {
       "id": 9,
-      "text": "We use future continuous tense for continuous actions which will be happening in the future.",
+      "text": "We use future continuous tense for continuous actions which in the future.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -192,7 +204,7 @@
     },
     {
       "id": 10,
-      "text": "  The rule of future continuous tense is - will + be + verbing",
+      "text": " The rule of future continuous tense is - <b>will</b> + <b>be</b> + <b>verbing</b>",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -228,7 +240,7 @@
     },
     {
       "id": 11,
-      "text": "Let's look at the verb - wait. I will be waiting for her. He / She / It will be waiting for her. We / They will be waiting for her. ",
+      "text": "Let's look at the verb - <b>wait</b>. <br><br>. Here's how we use then in future continuous tense -",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -241,7 +253,7 @@
     },
     {
       "id": 12,
-      "text": "Let's make sentences using a few common verbs.",
+      "text": "I <b>will be waiting</b> for her. <br><br>Kaga <b>will be waiting</b> for her. <br><br>They <b>will be waiting for</b> her.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -254,7 +266,7 @@
     },
     {
       "id": 13,
-      "text": "The first verb is - <b>teach<b/>",
+      "text": "Let's make sentences using a few common verbs. The first verb is - <b>teach<b/>",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -274,7 +286,7 @@
       "answers": [
         {
           "id": 14,
-          "text": "Alright",
+          "text": "Understood",
           "answerType": 0,
           "nextBubbleId": 15,
           "score": 0,
@@ -748,7 +760,7 @@
     },
     {
       "id": 37,
-      "text": "Remember, for future continuous tense, you simply need to add <b>will be</b> before the <b>verb</b> and <b>ing</b> after it.",
+      "text": "Here's something to help you remember the rule.",
       "responseType": 2,
       "mediaUrl": "will_be_verbing_01.jpeg",
       "optionsCount": 1,
@@ -773,7 +785,43 @@
     },
     {
       "id": 38,
-      "text": " Practice talking about a future continuous tense topic with a tutor. Remember to use <b>will be + verb +ing</b>.",
+      "text": "The next step is to practice using <i>will be verbing</i> in a real conversation.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 2,
+      "answers": [
+        {
+          "id": 38,
+          "text": "Practice now",
+          "answerType": 0,
+          "nextBubbleId": -4,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        },
+        {
+          "id": 38,
+          "text": "Practice later",
+          "answerType": 0,
+          "nextBubbleId": 39,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 39,
+      "delay": 2
+    },
+    {
+      "id": 39,
+      "text": "Make sure you read this chat again to revise.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -781,12 +829,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 39,
+      "nextBubbleId": 40,
       "delay": 1
     },
     {
-      "id": 39,
-      "text": " Good luck!",
+      "id": 40,
+      "text": "See you soon 😊",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,

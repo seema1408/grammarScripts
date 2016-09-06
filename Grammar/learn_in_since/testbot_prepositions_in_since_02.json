@@ -3,7 +3,7 @@
   "Bubbles": [
     {
       "id": 0,
-      "text": "",
+      "text": "Choose the sentence in which <b>in</b> can be used in the blank.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -39,7 +39,7 @@
     },
     {
       "id": 1,
-      "text": "in Sunday ❌<br>on Sunday ✅",
+      "text": "<b>in</b> Sunday ❌<br><b>on</b> Sunday ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -114,7 +114,7 @@
     },
     {
       "id": 5,
-      "text": "in 3 pm ❌<br>at 3 pm ✅",
+      "text": "<b>in</b> 3 pm ❌<br><b>at</b> 3 pm ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -134,7 +134,7 @@
       "answers": [
         {
           "id": 6,
-          "text": "It has been four hours ___ we came.",
+          "text": "It has been for hours ___ we came.",
           "answerType": 1,
           "nextBubbleId": 7,
           "score": 0,
@@ -163,8 +163,7 @@
     }
     {
       "id": 7,
-      "text": "in ❌
-<br>since ✅",
+      "text": "for hours <b>in</b> ❌<br>for hours <b>since</b> ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -197,7 +196,7 @@
       "answers": [
         {
           "id": 9,
-          "text": "We will start ___ a few weeks.",
+          "text": "Did it rain ___ Tuesday?",
           "answerType": 1,
           "nextBubbleId": 10,
           "score": 1,
@@ -239,7 +238,7 @@
     },
     {
       "id": 11,
-      "text": "in ❌<br>for  ✅",
+      "text": "rain <b>in</b> Tuesday ❌<br>rain <b>on</b> Tuesday ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -283,8 +282,8 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 9,
-      "delay": 1
+      "nextBubbleId": 13,
+      "delay": 2
     }
     {
       "id": 13,
@@ -296,12 +295,12 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 9,
+      "nextBubbleId": -1,
       "delay": 3
     },
     {
       "id": 14,
-      "text": "in ❌<br>on ✅",
+      "text": "<b>in</b> Saturday ❌<br><b>on</b> Saturday ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -309,7 +308,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 9,
+      "nextBubbleId": -1,
       "delay": 1
     },
   ]
