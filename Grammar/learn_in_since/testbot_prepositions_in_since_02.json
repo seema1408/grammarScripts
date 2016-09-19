@@ -1,5 +1,5 @@
 {
-  "BotId": 10005,
+  "BotId": 1017,
   "Bubbles": [
     {
       "id": 0,
@@ -35,7 +35,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 3,
-      "delay": 1
+      "delay": 2
     },
     {
       "id": 1,
@@ -61,7 +61,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 3,
-      "delay": 1
+      "delay": 2
     },
     {
       "id": 3,
@@ -97,8 +97,8 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 6,
-      "delay": 1
-    }
+      "delay": 2
+    },
     {
       "id": 4,
       "text": "Well done!",
@@ -123,9 +123,9 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 6,
-      "delay": 1
+      "delay": 2
     },
- {
+    {
       "id": 6,
       "text": "",
       "responseType": 1,
@@ -134,7 +134,7 @@
       "answers": [
         {
           "id": 6,
-          "text": "It has been for hours ___ we came.",
+          "text": "It has been four hours ___ we came.",
           "answerType": 1,
           "nextBubbleId": 7,
           "score": 0,
@@ -159,11 +159,11 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 9,
-      "delay": 1
-    }
+      "delay": 2
+    },
     {
       "id": 7,
-      "text": "for hours <b>in</b> ❌<br>for hours <b>since</b> ✅",
+      "text": "four hours <b>in</b> ❌<br>four hours <b>since</b> ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -185,9 +185,9 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 9,
-      "delay": 1
+      "delay": 2
     },
-{
+    {
       "id": 9,
       "text": "",
       "responseType": 1,
@@ -198,8 +198,8 @@
           "id": 9,
           "text": "Did it rain ___ Tuesday?",
           "answerType": 1,
-          "nextBubbleId": 10,
-          "score": 1,
+          "nextBubbleId": 11,
+          "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -209,8 +209,8 @@
           "id": 9,
           "text": "Why is it raining ___ winter?",
           "answerType": 1,
-          "nextBubbleId": 11,
-          "score": 0,
+          "nextBubbleId": 10,
+          "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
@@ -221,8 +221,8 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 9,
-      "delay": 1
-    }
+      "delay": 2
+    },
     {
       "id": 10,
       "text": "Very good!",
@@ -247,9 +247,9 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 12,
-      "delay": 1
+      "delay": 2
     },
-{
+    {
       "id": 12,
       "text": "",
       "responseType": 1,
@@ -284,7 +284,7 @@
       "filename": "",
       "nextBubbleId": 13,
       "delay": 2
-    }
+    },
     {
       "id": 13,
       "text": "Keep it up!",
@@ -300,7 +300,7 @@
     },
     {
       "id": 14,
-      "text": "<b>in</b> Saturday ❌<br><b>on</b> Saturday ✅",
+      "text": "<b>in</b> Sunday ❌<br><b>on</b> Sunday ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -309,7 +309,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": -1,
-      "delay": 1
-    },
+      "delay": 2
+    }
   ]
 }

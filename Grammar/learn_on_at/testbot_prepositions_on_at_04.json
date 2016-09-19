@@ -52,7 +52,7 @@
     },
     {
       "id": 2,
-      "text": "Very good!",
+      "text": "Next...",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -101,25 +101,29 @@
     },
     {
       "id": 4,
-      "text": "Excellent!",
+      "text": "Excellent 💯",
       "responseType": 0,
-      "nextBubbleId": 6,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 2
     },
     {
       "id": 5,
       "text": "We sit <b>on</b> a sofa, NOT <b>at</b> a sofa.",
       "responseType": 0,
-      "nextBubbleId": 6,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 2
     },
     {
       "id": 6,
@@ -161,23 +165,27 @@
       "id": 7,
       "text": "We can go <b>to</b> a mall, NOT <b>at</b> a mall.",
       "responseType": 0,
-      "nextBubbleId": 9,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 2
     },
     {
       "id": 8,
-      "text": "Well done!",
+      "text": "Well done 😊. Here's the next one -",
       "responseType": 0,
-      "nextBubbleId": 9,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 2
     },
     {
       "id": 9,
@@ -219,27 +227,31 @@
       "id": 10,
       "text": "<b>at</b> my birthday❌<br><b>on</b> my birthday ✅",
       "responseType": 0,
-      "nextBubbleId": 12,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 12,
+      "delay": 2
     },
     {
       "id": 11,
       "text": "Keep it up!",
       "responseType": 0,
-      "nextBubbleId": 12,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 12,
+      "delay": 2
     },
     {
       "id": 12,
-      "text": "",
+      "text": "And the last one...",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
@@ -275,25 +287,29 @@
     },
     {
       "id": 13,
-      "text": "Very good!",
+      "text": "Very good! 😊",
       "responseType": 0,
-      "nextBubbleId": -1,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 2
     },
     {
       "id": 14,
-      "text": "Look at the options carefully.",
+      "text": "Practice using <b>at</b> a little more.",
       "responseType": 0,
-      "nextBubbleId": -1,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 2
     }
   ]
 }

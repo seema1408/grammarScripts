@@ -1,5 +1,5 @@
 {
-  "BotId": 10005,
+  "BotId": 1018,
   "Bubbles": [
     {
       "id": 0,
@@ -10,7 +10,7 @@
       "answers": [
         {
           "id": 0,
-          "text": "My book has been missing since yesterday.",
+          "text": "My book's been missing since yesterday.",
           "answerType": 1,
           "nextBubbleId": 1,
           "score": 1,
@@ -35,7 +35,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 3,
-      "delay": 1
+      "delay": 2
     },
     {
       "id": 1,
@@ -61,7 +61,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 3,
-      "delay": 1
+      "delay": 2
     },
     {
       "id": 3,
@@ -97,8 +97,8 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 6,
-      "delay": 1
-    }
+      "delay": 2
+    },
     {
       "id": 4,
       "text": "<b>since</b> years ❌<br><b>in</b> years ✅",
@@ -109,7 +109,7 @@
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
-      "nextBubbleId": 3,
+      "nextBubbleId": 6,
       "delay": 3
     },
     {
@@ -123,9 +123,9 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 6,
-      "delay": 1
+      "delay": 2
     },
- {
+    {
       "id": 6,
       "text": "",
       "responseType": 1,
@@ -159,11 +159,11 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 9,
-      "delay": 1
-    }
+      "delay": 2
+    },
     {
       "id": 7,
-      "text": "Very good!",
+      "text": "Great! Here's the next one.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -185,9 +185,9 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 9,
-      "delay": 1
+      "delay": 2
     },
-{
+    {
       "id": 9,
       "text": "",
       "responseType": 1,
@@ -221,8 +221,8 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 9,
-      "delay": 1
-    }
+      "delay": 2
+    },
     {
       "id": 10,
       "text": "<b>since</b> three weeks ❌<br><b>for</b> three weeks ✅",
@@ -247,9 +247,9 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 12,
-      "delay": 1
+      "delay": 2
     },
-{
+    {
       "id": 12,
       "text": "",
       "responseType": 1,
@@ -283,8 +283,8 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 13,
-      "delay": 1
-    }
+      "delay": 2
+    },
     {
       "id": 13,
       "text": "<b>since</b> a month ❌<br><b>in</b> a month✅",
@@ -309,7 +309,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": -1,
-      "delay": 1
-    },
+      "delay": 2
+    }
   ]
 }

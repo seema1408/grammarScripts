@@ -1,9 +1,9 @@
 {
-  "BotId": 10005,
+  "BotId": 1016,
   "Bubbles": [
     {
       "id": 0,
-      "text": "Press ✔️ if <b>in</b> can be used in the following sentences, and press ❌ if it can't.",
+      "text": "Press ✔️ if <b>in</b> can be used, and press ❌ if it can't.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -18,7 +18,7 @@
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
-        },
+        }
       ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
@@ -33,7 +33,7 @@
       "mediaUrl": "",
       "optionsCount": 2,
       "answers": [
-       {
+        {
           "id": 1,
           "text": "✔️",
           "answerType": 1,
@@ -44,7 +44,7 @@
           "questionsCount": 0,
           "filename": ""
         },
-         {
+        {
           "id": 1,
           "text": "❌",
           "answerType": 1,
@@ -54,22 +54,22 @@
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
-        },
-        ],
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 2,
       "delay": 3
     },
-     {
+    {
       "id": 2,
       "text": "She left a letter ___ you.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
       "answers": [
-       {
+        {
           "id": 2,
           "text": "✔️",
           "answerType": 1,
@@ -80,7 +80,7 @@
           "questionsCount": 0,
           "filename": ""
         },
-         {
+        {
           "id": 2,
           "text": "❌",
           "answerType": 1,
@@ -90,22 +90,22 @@
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
-        },
-        ],
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 3,
       "delay": 3
     },
-     {
+    {
       "id": 3,
       "text": "Sushil was sick ___ his exams.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
       "answers": [
-       {
+        {
           "id": 3,
           "text": "✔️",
           "answerType": 1,
@@ -116,7 +116,7 @@
           "questionsCount": 0,
           "filename": ""
         },
-         {
+        {
           "id": 3,
           "text": "❌",
           "answerType": 1,
@@ -126,22 +126,22 @@
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
-        },
-        ],
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 4,
       "delay": 3
     },
-     {
+    {
       "id": 4,
       "text": "Mumbai is ___ Maharashtra.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
       "answers": [
-       {
+        {
           "id": 4,
           "text": "✔️",
           "answerType": 1,
@@ -152,7 +152,7 @@
           "questionsCount": 0,
           "filename": ""
         },
-         {
+        {
           "id": 4,
           "text": "❌",
           "answerType": 1,
@@ -162,8 +162,8 @@
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
-        },
-        ],
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
@@ -172,39 +172,64 @@
     },
     {
       "id": 5,
-      "text": "They're playing videogames ___ the bedroom.",
+      "text": "They're playing video games ___ the bedroom.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,
       "answers": [
-       {
+        {
           "id": 5,
           "text": "✔️",
           "answerType": 1,
-          "nextBubbleId": -1,
+          "nextBubbleId": 6,
           "score": 1,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
         },
-         {
+        {
           "id": 5,
           "text": "❌",
           "answerType": 1,
+          "nextBubbleId": 6,
+          "score": 0,
+          "isEntryPointForNewBot": false,
+          "isEntryPointForNewTest": false,
+          "questionsCount": 0,
+          "filename": ""
+        }
+      ],
+      "isEntryPointForNewTest": false,
+      "questionsCount": 0,
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 3
+    },
+        {
+      "id": 6,
+      "text": "💬  Quick Tip<br><b>In</b> is used when an object is <b>inside</b> another object or space.",
+      "responseType": 1,
+      "mediaUrl": "",
+      "optionsCount": 1,
+      "answers": [
+        {
+          "id": 6,
+          "text": "Understood",
+          "answerType": 0,
           "nextBubbleId": -1,
           "score": 0,
           "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
-        },
-        ],
+        }
+      ],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": -1,
       "delay": 3
-    },
+    }
   ]
 }

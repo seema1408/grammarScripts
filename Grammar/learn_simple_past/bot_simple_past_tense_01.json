@@ -91,7 +91,7 @@
     },
         {
       "id": 50,
-      "text": "Here, you are talking what has <b>already happened</b>.",
+      "text": "Here, you are talking about what has <b>already happened</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,

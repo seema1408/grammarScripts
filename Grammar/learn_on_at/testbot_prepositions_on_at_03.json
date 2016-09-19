@@ -101,25 +101,29 @@
     },
     {
       "id": 4,
-      "text": "That's correct!",
+      "text": "That's correct ✅",
       "responseType": 0,
-      "nextBubbleId": 6,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 2
     },
     {
       "id": 5,
       "text": "<b>on</b> the thief ❌<br><b>at</b> the thief ✅",
       "responseType": 0,
-      "nextBubbleId": 6,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 6,
+      "delay": 2
     },
     {
       "id": 6,
@@ -161,23 +165,27 @@
       "id": 7,
       "text": "<b>on</b> June ❌<br><b>in</b> June ✅",
       "responseType": 0,
-      "nextBubbleId": 9,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 2
     },
     {
       "id": 8,
       "text": "Excellent!",
       "responseType": 0,
-      "nextBubbleId": 9,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": 9,
+      "delay": 2
     },
     {
       "id": 9,
@@ -199,7 +207,7 @@
         },
         {
           "id": 9,
-          "text": "Are you sure you will be here ___ 20th June?",
+          "text": "Will you be here ___ 20th June?",
           "answerType": 1,
           "nextBubbleId": 11,
           "score": 1,
@@ -219,23 +227,27 @@
       "id": 10,
       "text": "<b>on</b> the rain ❌<br><b>in</b> the rain ✅",
       "responseType": 0,
-      "nextBubbleId": -1,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 2
     },
     {
       "id": 11,
       "text": "Perfect 😊",
       "responseType": 0,
-      "nextBubbleId": -1,
-      "score": 0,
-      "isEntryPointForNewBot": false,
+      "mediaUrl": "",
+      "optionsCount": 0,
+      "answers": [],
       "isEntryPointForNewTest": false,
       "questionsCount": 0,
-      "filename": ""
+      "filename": "",
+      "nextBubbleId": -1,
+      "delay": 2
     }
   ]
 }

@@ -104,7 +104,7 @@
     },
     {
       "id": 5,
-      "text": "<i><b>On</b></i>, <i><b>next to</b></i> and <i><b>in</b></i> are prepostions.",
+      "text": "<i><b>On</b></i>, <i><b>next to</b></i> and <i><b>in</b></i> are prepositions.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -192,7 +192,7 @@
     },
     {
       "id": 9,
-      "text": "<b>On</b> is used when an object is placed on a surface.",
+      "text": "📝 <b>On</b> is used when an object is placed on a surface.",
       "responseType": 0,
       "mediaUrl": "",
       "answers": [],
@@ -205,9 +205,9 @@
     },
     {
       "id": 10,
-      "text": "For example -<br>Your glasses are <b>on</b> the desk.<br>He is walking <b>on</b> the footpath.",
-      "responseType": 1,
-      "mediaUrl": "",
+      "text": "Here are some examples of <b>on</b>.",
+      "responseType": 2,
+      "mediaUrl": "on_collage.jpeg",
       "optionsCount": 1,
       "answers": [
         {
@@ -230,7 +230,7 @@
     },
     {
       "id": 11,
-      "text": "<i>On</i> can be used as a preposition of <b>time</b> as well.",
+      "text": "📝 <b>On</b> can be used as a preposition of <b>time</b> as well.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -243,7 +243,7 @@
     },
     {
       "id": 12,
-      "text": "On is used for <b>days</b> and <b>dates</b>.",
+      "text": "<b>On</b> is used for <b>days</b> and <b>dates</b>.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -268,7 +268,7 @@
     },
     {
       "id": 13,
-      "text": "Our next class is <b>on</b> Friday. (days)<br>His birthday is <b>on</b> 1st July. (dates)",
+      "text": "Our next class is <b>on</b> Friday.<br>His birthday is <b>on</b> 1st July.",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 1,
@@ -301,7 +301,7 @@
         {
           "id": 14,
           "text": "Sure! 👍",
-          "answerType": 1,
+          "answerType": 0,
           "nextBubbleId": 15,
           "score": 0,
           "isEntryPointForNewBot": false,
@@ -331,7 +331,7 @@
     },
     {
       "id": 16,
-      "text": "<b>At</b> can be used for <b>places</b>. For example -",
+      "text": "📝 <b>At</b> can be used for <b>places</b>. For example -",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -352,7 +352,7 @@
         {
           "id": 17,
           "text": "Got it 👍",
-          "answerType": 1,
+          "answerType": 0,
           "nextBubbleId": 18,
           "score": 0,
           "isEntryPointForNewBot": false,
@@ -369,7 +369,7 @@
     },
     {
       "id": 18,
-      "text": "<b>At</b> can also be used for <b>time</b>.",
+      "text": "📝 <b>At</b> can also be used for <b>time</b>.",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -390,7 +390,7 @@
         {
           "id": 19,
           "text": "Understood",
-          "answerType": 1,
+          "answerType": 0,
           "nextBubbleId": 20,
           "score": 0,
           "isEntryPointForNewBot": true,

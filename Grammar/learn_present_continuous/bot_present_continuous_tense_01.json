@@ -50,7 +50,7 @@
       "questionsCount": 0,
       "filename": "",
       "nextBubbleId": 3,
-      "delay": 1
+      "delay": 2
     },
     {
       "id": 3,
@@ -250,7 +250,7 @@
     },
     {
       "id": 11,
-      "text": "For <i>continuous</i> we add <i>ing</> to the verb. <br> <br>think + ing = thinking <br>sing + ing = singing<br>grow + ing = growing",
+      "text": "For <i>continuous</i> we add <i>ing</i> to the verb. <br> <br>think + ing = thinking <br>sing + ing = singing<br>grow + ing = growing",
       "responseType": 1,
       "mediaUrl": "",
       "optionsCount": 2,

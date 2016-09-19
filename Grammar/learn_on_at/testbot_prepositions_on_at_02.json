@@ -25,7 +25,7 @@
           "answerType": 1,
           "nextBubbleId": 2,
           "score": 1,
-          "isEntryPointForNewBot": true,
+          "isEntryPointForNewBot": false,
           "isEntryPointForNewTest": false,
           "questionsCount": 0,
           "filename": ""
@@ -101,7 +101,7 @@
     },
     {
       "id": 4,
-      "text": "Very good!",
+      "text": "That's right ✅",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -176,7 +176,7 @@
     },
     {
       "id": 8,
-      "text": "Keep it up👍",
+      "text": "Keep it up 🙌",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
@@ -225,7 +225,7 @@
     },
     {
       "id": 10,
-      "text": "Very good! 👍",
+      "text": "Good job 👍",
       "responseType": 0,
       "mediaUrl": "",
       "optionsCount": 0,
